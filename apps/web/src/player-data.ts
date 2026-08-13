@@ -18,6 +18,38 @@ export type PlayerData = {
   sources: { label: string; url: string }[]
 }
 
+export type VisualAsset = { src: string; short: string; kind: 'crest' | 'competition' | 'trophy' }
+
+const wiki = (path: string) => `https://upload.wikimedia.org/wikipedia/${path}`
+
+export const footballAssets: Record<string, VisualAsset> = {
+  '萨格勒布迪纳摩': { src: '/assets/football/dinamo-zagreb.png', short: 'DIN', kind: 'crest' },
+  '日林斯基': { src: '/assets/football/zrinjski.png', short: 'ZRI', kind: 'crest' },
+  '国际扎普雷希奇': { src: '/assets/football/inter-zapresic.png', short: 'INT', kind: 'crest' },
+  '托特纳姆热刺': { src: '/assets/football/tottenham.png', short: 'TOT', kind: 'crest' },
+  '热刺': { src: '/assets/football/tottenham.png', short: 'TOT', kind: 'crest' },
+  '皇家马德里': { src: '/assets/football/real-madrid.png', short: 'RMA', kind: 'crest' },
+  'AC 米兰': { src: '/assets/football/ac-milan.png', short: 'ACM', kind: 'crest' },
+  '克罗地亚': { src: '/assets/football/croatia.png', short: 'CRO', kind: 'crest' },
+  '欧洲冠军联赛': { src: '/assets/football/champions-league.png', short: 'UCL', kind: 'trophy' },
+  '西班牙甲级联赛': { src: '/assets/football/la-liga.png', short: 'LAL', kind: 'trophy' },
+  '国际足联俱乐部世界杯': { src: '/assets/football/club-world-cup.png', short: 'CWC', kind: 'competition' },
+  '欧洲超级杯': { src: '/assets/football/uefa-super-cup.png', short: 'USC', kind: 'competition' },
+  '西班牙国王杯': { src: '/assets/football/copa-del-rey.png', short: 'CDR', kind: 'trophy' },
+  '西班牙超级杯': { src: '/assets/football/supercopa.png', short: 'SCE', kind: 'trophy' },
+  '克罗地亚甲级联赛': { src: '/assets/football/dinamo-zagreb.png', short: 'HNL', kind: 'competition' },
+  '世界杯亚军': { src: '/assets/football/world-cup.jpg', short: 'WC', kind: 'trophy' },
+  '世界杯季军': { src: '/assets/football/world-cup.jpg', short: 'WC', kind: 'trophy' },
+  '欧国联亚军': { src: '/assets/football/nations-league.png', short: 'UNL', kind: 'competition' },
+  '金球奖': { src: '/assets/football/ballon-dor.jpg', short: 'B.D', kind: 'trophy' },
+  'FIFA 世界足球先生': { src: '/assets/football/fifa-the-best.png', short: 'FIFA', kind: 'trophy' },
+  '欧足联年度最佳球员': { src: wiki('commons/thumb/7/72/UEFA_Best_Player_in_Europe_Trophy_CR7Museum.jpg/160px-UEFA_Best_Player_in_Europe_Trophy_CR7Museum.jpg'), short: 'UEFA', kind: 'trophy' },
+  '世界杯金球奖': { src: '/assets/football/ballon-dor.jpg', short: 'G.B', kind: 'trophy' },
+  '世界杯铜球奖': { src: '/assets/football/world-cup.jpg', short: 'B.B', kind: 'trophy' },
+}
+
+export const getFootballAsset = (name: string) => footballAssets[name]
+
 export const playerData: Record<string, PlayerData> = {
   'luka-modric': {
     currentClub: 'AC 米兰', currentValue: '€3.5m', caps: 202, nationalGoals: 29,
@@ -70,6 +102,7 @@ export const playerData: Record<string, PlayerData> = {
       ]},
     ],
     sources: [
+      { label: 'TheSportsDB 俱乐部与国家队标识', url: 'https://www.thesportsdb.com/' },
       { label: 'Transfermarkt 球员资料与身价', url: 'https://www.transfermarkt.com/luka-modric/profil/spieler/27992' },
       { label: 'Real Madrid 球员档案', url: 'https://www.realmadrid.com/' },
       { label: 'UEFA 球员资料', url: 'https://www.uefa.com/' },

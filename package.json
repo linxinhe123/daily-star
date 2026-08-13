@@ -3,6 +3,7 @@
   "private": true,
   "packageManager": "pnpm@11.13.0",
   "scripts": {
+    "sync:football-assets": "node scripts/sync-football-assets.mjs",
     "dev": "pnpm --filter @daily-star/web dev",
     "build": "pnpm --filter @daily-star/web build",
     "preview": "pnpm --filter @daily-star/web preview"
