@@ -1,0 +1,14 @@
+{
+  "name": "daily-star",
+  "private": true,
+  "packageManager": "pnpm@11.13.0",
+  "scripts": {
+    "dev": "pnpm --filter @daily-star/web dev",
+    "build": "pnpm --filter @daily-star/web build",
+    "preview": "pnpm --filter @daily-star/web preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
