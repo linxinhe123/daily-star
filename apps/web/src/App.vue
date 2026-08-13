@@ -112,7 +112,7 @@ onMounted(() => { const raw = localStorage.getItem(`daily-star:${todayKey}`); if
         <template v-else>
           <div class="player-detail" :style="detailTheme">
           <section class="player-hero">
-            <div class="hero-photo" :class="{fallback:imageFailed}"><div class="photo-fallback"><span>DAILY STAR</span><strong>{{ player.number }}</strong><small>{{ player.nation }} · {{ player.position }}</small></div><img v-if="!imageFailed" :src="player.image" :alt="player.zh" @error="imageFailed=true"></div>
+            <div class="hero-photo" :class="{fallback:imageFailed,cutout:player.image.endsWith('.png')}"><div class="photo-fallback"><span>DAILY STAR</span><strong>{{ player.number }}</strong><small>{{ player.nation }} · {{ player.position }}</small></div><img v-if="!imageFailed" :src="player.image" :alt="player.zh" @error="imageFailed=true"></div>
             <div class="hero-info"><span class="success-pill"><Sparkles/>{{ message }}</span><p>{{ player.flag }} {{ player.nation }} · {{ player.position }}</p><h1>{{ player.zh }}</h1><h2>{{ player.name }}</h2><blockquote>{{ player.kicker }}</blockquote><div v-if="detail" class="hero-metrics"><span class="metric-with-crest"><img :src="getFootballAsset(detail.currentClub)?.src" :alt="detail.currentClub"><i><small>现效力</small>{{ detail.currentClub }}</i></span><span class="metric-with-crest"><img :src="getFootballAsset(player.nation)?.src" :alt="player.nation"><i><small>国家队</small>{{ detail.caps }} 场 / {{ detail.nationalGoals }} 球</i></span><span><small>当前身价</small>{{ detail.currentValue }}</span></div><div class="hero-actions"><button @click="sharePlayer"><Share2/>分享</button><button @click="resetDemo">再玩一次</button></div></div>
           </section>
 
