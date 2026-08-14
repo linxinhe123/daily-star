@@ -1,0 +1,1366 @@
+{
+  "providers": {
+    "theSportsDb": "https://www.thesportsdb.com/api/v1/json/123",
+    "wikimediaCommons": "https://commons.wikimedia.org/"
+  },
+  "assets": {
+    "萨格勒布迪纳摩": {
+      "path": "/assets/football/dinamo-zagreb.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133961",
+      "providerId": "133961"
+    },
+    "Dinamo Zagreb": {
+      "path": "/assets/football/dinamo-zagreb.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133961",
+      "providerId": "133961",
+      "canonicalName": "萨格勒布迪纳摩"
+    },
+    "日林斯基": {
+      "path": "/assets/football/zrinjski.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134341",
+      "providerId": "134341"
+    },
+    "Zrinjski Mostar": {
+      "path": "/assets/football/zrinjski.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134341",
+      "providerId": "134341",
+      "canonicalName": "日林斯基"
+    },
+    "国际扎普雷希奇": {
+      "path": "/assets/football/inter-zapresic.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 137796",
+      "providerId": "137796"
+    },
+    "Inter Zapresic": {
+      "path": "/assets/football/inter-zapresic.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 137796",
+      "providerId": "137796",
+      "canonicalName": "国际扎普雷希奇"
+    },
+    "托特纳姆热刺": {
+      "path": "/assets/football/tottenham.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133616",
+      "providerId": "133616"
+    },
+    "热刺": {
+      "path": "/assets/football/tottenham.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133616",
+      "providerId": "133616",
+      "canonicalName": "托特纳姆热刺"
+    },
+    "Tottenham Hotspur": {
+      "path": "/assets/football/tottenham.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133616",
+      "providerId": "133616",
+      "canonicalName": "托特纳姆热刺"
+    },
+    "皇家马德里": {
+      "path": "/assets/football/real-madrid.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133738",
+      "providerId": "133738"
+    },
+    "Real Madrid": {
+      "path": "/assets/football/real-madrid.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133738",
+      "providerId": "133738",
+      "canonicalName": "皇家马德里"
+    },
+    "AC 米兰": {
+      "path": "/assets/football/ac-milan.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133667",
+      "providerId": "133667"
+    },
+    "AC Milan": {
+      "path": "/assets/football/ac-milan.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133667",
+      "providerId": "133667",
+      "canonicalName": "AC 米兰"
+    },
+    "克罗地亚": {
+      "path": "/assets/football/croatia.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133912",
+      "providerId": "133912"
+    },
+    "Croatia": {
+      "path": "/assets/football/croatia.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133912",
+      "providerId": "133912",
+      "canonicalName": "克罗地亚"
+    },
+    "巴塞罗那": {
+      "path": "/assets/football/barcelona.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133739",
+      "providerId": "133739"
+    },
+    "Barcelona": {
+      "path": "/assets/football/barcelona.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133739",
+      "providerId": "133739",
+      "canonicalName": "巴塞罗那"
+    },
+    "FC Barcelona": {
+      "path": "/assets/football/barcelona.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133739",
+      "providerId": "133739",
+      "canonicalName": "巴塞罗那"
+    },
+    "巴黎圣日耳曼": {
+      "path": "/assets/football/psg.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133714",
+      "providerId": "133714"
+    },
+    "PSG": {
+      "path": "/assets/football/psg.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133714",
+      "providerId": "133714",
+      "canonicalName": "巴黎圣日耳曼"
+    },
+    "Paris Saint-Germain": {
+      "path": "/assets/football/psg.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133714",
+      "providerId": "133714",
+      "canonicalName": "巴黎圣日耳曼"
+    },
+    "迈阿密国际": {
+      "path": "/assets/football/inter-miami.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 137699",
+      "providerId": "137699"
+    },
+    "Inter Miami": {
+      "path": "/assets/football/inter-miami.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 137699",
+      "providerId": "137699",
+      "canonicalName": "迈阿密国际"
+    },
+    "Inter Miami CF": {
+      "path": "/assets/football/inter-miami.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 137699",
+      "providerId": "137699",
+      "canonicalName": "迈阿密国际"
+    },
+    "阿根廷": {
+      "path": "/assets/football/argentina.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134509",
+      "providerId": "134509"
+    },
+    "Argentina": {
+      "path": "/assets/football/argentina.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134509",
+      "providerId": "134509",
+      "canonicalName": "阿根廷"
+    },
+    "欧洲冠军联赛": {
+      "path": "/assets/football/champions-league.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4480"
+    },
+    "UEFA Champions League": {
+      "path": "/assets/football/champions-league.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4480",
+      "canonicalName": "欧洲冠军联赛"
+    },
+    "西班牙甲级联赛": {
+      "path": "/assets/football/la-liga.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4335"
+    },
+    "La Liga": {
+      "path": "/assets/football/la-liga.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4335",
+      "canonicalName": "西班牙甲级联赛"
+    },
+    "西班牙国王杯": {
+      "path": "/assets/football/copa-del-rey.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4483"
+    },
+    "Copa del Rey": {
+      "path": "/assets/football/copa-del-rey.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4483",
+      "canonicalName": "西班牙国王杯"
+    },
+    "西班牙超级杯": {
+      "path": "/assets/football/supercopa.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4511"
+    },
+    "Supercopa de Espana": {
+      "path": "/assets/football/supercopa.png",
+      "kind": "trophy",
+      "source": "TheSportsDB league 4511",
+      "canonicalName": "西班牙超级杯"
+    },
+    "国际足联俱乐部世界杯": {
+      "path": "/assets/football/club-world-cup.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/club-world-cup.png"
+    },
+    "FIFA Club World Cup": {
+      "path": "/assets/football/club-world-cup.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/club-world-cup.png",
+      "canonicalName": "国际足联俱乐部世界杯"
+    },
+    "欧洲超级杯": {
+      "path": "/assets/football/uefa-super-cup.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/uefa-super-cup.png"
+    },
+    "UEFA Super Cup": {
+      "path": "/assets/football/uefa-super-cup.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/uefa-super-cup.png",
+      "canonicalName": "欧洲超级杯"
+    },
+    "欧国联亚军": {
+      "path": "/assets/football/nations-league.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/nations-league.png"
+    },
+    "UEFA Nations League runner-up": {
+      "path": "/assets/football/nations-league.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/nations-league.png",
+      "canonicalName": "欧国联亚军"
+    },
+    "克罗地亚甲级联赛": {
+      "path": "/assets/football/dinamo-zagreb.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/dinamo-zagreb.png"
+    },
+    "Croatian Football League": {
+      "path": "/assets/football/dinamo-zagreb.png",
+      "kind": "competition",
+      "source": "Existing verified local asset: /assets/football/dinamo-zagreb.png",
+      "canonicalName": "克罗地亚甲级联赛"
+    },
+    "金球奖": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/ballon-dor.jpg"
+    },
+    "Ballon d'Or": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/ballon-dor.jpg",
+      "canonicalName": "金球奖"
+    },
+    "FIFA 世界足球先生": {
+      "path": "/assets/football/fifa-the-best.png",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/fifa-the-best.png"
+    },
+    "The Best FIFA Men's Player": {
+      "path": "/assets/football/fifa-the-best.png",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/fifa-the-best.png",
+      "canonicalName": "FIFA 世界足球先生"
+    },
+    "世界杯冠军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/world-cup.jpg"
+    },
+    "FIFA World Cup": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "世界杯亚军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "世界杯季军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "U20 世界杯冠军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "美洲杯冠军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "欧美杯冠军": {
+      "path": "/assets/football/world-cup.jpg",
+      "kind": "trophy",
+      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
+      "canonicalName": "世界杯冠军"
+    },
+    "世界杯金球奖": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
+      "canonicalName": "金球奖"
+    },
+    "世界杯铜球奖": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
+      "canonicalName": "金球奖"
+    },
+    "欧洲金靴奖": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
+      "canonicalName": "金球奖"
+    },
+    "奥运会金牌": {
+      "path": "/assets/football/ballon-dor.jpg",
+      "kind": "trophy",
+      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
+      "canonicalName": "金球奖"
+    },
+    "法国甲级联赛": {
+      "path": "/assets/football/la-liga.png",
+      "kind": "trophy",
+      "source": "Reuses 西班牙甲级联赛; TheSportsDB league 4335",
+      "canonicalName": "西班牙甲级联赛"
+    },
+    "法国超级杯": {
+      "path": "/assets/football/supercopa.png",
+      "kind": "trophy",
+      "source": "Reuses 西班牙超级杯; TheSportsDB league 4511",
+      "canonicalName": "西班牙超级杯"
+    },
+    "北美联赛杯": {
+      "path": "/assets/football/champions-league.png",
+      "kind": "trophy",
+      "source": "Reuses 欧洲冠军联赛; TheSportsDB league 4480",
+      "canonicalName": "欧洲冠军联赛"
+    },
+    "AFC Ajax": {
+      "path": "/assets/football/club-142699.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 142699",
+      "canonicalName": "AFC Ajax Amateurs",
+      "providerId": "142699"
+    },
+    "APOEL Nicosia": {
+      "path": "/assets/football/club-133999.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133999",
+      "canonicalName": "APOEL Nicosia",
+      "providerId": "133999"
+    },
+    "AS Roma": {
+      "path": "/assets/football/club-133682.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133682",
+      "canonicalName": "Roma",
+      "providerId": "133682"
+    },
+    "AZ Alkmaar": {
+      "path": "/assets/football/club-133767.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133767",
+      "canonicalName": "AZ Alkmaar",
+      "providerId": "133767"
+    },
+    "Apollon Limassol": {
+      "path": "/assets/football/club-134407.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134407",
+      "canonicalName": "Apollon Limassol",
+      "providerId": "134407"
+    },
+    "Arsenal": {
+      "path": "/assets/football/club-133604.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133604",
+      "canonicalName": "Arsenal",
+      "providerId": "133604"
+    },
+    "Aston Villa": {
+      "path": "/assets/football/club-133601.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133601",
+      "canonicalName": "Aston Villa",
+      "providerId": "133601"
+    },
+    "Atalanta": {
+      "path": "/assets/football/club-134782.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134782",
+      "canonicalName": "Atalanta",
+      "providerId": "134782"
+    },
+    "Athletic Bilbao": {
+      "path": "/assets/football/club-133727.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133727",
+      "canonicalName": "Athletic Bilbao",
+      "providerId": "133727"
+    },
+    "Atletico Madrid": {
+      "path": "/assets/football/club-133729.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133729",
+      "canonicalName": "Atlético Madrid",
+      "providerId": "133729"
+    },
+    "Bayer Leverkusen": {
+      "path": "/assets/football/club-133666.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133666",
+      "canonicalName": "Bayer Leverkusen",
+      "providerId": "133666"
+    },
+    "AFC Bournemouth": {
+      "path": "/assets/football/club-134301.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134301",
+      "canonicalName": "Bournemouth",
+      "providerId": "134301"
+    },
+    "AS Monaco": {
+      "path": "/assets/football/club-133823.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133823",
+      "canonicalName": "Monaco",
+      "providerId": "133823"
+    },
+    "Angers SCO": {
+      "path": "/assets/football/club-134709.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134709",
+      "canonicalName": "Angers",
+      "providerId": "134709"
+    },
+    "Bayern Munich": {
+      "path": "/assets/football/club-133664.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133664",
+      "canonicalName": "Bayern Munich",
+      "providerId": "133664"
+    },
+    "Benfica": {
+      "path": "/assets/football/club-134108.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134108",
+      "canonicalName": "Benfica",
+      "providerId": "134108"
+    },
+    "Besiktas": {
+      "path": "/assets/football/club-133794.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133794",
+      "canonicalName": "Beşiktaş",
+      "providerId": "133794"
+    },
+    "Birmingham City": {
+      "path": "/assets/football/club-133597.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133597",
+      "canonicalName": "Birmingham City",
+      "providerId": "133597"
+    },
+    "Blackburn Rovers": {
+      "path": "/assets/football/club-133598.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133598",
+      "canonicalName": "Blackburn Rovers",
+      "providerId": "133598"
+    },
+    "Blackpool": {
+      "path": "/assets/football/club-133618.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133618",
+      "canonicalName": "Blackpool",
+      "providerId": "133618"
+    },
+    "Borussia Dortmund": {
+      "path": "/assets/football/club-133650.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133650",
+      "canonicalName": "Borussia Dortmund",
+      "providerId": "133650"
+    },
+    "Borussia M'gladbach": {
+      "path": "/assets/football/club-138360.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 138360",
+      "canonicalName": "Borussia Mönchengladbach II",
+      "providerId": "138360"
+    },
+    "Brentford": {
+      "path": "/assets/football/club-134355.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134355",
+      "canonicalName": "Brentford",
+      "providerId": "134355"
+    },
+    "Brescia": {
+      "path": "/assets/football/club-133690.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133690",
+      "canonicalName": "Brescia",
+      "providerId": "133690"
+    },
+    "Bristol City": {
+      "path": "/assets/football/club-133621.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133621",
+      "canonicalName": "Bristol City",
+      "providerId": "133621"
+    },
+    "CD Leganes": {
+      "path": "/assets/football/club-134701.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134701",
+      "canonicalName": "Leganés",
+      "providerId": "134701"
+    },
+    "CSKA Sofia": {
+      "path": "/assets/football/club-134088.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134088",
+      "canonicalName": "CSKA Sofia",
+      "providerId": "134088"
+    },
+    "Caen": {
+      "path": "/assets/football/club-134787.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134787",
+      "canonicalName": "Caen",
+      "providerId": "134787"
+    },
+    "Cagliari": {
+      "path": "/assets/football/club-134783.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134783",
+      "canonicalName": "Cagliari",
+      "providerId": "134783"
+    },
+    "Carlisle United": {
+      "path": "/assets/football/club-134360.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134360",
+      "canonicalName": "Carlisle United",
+      "providerId": "134360"
+    },
+    "Celtic": {
+      "path": "/assets/football/club-133647.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133647",
+      "canonicalName": "Celtic",
+      "providerId": "133647"
+    },
+    "Chelsea": {
+      "path": "/assets/football/club-133610.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133610",
+      "canonicalName": "Chelsea",
+      "providerId": "133610"
+    },
+    "Como": {
+      "path": "/assets/football/club-134243.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134243",
+      "canonicalName": "Como",
+      "providerId": "134243"
+    },
+    "Coventry City": {
+      "path": "/assets/football/club-133625.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133625",
+      "canonicalName": "Coventry City",
+      "providerId": "133625"
+    },
+    "Crystal Palace": {
+      "path": "/assets/football/club-133632.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133632",
+      "canonicalName": "Crystal Palace",
+      "providerId": "133632"
+    },
+    "Deportivo La Coruna": {
+      "path": "/assets/football/club-147597.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 147597",
+      "canonicalName": "Deportivo Fabril",
+      "providerId": "147597"
+    },
+    "Derby County": {
+      "path": "/assets/football/club-133627.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133627",
+      "canonicalName": "Derby County",
+      "providerId": "133627"
+    },
+    "Doncaster Rovers": {
+      "path": "/assets/football/club-133620.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133620",
+      "canonicalName": "Doncaster Rovers",
+      "providerId": "133620"
+    },
+    "Eintracht Frankfurt": {
+      "path": "/assets/football/club-133814.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133814",
+      "canonicalName": "Eintracht Frankfurt",
+      "providerId": "133814"
+    },
+    "Espanyol": {
+      "path": "/assets/football/club-133734.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133734",
+      "canonicalName": "Espanyol",
+      "providerId": "133734"
+    },
+    "Estoril Praia": {
+      "path": "/assets/football/club-134106.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134106",
+      "canonicalName": "Estoril Praia",
+      "providerId": "134106"
+    },
+    "Everton": {
+      "path": "/assets/football/club-133615.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133615",
+      "canonicalName": "Everton",
+      "providerId": "133615"
+    },
+    "FC Basel": {
+      "path": "/assets/football/club-133957.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133957",
+      "canonicalName": "Basel",
+      "providerId": "133957"
+    },
+    "FC Lorient": {
+      "path": "/assets/football/club-133715.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133715",
+      "canonicalName": "Lorient",
+      "providerId": "133715"
+    },
+    "FC Metz": {
+      "path": "/assets/football/club-133883.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133883",
+      "canonicalName": "Metz",
+      "providerId": "133883"
+    },
+    "FC Nantes": {
+      "path": "/assets/football/club-133861.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133861",
+      "canonicalName": "Nantes",
+      "providerId": "133861"
+    },
+    "FC Porto": {
+      "path": "/assets/football/club-147944.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 147944",
+      "canonicalName": "FC Porto Juniors",
+      "providerId": "147944"
+    },
+    "Fenerbahce": {
+      "path": "/assets/football/club-133807.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133807",
+      "canonicalName": "Fenerbahçe",
+      "providerId": "133807"
+    },
+    "Fiorentina": {
+      "path": "/assets/football/club-133674.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133674",
+      "canonicalName": "Fiorentina",
+      "providerId": "133674"
+    },
+    "Genoa": {
+      "path": "/assets/football/club-133675.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133675",
+      "canonicalName": "Genoa",
+      "providerId": "133675"
+    },
+    "Girona FC": {
+      "path": "/assets/football/club-134700.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134700",
+      "canonicalName": "Girona",
+      "providerId": "134700"
+    },
+    "Girondins De Bordeaux": {
+      "path": "/assets/football/club-133716.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133716",
+      "canonicalName": "Bordeaux",
+      "providerId": "133716"
+    },
+    "Granada CF": {
+      "path": "/assets/football/club-133721.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133721",
+      "canonicalName": "Granada",
+      "providerId": "133721"
+    },
+    "Hannover 96": {
+      "path": "/assets/football/club-133656.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133656",
+      "canonicalName": "Hannover 96",
+      "providerId": "133656"
+    },
+    "Havant & Waterlooville": {
+      "path": "/assets/football/club-138022.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 138022",
+      "canonicalName": "Havant and Waterlooville",
+      "providerId": "138022"
+    },
+    "Hellas Verona": {
+      "path": "/assets/football/club-134784.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134784",
+      "canonicalName": "Hellas Verona",
+      "providerId": "134784"
+    },
+    "Hertha BSC": {
+      "path": "/assets/football/club-133658.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133658",
+      "canonicalName": "Hertha",
+      "providerId": "133658"
+    },
+    "Hibernians FC": {
+      "path": "/assets/football/club-138132.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 138132",
+      "canonicalName": "Hibernians",
+      "providerId": "138132"
+    },
+    "Hull City": {
+      "path": "/assets/football/club-133617.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133617",
+      "canonicalName": "Hull City",
+      "providerId": "133617"
+    },
+    "Internazionale": {
+      "path": "/assets/football/club-133681.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133681",
+      "canonicalName": "Inter Milan",
+      "providerId": "133681"
+    },
+    "Juventus": {
+      "path": "/assets/football/club-133676.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133676",
+      "canonicalName": "Juventus",
+      "providerId": "133676"
+    },
+    "KRC Genk": {
+      "path": "/assets/football/club-133779.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133779",
+      "canonicalName": "Genk",
+      "providerId": "133779"
+    },
+    "Kairat": {
+      "path": "/assets/football/club-134602.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134602",
+      "canonicalName": "Kairat Almaty",
+      "providerId": "134602"
+    },
+    "Lecce": {
+      "path": "/assets/football/club-133678.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133678",
+      "canonicalName": "Lecce",
+      "providerId": "133678"
+    },
+    "Leeds United": {
+      "path": "/assets/football/club-133635.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133635",
+      "canonicalName": "Leeds United",
+      "providerId": "133635"
+    },
+    "Leicester City": {
+      "path": "/assets/football/club-133626.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133626",
+      "canonicalName": "Leicester City",
+      "providerId": "133626"
+    },
+    "Levante": {
+      "path": "/assets/football/club-133732.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133732",
+      "canonicalName": "Levante",
+      "providerId": "133732"
+    },
+    "Leyton Orient": {
+      "path": "/assets/football/club-134367.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134367",
+      "canonicalName": "Leyton Orient",
+      "providerId": "134367"
+    },
+    "Lille OSC": {
+      "path": "/assets/football/club-133711.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133711",
+      "canonicalName": "Lille",
+      "providerId": "133711"
+    },
+    "Liverpool": {
+      "path": "/assets/football/club-133602.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133602",
+      "canonicalName": "Liverpool",
+      "providerId": "133602"
+    },
+    "Ludogorets Razgrad": {
+      "path": "/assets/football/club-133981.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133981",
+      "canonicalName": "Ludogorets Razgrad",
+      "providerId": "133981"
+    },
+    "MSK Zilina": {
+      "path": "/assets/football/club-133975.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133975",
+      "canonicalName": "Žilina",
+      "providerId": "133975"
+    },
+    "Malaga": {
+      "path": "/assets/football/club-133736.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133736",
+      "canonicalName": "Málaga",
+      "providerId": "133736"
+    },
+    "Manchester City": {
+      "path": "/assets/football/club-133613.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133613",
+      "canonicalName": "Manchester City",
+      "providerId": "133613"
+    },
+    "Manchester United": {
+      "path": "/assets/football/club-133612.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133612",
+      "canonicalName": "Manchester United",
+      "providerId": "133612"
+    },
+    "Middlesbrough": {
+      "path": "/assets/football/club-133628.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133628",
+      "canonicalName": "Middlesbrough",
+      "providerId": "133628"
+    },
+    "Millwall": {
+      "path": "/assets/football/club-133634.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133634",
+      "canonicalName": "Millwall",
+      "providerId": "133634"
+    },
+    "Milton Keynes Dons": {
+      "path": "/assets/football/club-134371.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134371",
+      "canonicalName": "Milton Keynes Dons",
+      "providerId": "134371"
+    },
+    "Napoli": {
+      "path": "/assets/football/club-133670.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133670",
+      "canonicalName": "Napoli",
+      "providerId": "133670"
+    },
+    "Newcastle United": {
+      "path": "/assets/football/club-134777.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134777",
+      "canonicalName": "Newcastle United",
+      "providerId": "134777"
+    },
+    "Newport County": {
+      "path": "/assets/football/club-134357.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134357",
+      "canonicalName": "Newport County",
+      "providerId": "134357"
+    },
+    "Norwich City": {
+      "path": "/assets/football/club-133608.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133608",
+      "canonicalName": "Norwich City",
+      "providerId": "133608"
+    },
+    "Notts County": {
+      "path": "/assets/football/club-134373.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134373",
+      "canonicalName": "Notts County",
+      "providerId": "134373"
+    },
+    "OGC Nice": {
+      "path": "/assets/football/club-133712.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133712",
+      "canonicalName": "Nice",
+      "providerId": "133712"
+    },
+    "Olympiakos": {
+      "path": "/assets/football/club-133830.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133830",
+      "canonicalName": "Olympiakos Volou",
+      "providerId": "133830"
+    },
+    "Olympique Lyonnais": {
+      "path": "/assets/football/club-133713.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133713",
+      "canonicalName": "Lyon",
+      "providerId": "133713"
+    },
+    "Olympique Marseille": {
+      "path": "/assets/football/club-133707.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133707",
+      "canonicalName": "Marseille",
+      "providerId": "133707"
+    },
+    "PSV Eindhoven": {
+      "path": "/assets/football/club-133768.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133768",
+      "canonicalName": "PSV Eindhoven",
+      "providerId": "133768"
+    },
+    "Palermo": {
+      "path": "/assets/football/club-138166.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 138166",
+      "canonicalName": "Palermo",
+      "providerId": "138166"
+    },
+    "Panathinaikos": {
+      "path": "/assets/football/club-133746.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133746",
+      "canonicalName": "Panathinaikos",
+      "providerId": "133746"
+    },
+    "Parma": {
+      "path": "/assets/football/club-135728.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 135728",
+      "canonicalName": "Parma",
+      "providerId": "135728"
+    },
+    "RB Leipzig": {
+      "path": "/assets/football/club-134695.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134695",
+      "canonicalName": "RB Leipzig",
+      "providerId": "134695"
+    },
+    "RC Lens": {
+      "path": "/assets/football/club-133822.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133822",
+      "canonicalName": "Lens",
+      "providerId": "133822"
+    },
+    "RSC Anderlecht": {
+      "path": "/assets/football/club-133776.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133776",
+      "canonicalName": "Anderlecht",
+      "providerId": "133776"
+    },
+    "Rayo Vallecano": {
+      "path": "/assets/football/club-133728.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133728",
+      "canonicalName": "Rayo Vallecano",
+      "providerId": "133728"
+    },
+    "Reading": {
+      "path": "/assets/football/club-133633.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133633",
+      "canonicalName": "Reading",
+      "providerId": "133633"
+    },
+    "Real Betis": {
+      "path": "/assets/football/club-133722.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133722",
+      "canonicalName": "Real Betis",
+      "providerId": "133722"
+    },
+    "Real Sociedad": {
+      "path": "/assets/football/club-133724.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133724",
+      "canonicalName": "Real Sociedad",
+      "providerId": "133724"
+    },
+    "Real Valladolid": {
+      "path": "/assets/football/club-133841.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133841",
+      "canonicalName": "Real Valladolid",
+      "providerId": "133841"
+    },
+    "Real Zaragoza": {
+      "path": "/assets/football/club-133737.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133737",
+      "canonicalName": "Real Zaragoza",
+      "providerId": "133737"
+    },
+    "Rio Ave": {
+      "path": "/assets/football/club-134107.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134107",
+      "canonicalName": "Rio Ave",
+      "providerId": "134107"
+    },
+    "Rotherham United": {
+      "path": "/assets/football/club-134231.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134231",
+      "canonicalName": "Rotherham United",
+      "providerId": "134231"
+    },
+    "SS Lazio": {
+      "path": "/assets/football/club-133668.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133668",
+      "canonicalName": "Lazio",
+      "providerId": "133668"
+    },
+    "Salzburg": {
+      "path": "/assets/football/club-147966.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 147966",
+      "canonicalName": "Salzburg Youth",
+      "providerId": "147966"
+    },
+    "Sampdoria": {
+      "path": "/assets/football/club-133683.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133683",
+      "canonicalName": "Sampdoria",
+      "providerId": "133683"
+    },
+    "Sevilla": {
+      "path": "/assets/football/club-133735.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133735",
+      "canonicalName": "Sevilla",
+      "providerId": "133735"
+    },
+    "Sheffield United": {
+      "path": "/assets/football/club-133811.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133811",
+      "canonicalName": "Sheffield United",
+      "providerId": "133811"
+    },
+    "Sheffield Wednesday": {
+      "path": "/assets/football/club-133837.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133837",
+      "canonicalName": "Sheffield Wednesday",
+      "providerId": "133837"
+    },
+    "Southampton": {
+      "path": "/assets/football/club-134778.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134778",
+      "canonicalName": "Southampton",
+      "providerId": "134778"
+    },
+    "Sporting Lisbon": {
+      "path": "/assets/football/club-135708.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 135708",
+      "canonicalName": "Sporting CP",
+      "providerId": "135708"
+    },
+    "Stade Reims": {
+      "path": "/assets/football/club-133934.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133934",
+      "canonicalName": "Stade de Reims",
+      "providerId": "133934"
+    },
+    "Stade Rennes": {
+      "path": "/assets/football/club-133719.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133719",
+      "canonicalName": "Rennes",
+      "providerId": "133719"
+    },
+    "Stromsgodset": {
+      "path": "/assets/football/club-134564.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134564",
+      "canonicalName": "Strømsgodset",
+      "providerId": "134564"
+    },
+    "Sunderland": {
+      "path": "/assets/football/club-133603.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133603",
+      "canonicalName": "Sunderland",
+      "providerId": "133603"
+    },
+    "Swansea City": {
+      "path": "/assets/football/club-133614.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133614",
+      "canonicalName": "Swansea City",
+      "providerId": "133614"
+    },
+    "TSG 1899 Hoffenheim": {
+      "path": "/assets/football/club-133657.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133657",
+      "canonicalName": "Hoffenheim",
+      "providerId": "133657"
+    },
+    "Toulouse": {
+      "path": "/assets/football/club-133703.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133703",
+      "canonicalName": "Toulouse",
+      "providerId": "133703"
+    },
+    "Troyes AC": {
+      "path": "/assets/football/club-134789.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134789",
+      "canonicalName": "Troyes",
+      "providerId": "134789"
+    },
+    "UD Almeria": {
+      "path": "/assets/football/club-133817.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133817",
+      "canonicalName": "Almería",
+      "providerId": "133817"
+    },
+    "Udinese": {
+      "path": "/assets/football/club-133679.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133679",
+      "canonicalName": "Udinese",
+      "providerId": "133679"
+    },
+    "Valencia": {
+      "path": "/assets/football/club-133725.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133725",
+      "canonicalName": "Valencia",
+      "providerId": "133725"
+    },
+    "Valletta": {
+      "path": "/assets/football/club-134791.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134791",
+      "canonicalName": "Valletta",
+      "providerId": "134791"
+    },
+    "VfB Stuttgart": {
+      "path": "/assets/football/club-133660.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133660",
+      "canonicalName": "Stuttgart",
+      "providerId": "133660"
+    },
+    "VfL Wolfsburg": {
+      "path": "/assets/football/club-133655.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133655",
+      "canonicalName": "Wolfsburg",
+      "providerId": "133655"
+    },
+    "Videoton FC": {
+      "path": "/assets/football/club-134003.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134003",
+      "canonicalName": "Fehérvár",
+      "providerId": "134003"
+    },
+    "Villarreal": {
+      "path": "/assets/football/club-133740.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133740",
+      "canonicalName": "Villarreal",
+      "providerId": "133740"
+    },
+    "Vitesse Arnhem": {
+      "path": "/assets/football/club-133770.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133770",
+      "canonicalName": "Vitesse",
+      "providerId": "133770"
+    },
+    "Vitoria Guimaraes": {
+      "path": "/assets/football/club-134115.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134115",
+      "canonicalName": "Vitória de Guimarães",
+      "providerId": "134115"
+    },
+    "Watford": {
+      "path": "/assets/football/club-133624.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133624",
+      "canonicalName": "Watford",
+      "providerId": "133624"
+    },
+    "Werder Bremen": {
+      "path": "/assets/football/club-133662.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133662",
+      "canonicalName": "Werder Bremen",
+      "providerId": "133662"
+    },
+    "West Bromwich Albion": {
+      "path": "/assets/football/club-133611.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133611",
+      "canonicalName": "West Bromwich Albion",
+      "providerId": "133611"
+    },
+    "West Ham United": {
+      "path": "/assets/football/club-133636.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133636",
+      "canonicalName": "West Ham United",
+      "providerId": "133636"
+    },
+    "Wigan Athletic": {
+      "path": "/assets/football/club-133607.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133607",
+      "canonicalName": "Wigan Athletic",
+      "providerId": "133607"
+    },
+    "Wolverhampton Wanderers": {
+      "path": "/assets/football/club-133599.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133599",
+      "canonicalName": "Wolverhampton Wanderers",
+      "providerId": "133599"
+    },
+    "AS Saint-Etienne": {
+      "path": "/assets/football/club-133717.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133717",
+      "canonicalName": "Saint-Étienne",
+      "providerId": "133717"
+    },
+    "Brighton & Hove Albion": {
+      "path": "/assets/football/club-133619.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133619",
+      "canonicalName": "Brighton and Hove Albion",
+      "providerId": "133619"
+    },
+    "CD Alaves": {
+      "path": "/assets/football/club-134221.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134221",
+      "canonicalName": "Deportivo Alavés",
+      "providerId": "134221"
+    },
+    "En Avant Guingamp": {
+      "path": "/assets/football/club-134244.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134244",
+      "canonicalName": "Guingamp",
+      "providerId": "134244"
+    },
+    "FC Schalke 04": {
+      "path": "/assets/football/club-133661.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133661",
+      "canonicalName": "Schalke 04",
+      "providerId": "133661"
+    },
+    "Galatasaray SK": {
+      "path": "/assets/football/club-133804.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133804",
+      "canonicalName": "Galatasaray",
+      "providerId": "133804"
+    },
+    "Hamburger SV": {
+      "path": "/assets/football/club-133651.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 133651",
+      "canonicalName": "Hamburg",
+      "providerId": "133651"
+    },
+    "Sporting Braga": {
+      "path": "/assets/football/club-134098.png",
+      "kind": "crest",
+      "source": "TheSportsDB team 134098",
+      "canonicalName": "Braga",
+      "providerId": "134098"
+    }
+  }
+}

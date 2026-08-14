@@ -1,0 +1,44 @@
+{
+  "providers": {
+    "theSportsDb": "https://www.thesportsdb.com/api/v1/json/123",
+    "wikimediaCommons": "https://commons.wikimedia.org/"
+  },
+  "assets": [
+    { "name": "萨格勒布迪纳摩", "aliases": ["Dinamo Zagreb"], "kind": "crest", "query": "Dinamo Zagreb", "filename": "dinamo-zagreb.png" },
+    { "name": "日林斯基", "aliases": ["Zrinjski Mostar"], "kind": "crest", "query": "Zrinjski Mostar", "filename": "zrinjski.png" },
+    { "name": "国际扎普雷希奇", "aliases": ["Inter Zapresic"], "kind": "crest", "query": "Inter Zapresic", "filename": "inter-zapresic.png" },
+    { "name": "托特纳姆热刺", "aliases": ["热刺", "Tottenham Hotspur"], "kind": "crest", "query": "Tottenham Hotspur", "filename": "tottenham.png" },
+    { "name": "皇家马德里", "aliases": ["Real Madrid"], "kind": "crest", "query": "Real Madrid", "filename": "real-madrid.png" },
+    { "name": "AC 米兰", "aliases": ["AC Milan"], "kind": "crest", "query": "AC Milan", "filename": "ac-milan.png" },
+    { "name": "克罗地亚", "aliases": ["Croatia"], "kind": "crest", "query": "Croatia", "filename": "croatia.png" },
+    { "name": "巴塞罗那", "aliases": ["Barcelona", "FC Barcelona"], "kind": "crest", "query": "Barcelona", "filename": "barcelona.png" },
+    { "name": "巴黎圣日耳曼", "aliases": ["PSG", "Paris Saint-Germain"], "kind": "crest", "query": "Paris Saint Germain", "filename": "psg.png" },
+    { "name": "迈阿密国际", "aliases": ["Inter Miami", "Inter Miami CF"], "kind": "crest", "query": "Inter Miami CF", "filename": "inter-miami.png" },
+    { "name": "阿根廷", "aliases": ["Argentina"], "kind": "crest", "query": "Argentina", "filename": "argentina.png" },
+    { "name": "欧洲冠军联赛", "aliases": ["UEFA Champions League"], "kind": "trophy", "theSportsDbLeagueId": "4480", "filename": "champions-league.png" },
+    { "name": "西班牙甲级联赛", "aliases": ["La Liga"], "kind": "trophy", "theSportsDbLeagueId": "4335", "filename": "la-liga.png" },
+    { "name": "西班牙国王杯", "aliases": ["Copa del Rey"], "kind": "trophy", "theSportsDbLeagueId": "4483", "filename": "copa-del-rey.png" },
+    { "name": "西班牙超级杯", "aliases": ["Supercopa de Espana"], "kind": "trophy", "theSportsDbLeagueId": "4511", "filename": "supercopa.png" },
+    { "name": "国际足联俱乐部世界杯", "aliases": ["FIFA Club World Cup"], "kind": "competition", "existingPath": "/assets/football/club-world-cup.png", "filename": "club-world-cup.png" },
+    { "name": "欧洲超级杯", "aliases": ["UEFA Super Cup"], "kind": "competition", "existingPath": "/assets/football/uefa-super-cup.png", "filename": "uefa-super-cup.png" },
+    { "name": "欧国联亚军", "aliases": ["UEFA Nations League runner-up"], "kind": "competition", "existingPath": "/assets/football/nations-league.png", "filename": "nations-league.png" },
+    { "name": "克罗地亚甲级联赛", "aliases": ["Croatian Football League"], "kind": "competition", "existingPath": "/assets/football/dinamo-zagreb.png", "filename": "dinamo-zagreb.png" },
+    { "name": "金球奖", "aliases": ["Ballon d'Or"], "kind": "trophy", "existingPath": "/assets/football/ballon-dor.jpg", "filename": "ballon-dor.jpg" },
+    { "name": "FIFA 世界足球先生", "aliases": ["The Best FIFA Men's Player"], "kind": "trophy", "existingPath": "/assets/football/fifa-the-best.png", "filename": "fifa-the-best.png" },
+    { "name": "世界杯冠军", "aliases": ["FIFA World Cup"], "kind": "trophy", "existingPath": "/assets/football/world-cup.jpg", "filename": "world-cup.jpg" }
+  ],
+  "reuse": {
+    "世界杯亚军": "世界杯冠军",
+    "世界杯季军": "世界杯冠军",
+    "U20 世界杯冠军": "世界杯冠军",
+    "美洲杯冠军": "世界杯冠军",
+    "欧美杯冠军": "世界杯冠军",
+    "世界杯金球奖": "金球奖",
+    "世界杯铜球奖": "金球奖",
+    "欧洲金靴奖": "金球奖",
+    "奥运会金牌": "金球奖",
+    "法国甲级联赛": "西班牙甲级联赛",
+    "法国超级杯": "西班牙超级杯",
+    "北美联赛杯": "欧洲冠军联赛"
+  }
+}

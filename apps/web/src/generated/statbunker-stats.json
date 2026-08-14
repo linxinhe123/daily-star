@@ -1,0 +1,54 @@
+{
+  "luka-modric": {
+    "coverage": "listed-competitions",
+    "seasons": [
+      {
+        "season": "20/21",
+        "club": "Real Madrid",
+        "appearances": 47,
+        "starts": 42,
+        "goals": 6,
+        "assists": 6,
+        "competitions": [
+          {
+            "name": "La Liga",
+            "id": 675
+          },
+          {
+            "name": "UEFA Champions League",
+            "id": 678
+          }
+        ],
+        "source": "statbunker"
+      }
+    ]
+  },
+  "lionel-messi": {
+    "coverage": "listed-competitions",
+    "seasons": [
+      {
+        "season": "20/21",
+        "club": "Barcelona",
+        "appearances": 41,
+        "starts": 39,
+        "goals": 35,
+        "assists": 11,
+        "competitions": [
+          {
+            "name": "La Liga",
+            "id": 675
+          },
+          {
+            "name": "UEFA Champions League",
+            "id": 678
+          }
+        ],
+        "source": "statbunker"
+      }
+    ]
+  },
+  "lamine-yamal": {
+    "coverage": "listed-competitions",
+    "seasons": []
+  }
+}

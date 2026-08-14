@@ -1,15 +1,25 @@
-export type SeasonStat = { season: string; club: string; appearances: number; goals: number; assists: number }
+import generatedSeasonStats from './generated/season-stats.json'
+import generatedPlayerProfiles from './generated/player-profiles.json'
+import generatedFootballAssets from './generated/football-assets.json'
+import generatedStatbunkerStats from './generated/statbunker-stats.json'
+import generatedStatbunkerRosterStats from './generated/statbunker-roster-stats.json'
+import generatedPlayerIdentities from './generated/player-identities.json'
+import generatedPlayerValuations from './generated/player-valuations.json'
+import generatedPlayerCareers from './generated/player-careers.json'
+
+export type SeasonStat = { season: string; club: string; appearances: number; goals: number; assists: number; starts?: number | null; averageRating?: number | null; source?: string }
 export type ClubSpell = { club: string; period: string; appearances?: number; goals?: number; note?: string }
-export type MarketValuePoint = { year: number; value: number; club: string }
+export type MarketValuePoint = { date?: string; year: number; value: number; club: string }
 export type HonorGroup = { category: string; total: number; items: { title: string; count: number; years: string }[] }
 export type PlayerData = {
   currentClub: string
-  currentValue: string
-  caps: number
-  nationalGoals: number
-  birthDate: string
-  height: string
-  foot: string
+  retired?: boolean
+  currentValue?: string
+  caps?: number
+  nationalGoals?: number
+  birthDate?: string
+  height?: string
+  foot?: string
   theme: { primary: string; secondary: string; accent: string }
   seasons: SeasonStat[]
   clubs: ClubSpell[]
@@ -48,19 +58,87 @@ export const footballAssets: Record<string, VisualAsset> = {
   '世界杯铜球奖': { src: '/assets/football/world-cup.jpg', short: 'B.B', kind: 'trophy' },
 }
 
-export const getFootballAsset = (name: string) => footballAssets[name]
+const generatedAssets = Object.fromEntries(Object.entries(generatedFootballAssets.assets).map(([name, asset]) => [name, {
+  src: asset.path,
+  short: name.replace(/[^A-Za-z0-9]/g, '').slice(0, 3).toUpperCase() || name.slice(0, 2),
+  kind: asset.kind as VisualAsset['kind'],
+}])) as Record<string, VisualAsset>
 
-export const playerData: Record<string, PlayerData> = {
+export const getFootballAsset = (name: string) => footballAssets[name] ?? generatedAssets[name]
+
+type GeneratedSeason = SeasonStat & { seasonStart: number; clubId: number }
+type GeneratedPlayerStats = { coverage: 'partial'; updatedAt: string; seasons: GeneratedSeason[] }
+const generatedStats = generatedSeasonStats as Record<string, GeneratedPlayerStats>
+const clubNames: Record<string, string> = {
+  'Real Madrid': '皇家马德里',
+  'AC Milan': 'AC 米兰',
+  'FC Barcelona': '巴塞罗那',
+  'Paris Saint-Germain': '巴黎圣日耳曼',
+  'Club Internacional de Futbol Miami': '迈阿密国际',
+  'Club Internacional de Fútbol Miami': '迈阿密国际',
+}
+
+export function getVerifiedSeasonStats(slug: string, fallback: SeasonStat[] = []) {
+  if (slug === 'pele') return { seasons: fallback, coverage: 'curated' as const, updatedAt: undefined }
+  const rosterSeasons = (generatedStatbunkerRosterStats.players as Record<string, { seasons: SeasonStat[] }>)[slug]?.seasons ?? []
+  if (rosterSeasons.length) return {
+    seasons: rosterSeasons.map((row) => ({ ...row, club: clubNames[row.club] ?? row.club })),
+    coverage: 'configured-competitions' as const,
+    updatedAt: generatedStatbunkerRosterStats.generatedAt,
+  }
+  const snapshot = generatedStats[slug]
+  const statbunker = (generatedStatbunkerStats as Record<string, { seasons: SeasonStat[] }>)[slug]?.seasons ?? []
+  if (!snapshot?.seasons.length && !statbunker.length) return { seasons: fallback, coverage: 'curated' as const, updatedAt: undefined }
+  const seasons: SeasonStat[] = (snapshot?.seasons ?? []).map(({ season, club, appearances, goals, assists, starts, averageRating, source }) => ({
+    season, club: clubNames[club] ?? club, appearances, goals, assists, starts, averageRating, source,
+  }))
+  for (const row of statbunker) {
+    const normalized = { ...row, club: clubNames[row.club] ?? row.club }
+    const index = seasons.findIndex((season) => season.season === normalized.season && season.club === normalized.club)
+    if (index >= 0) seasons[index] = normalized
+    else seasons.push(normalized)
+  }
+  seasons.sort((a, b) => a.season.localeCompare(b.season))
+  return {
+    seasons,
+    coverage: statbunker.length ? 'listed-competitions' as const : snapshot?.coverage,
+    updatedAt: snapshot?.updatedAt,
+  }
+}
+
+const curatedPlayerData: Record<string, PlayerData> = {
+  pele: {
+    currentClub: '', retired: true, caps: 92, nationalGoals: 77,
+    birthDate: '1940-10-23', height: '1.73 m',
+    theme: { primary: '#18382b', secondary: '#245641', accent: '#f2d34f' },
+    seasons: [],
+    clubs: [
+      { club: 'Santos', period: '1956–1974' },
+      { club: 'New York Cosmos', period: '1975–1977' },
+    ],
+    marketValues: [],
+    honorGroups: [
+      { category: '国家队荣誉', total: 3, items: [{ title: '世界杯冠军', count: 3, years: '1958, 1962, 1970' }] },
+      { category: '俱乐部荣誉', total: 4, items: [
+        { title: '南美解放者杯', count: 2, years: '1962, 1963' },
+        { title: '洲际杯', count: 2, years: '1962, 1963' },
+      ] },
+    ],
+    sources: [
+      { label: 'FIFA 贝利档案', url: 'https://www.fifa.com/fifaplus/en/articles/pele-the-king-of-football' },
+      { label: 'Santos FC 历史档案', url: 'https://www.santosfc.com.br/' },
+    ],
+  },
   'luka-modric': {
     currentClub: 'AC 米兰', currentValue: '€3.5m', caps: 202, nationalGoals: 29,
     birthDate: '1985-09-09', height: '1.72m', foot: '右脚',
     theme: { primary: '#16181d', secondary: '#252a33', accent: '#d7b56d' },
     seasons: [
-      { season: '20/21', club: '皇家马德里', appearances: 48, goals: 6, assists: 8 },
-      { season: '21/22', club: '皇家马德里', appearances: 45, goals: 3, assists: 12 },
-      { season: '22/23', club: '皇家马德里', appearances: 52, goals: 6, assists: 8 },
-      { season: '23/24', club: '皇家马德里', appearances: 46, goals: 2, assists: 8 },
-      { season: '24/25', club: '皇家马德里', appearances: 57, goals: 4, assists: 9 },
+      { season: '20/21', club: '皇家马德里', appearances: 47, starts: 42, goals: 6, assists: 6, source: 'statbunker' },
+      { season: '21/22', club: '皇家马德里', appearances: 41, starts: 37, goals: 2, assists: 12, source: 'statbunker' },
+      { season: '22/23', club: '皇家马德里', appearances: 43, starts: 28, goals: 6, assists: 4, source: 'statbunker' },
+      { season: '23/24', club: '皇家马德里', appearances: 42, starts: 20, goals: 2, assists: 6, source: 'statbunker' },
+      { season: '24/25', club: '皇家马德里', appearances: 49, starts: 24, goals: 2, assists: 9, source: 'statbunker' },
     ],
     clubs: [
       { club: '萨格勒布迪纳摩', period: '2003–2008', appearances: 94, goals: 26, note: '含外租成长阶段' },
@@ -109,3 +187,147 @@ export const playerData: Record<string, PlayerData> = {
     ],
   },
 }
+
+type GeneratedIdentity = {
+  birthDate?: string
+  height?: string
+  foot?: string
+  position?: string
+  currentClub?: string
+  active?: boolean
+  sources?: { label: string; url: string }[]
+}
+
+type RosterProfile = {
+  lastSeason?: number
+  seasons: { season: string; club: string }[]
+  clubTotals: { club: string; appearances: number; goals: number }[]
+}
+
+type GeneratedCareer = {
+  spells: { club: string; start?: string; end?: string }[]
+}
+
+const profileThemes = [
+  { primary: '#17223a', secondary: '#2e4c70', accent: '#8fc5e8' },
+  { primary: '#2b1c24', secondary: '#6a3445', accent: '#efb2bf' },
+  { primary: '#172923', secondary: '#315d4c', accent: '#a8d8bf' },
+  { primary: '#292319', secondary: '#65543a', accent: '#e5c98e' },
+]
+
+function seasonStart(label: string) {
+  const value = Number.parseInt(label.slice(0, 2), 10)
+  return value > 70 ? 1900 + value : 2000 + value
+}
+
+const clubAliases: Record<string, string> = {
+  'FC Barcelona': 'Barcelona',
+  'Paris Saint-Germain': 'PSG',
+  'Manchester City': 'Man City',
+  'Manchester United': 'Man Utd',
+  'Tottenham Hotspur': 'Tottenham',
+  'Bayer Leverkusen': 'Leverkusen',
+  'Borussia Dortmund': 'Dortmund',
+  'Bayern Munich': 'Bayern Munich',
+  'Atletico Madrid': 'Atletico Madrid',
+  'Atlético': 'Atletico Madrid',
+  'Inter Milan': 'Inter',
+  'AS Roma': 'Roma',
+  'Olympique Lyon': 'Lyon',
+  'Los Angeles FC': 'LAFC',
+  'Sao Paulo': 'São Paulo',
+}
+
+function normalizedClub(value: string) {
+  const aliased = clubAliases[value] ?? value
+  return aliased.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/gi, '').toLowerCase()
+}
+
+function formatCareerPeriod(start = '', end = '') {
+  const startYear = start.slice(0, 4) || '未知'
+  const endYear = end.slice(0, 4)
+  return `${startYear}–${endYear || '至今'}`
+}
+
+function buildCareerClubs(slug: string, record: RosterProfile, fallback: ClubSpell[]) {
+  const career = (generatedPlayerCareers.players as Record<string, GeneratedCareer>)[slug]
+  if (!career?.spells.length) return fallback
+
+  const occurrenceCount = new Map<string, number>()
+  career.spells.forEach((spell) => {
+    const key = normalizedClub(spell.club)
+    occurrenceCount.set(key, (occurrenceCount.get(key) ?? 0) + 1)
+  })
+
+  return career.spells.map((spell): ClubSpell => {
+    const key = normalizedClub(spell.club)
+    const total = record.clubTotals.find((candidate) => normalizedClub(candidate.club) === key)
+    const canAttachAggregate = Boolean(total) && occurrenceCount.get(key) === 1
+    return {
+      club: spell.club,
+      period: formatCareerPeriod(spell.start, spell.end),
+      appearances: canAttachAggregate ? total!.appearances : undefined,
+      goals: canAttachAggregate ? total!.goals : undefined,
+      note: canAttachAggregate ? '已覆盖赛事统计' : undefined,
+    }
+  })
+}
+
+const automaticPlayerData = Object.fromEntries(Object.entries(generatedStatbunkerRosterStats.players as Record<string, RosterProfile>).map(([slug, record]) => {
+  const identity = (generatedPlayerIdentities.players as Record<string, GeneratedIdentity>)[slug] ?? {}
+  const latest = record.seasons[record.seasons.length - 1]
+  const retired = identity.currentClub === '_Retired Soccer' && (record.lastSeason ?? 0) < 2025
+  const currentClub = normalizeCurrentClub(identity.currentClub || latest?.club || '')
+  const fallbackClubs = record.clubTotals.map((total): ClubSpell => {
+    const seasons = record.seasons.filter(row => row.club === total.club).map(row => seasonStart(row.season))
+    const first = Math.min(...seasons)
+    const last = Math.max(...seasons) + 1
+    return {
+      club: total.club,
+      period: `${first}–${!retired && total.club === currentClub ? '至今' : last}`,
+      appearances: total.appearances,
+      goals: total.goals,
+      note: '已覆盖赛事统计',
+    }
+  })
+  const themeIndex = [...slug].reduce((sum, char) => sum + char.charCodeAt(0), 0) % profileThemes.length
+  return [slug, {
+    currentClub,
+    retired,
+    birthDate: identity.birthDate || undefined,
+    height: identity.height || undefined,
+    foot: identity.foot || undefined,
+    theme: profileThemes[themeIndex]!,
+    seasons: [],
+    clubs: buildCareerClubs(slug, record, fallbackClubs),
+    marketValues: [],
+    honorGroups: [],
+    sources: [...(identity.sources ?? []), { label: 'StatBunker 俱乐部比赛数据', url: 'https://www.statbunker.com/' }],
+  } satisfies PlayerData]
+}))
+
+const mergedPlayerData: Record<string, PlayerData> = {
+  ...automaticPlayerData,
+  ...Object.fromEntries(Object.entries(generatedPlayerProfiles.players).map(([slug, profile]) => [slug, { ...profile, seasons: [] }])),
+  ...curatedPlayerData,
+}
+
+export function normalizeCurrentClub(value = '') {
+  if (value === '_Retired Soccer' || value === '_Free Agent Soccer') return ''
+  return value
+}
+
+export const playerData: Record<string, PlayerData> = Object.fromEntries(Object.entries(mergedPlayerData).map(([slug, data]) => {
+  const identity = (generatedPlayerIdentities.players as Record<string, GeneratedIdentity>)[slug]
+  const record = (generatedStatbunkerRosterStats.players as Record<string, RosterProfile>)[slug]
+  const retired = (identity?.currentClub === '_Retired Soccer' && (record?.lastSeason ?? 0) < 2025) || data.retired === true
+  const valuation = slug === 'pele' || slug === 'kaka' ? [] : (generatedPlayerValuations.players as Record<string, { points: MarketValuePoint[] }>)[slug]?.points ?? []
+  const latestValue = valuation[valuation.length - 1]?.value
+  return [slug, {
+    ...data,
+    currentClub: normalizeCurrentClub(data.currentClub),
+    currentValue: retired ? undefined : latestValue ? `€${latestValue}m` : data.currentValue,
+    marketValues: valuation.length ? valuation : data.marketValues,
+    retired,
+  }]
+}))

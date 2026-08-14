@@ -1,0 +1,1806 @@
+{
+  "generatedAt": "2026-08-14T03:23:06.200Z",
+  "selection": "product-stars-then-highest-transfermarkt-market-value",
+  "players": [
+    {
+      "slug": "lionel-messi",
+      "name": "Lionel Messi",
+      "transfermarktId": 28003,
+      "highestMarketValue": 180000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "transfermarktId": 8198,
+      "highestMarketValue": 120000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "pele",
+      "name": "Pelé",
+      "transfermarktId": 99189,
+      "highestMarketValue": 8000000,
+      "position": "Midfield",
+      "lastSeason": 2022,
+      "preferred": true
+    },
+    {
+      "slug": "kaka",
+      "name": "Kaká",
+      "transfermarktId": 380696,
+      "highestMarketValue": 400000,
+      "position": "Midfield",
+      "lastSeason": 2018,
+      "preferred": true
+    },
+    {
+      "slug": "andres-iniesta",
+      "name": "Andrés Iniesta",
+      "transfermarktId": 7600,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2017,
+      "preferred": true
+    },
+    {
+      "slug": "gianluigi-buffon",
+      "name": "Gianluigi Buffon",
+      "transfermarktId": 5023,
+      "highestMarketValue": 35000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2020,
+      "preferred": true
+    },
+    {
+      "slug": "manuel-neuer",
+      "name": "Manuel Neuer",
+      "transfermarktId": 17259,
+      "highestMarketValue": 45000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "luka-modric",
+      "name": "Luka Modrić",
+      "transfermarktId": 27992,
+      "highestMarketValue": 55000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "mohamed-salah",
+      "name": "Mohamed Salah",
+      "transfermarktId": 148455,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "kylian-mbappe",
+      "name": "Kylian Mbappé",
+      "transfermarktId": 342229,
+      "highestMarketValue": 200000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": true
+    },
+    {
+      "slug": "vinicius-junior",
+      "name": "Vinicius Junior",
+      "transfermarktId": 371998,
+      "highestMarketValue": 200000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "erling-haaland",
+      "name": "Erling Haaland",
+      "transfermarktId": 418560,
+      "highestMarketValue": 200000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "lamine-yamal",
+      "name": "Lamine Yamal",
+      "transfermarktId": 937958,
+      "highestMarketValue": 200000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "neymar",
+      "name": "Neymar",
+      "transfermarktId": 68290,
+      "highestMarketValue": 180000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jude-bellingham",
+      "name": "Jude Bellingham",
+      "transfermarktId": 581678,
+      "highestMarketValue": 180000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "raheem-sterling",
+      "name": "Raheem Sterling",
+      "transfermarktId": 134425,
+      "highestMarketValue": 160000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kevin-de-bruyne",
+      "name": "Kevin De Bruyne",
+      "transfermarktId": 88755,
+      "highestMarketValue": 150000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "antoine-griezmann",
+      "name": "Antoine Griezmann",
+      "transfermarktId": 125781,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "harry-kane",
+      "name": "Harry Kane",
+      "transfermarktId": 132098,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "sadio-mane",
+      "name": "Sadio Mané",
+      "transfermarktId": 200512,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "phil-foden",
+      "name": "Phil Foden",
+      "transfermarktId": 406635,
+      "highestMarketValue": 150000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bukayo-saka",
+      "name": "Bukayo Saka",
+      "transfermarktId": 433177,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "michael-olise",
+      "name": "Michael Olise",
+      "transfermarktId": 566723,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "pedri",
+      "name": "Pedri",
+      "transfermarktId": 683840,
+      "highestMarketValue": 150000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "philippe-coutinho",
+      "name": "Philippe Coutinho",
+      "transfermarktId": 80444,
+      "highestMarketValue": 150000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "eden-hazard",
+      "name": "Eden Hazard",
+      "transfermarktId": 50202,
+      "highestMarketValue": 150000000,
+      "position": "Attack",
+      "lastSeason": 2022,
+      "preferred": false
+    },
+    {
+      "slug": "alexander-isak",
+      "name": "Alexander Isak",
+      "transfermarktId": 349066,
+      "highestMarketValue": 140000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "vitinha",
+      "name": "Vitinha",
+      "transfermarktId": 487469,
+      "highestMarketValue": 140000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "khvicha-kvaratskhelia",
+      "name": "Khvicha Kvaratskhelia",
+      "transfermarktId": 502670,
+      "highestMarketValue": 140000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jamal-musiala",
+      "name": "Jamal Musiala",
+      "transfermarktId": 580195,
+      "highestMarketValue": 140000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "florian-wirtz",
+      "name": "Florian Wirtz",
+      "transfermarktId": 598577,
+      "highestMarketValue": 140000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "joao-neves",
+      "name": "João Neves",
+      "transfermarktId": 670681,
+      "highestMarketValue": 140000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "rodri",
+      "name": "Rodri",
+      "transfermarktId": 357565,
+      "highestMarketValue": 130000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "federico-valverde",
+      "name": "Federico Valverde",
+      "transfermarktId": 369081,
+      "highestMarketValue": 130000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jadon-sancho",
+      "name": "Jadon Sancho",
+      "transfermarktId": 401173,
+      "highestMarketValue": 130000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "cole-palmer",
+      "name": "Cole Palmer",
+      "transfermarktId": 568177,
+      "highestMarketValue": 130000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ousmane-dembele",
+      "name": "Ousmane Dembélé",
+      "transfermarktId": 288230,
+      "highestMarketValue": 120000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "declan-rice",
+      "name": "Declan Rice",
+      "transfermarktId": 357662,
+      "highestMarketValue": 120000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "victor-osimhen",
+      "name": "Victor Osimhen",
+      "transfermarktId": 401923,
+      "highestMarketValue": 120000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "desire-doue",
+      "name": "Désiré Doué",
+      "transfermarktId": 914562,
+      "highestMarketValue": 120000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "paulo-dybala",
+      "name": "Paulo Dybala",
+      "transfermarktId": 206050,
+      "highestMarketValue": 110000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "trent-alexander-arnold",
+      "name": "Trent Alexander-Arnold",
+      "transfermarktId": 314353,
+      "highestMarketValue": 110000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "martin-odegaard",
+      "name": "Martin Ødegaard",
+      "transfermarktId": 316264,
+      "highestMarketValue": 110000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "lautaro-martinez",
+      "name": "Lautaro Martínez",
+      "transfermarktId": 406625,
+      "highestMarketValue": 110000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "rodrygo",
+      "name": "Rodrygo",
+      "transfermarktId": 412363,
+      "highestMarketValue": 110000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "moises-caicedo",
+      "name": "Moisés Caicedo",
+      "transfermarktId": 687626,
+      "highestMarketValue": 110000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "mauro-icardi",
+      "name": "Mauro Icardi",
+      "transfermarktId": 68863,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "christian-eriksen",
+      "name": "Christian Eriksen",
+      "transfermarktId": 69633,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "romelu-lukaku",
+      "name": "Romelu Lukaku",
+      "transfermarktId": 96341,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jan-oblak",
+      "name": "Jan Oblak",
+      "transfermarktId": 121483,
+      "highestMarketValue": 100000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "paul-pogba",
+      "name": "Paul Pogba",
+      "transfermarktId": 122153,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "virgil-van-dijk",
+      "name": "Virgil van Dijk",
+      "transfermarktId": 139208,
+      "highestMarketValue": 100000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "leroy-sane",
+      "name": "Leroy Sané",
+      "transfermarktId": 192565,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jack-grealish",
+      "name": "Jack Grealish",
+      "transfermarktId": 203460,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ngolo-kante",
+      "name": "N'Golo Kanté",
+      "transfermarktId": 225083,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bernardo-silva",
+      "name": "Bernardo Silva",
+      "transfermarktId": 241641,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "aurelien-tchouameni",
+      "name": "Aurélien Tchouaméni",
+      "transfermarktId": 413112,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "dominik-szoboszlai",
+      "name": "Dominik Szoboszlai",
+      "transfermarktId": 451276,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "joao-felix",
+      "name": "João Félix",
+      "transfermarktId": 462250,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "william-saliba",
+      "name": "William Saliba",
+      "transfermarktId": 495666,
+      "highestMarketValue": 100000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alexis-mac-allister",
+      "name": "Alexis Mac Allister",
+      "transfermarktId": 534033,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "julian-alvarez",
+      "name": "Julián Alvarez",
+      "transfermarktId": 576024,
+      "highestMarketValue": 100000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "fermin-lopez",
+      "name": "Fermín López",
+      "transfermarktId": 636703,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "eduardo-camavinga",
+      "name": "Eduardo Camavinga",
+      "transfermarktId": 640428,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "dele-alli",
+      "name": "Dele Alli",
+      "transfermarktId": 207929,
+      "highestMarketValue": 100000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "robert-lewandowski",
+      "name": "Robert Lewandowski",
+      "transfermarktId": 38253,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "luis-suarez",
+      "name": "Luis Suárez",
+      "transfermarktId": 44352,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marc-andre-ter-stegen",
+      "name": "Marc-André ter Stegen",
+      "transfermarktId": 74857,
+      "highestMarketValue": 90000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "isco",
+      "name": "Isco",
+      "transfermarktId": 85288,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "heung-min-son",
+      "name": "Heung-min Son",
+      "transfermarktId": 91845,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alisson",
+      "name": "Alisson",
+      "transfermarktId": 105470,
+      "highestMarketValue": 90000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "saul-niguez",
+      "name": "Saúl Ñíguez",
+      "transfermarktId": 148928,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "serge-gnabry",
+      "name": "Serge Gnabry",
+      "transfermarktId": 159471,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "joshua-kimmich",
+      "name": "Joshua Kimmich",
+      "transfermarktId": 161056,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bruno-fernandes",
+      "name": "Bruno Fernandes",
+      "transfermarktId": 240306,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "sergej-milinkovic-savic",
+      "name": "Sergej Milinković-Savić",
+      "transfermarktId": 266302,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marco-asensio",
+      "name": "Marco Asensio",
+      "transfermarktId": 296622,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kai-havertz",
+      "name": "Kai Havertz",
+      "transfermarktId": 309400,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "frenkie-de-jong",
+      "name": "Frenkie de Jong",
+      "transfermarktId": 326330,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "rafael-leao",
+      "name": "Rafael Leão",
+      "transfermarktId": 357164,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "raphinha",
+      "name": "Raphinha",
+      "transfermarktId": 411295,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ryan-gravenberch",
+      "name": "Ryan Gravenberch",
+      "transfermarktId": 478573,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "morgan-rogers",
+      "name": "Morgan Rogers",
+      "transfermarktId": 503743,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "rayan-cherki",
+      "name": "Rayan Cherki",
+      "transfermarktId": 607223,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "gavi",
+      "name": "Gavi",
+      "transfermarktId": 646740,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "enzo-fernandez",
+      "name": "Enzo Fernández",
+      "transfermarktId": 648195,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "hugo-ekitike",
+      "name": "Hugo Ekitiké",
+      "transfermarktId": 709726,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "aleksandar-pavlovic",
+      "name": "Aleksandar Pavlovic",
+      "transfermarktId": 792380,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "arda-guler",
+      "name": "Arda Güler",
+      "transfermarktId": 861410,
+      "highestMarketValue": 90000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "yan-diomande",
+      "name": "Yan Diomande",
+      "transfermarktId": 1390649,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "roberto-firmino",
+      "name": "Roberto Firmino",
+      "transfermarktId": 131789,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "gareth-bale",
+      "name": "Gareth Bale",
+      "transfermarktId": 39381,
+      "highestMarketValue": 90000000,
+      "position": "Attack",
+      "lastSeason": 2021,
+      "preferred": false
+    },
+    {
+      "slug": "marcus-rashford",
+      "name": "Marcus Rashford",
+      "transfermarktId": 258923,
+      "highestMarketValue": 85000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "dusan-vlahovic",
+      "name": "Dušan Vlahović",
+      "transfermarktId": 357498,
+      "highestMarketValue": 85000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "luis-diaz",
+      "name": "Luis Díaz",
+      "transfermarktId": 480692,
+      "highestMarketValue": 85000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bruno-guimaraes",
+      "name": "Bruno Guimarães",
+      "transfermarktId": 520624,
+      "highestMarketValue": 85000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "gabriel-martinelli",
+      "name": "Gabriel Martinelli",
+      "transfermarktId": 655488,
+      "highestMarketValue": 85000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "casemiro",
+      "name": "Casemiro",
+      "transfermarktId": 16306,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "james-rodriguez",
+      "name": "James Rodríguez",
+      "transfermarktId": 88103,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "timo-werner",
+      "name": "Timo Werner",
+      "transfermarktId": 170527,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "andrew-robertson",
+      "name": "Andrew Robertson",
+      "transfermarktId": 234803,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nicolo-barella",
+      "name": "Nicolò Barella",
+      "transfermarktId": 255942,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ruben-dias",
+      "name": "Rúben Dias",
+      "transfermarktId": 258004,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marcos-llorente",
+      "name": "Marcos Llorente",
+      "transfermarktId": 282411,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alessandro-bastoni",
+      "name": "Alessandro Bastoni",
+      "transfermarktId": 315853,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "christopher-nkunku",
+      "name": "Christopher Nkunku",
+      "transfermarktId": 344381,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "gabriel-jesus",
+      "name": "Gabriel Jesus",
+      "transfermarktId": 363205,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "sandro-tonali",
+      "name": "Sandro Tonali",
+      "transfermarktId": 397033,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "achraf-hakimi",
+      "name": "Achraf Hakimi",
+      "transfermarktId": 398073,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bryan-mbeumo",
+      "name": "Bryan Mbeumo",
+      "transfermarktId": 413039,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "martin-zubimendi",
+      "name": "Martín Zubimendi",
+      "transfermarktId": 423440,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alphonso-davies",
+      "name": "Alphonso Davies",
+      "transfermarktId": 424204,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ansu-fati",
+      "name": "Ansu Fati",
+      "transfermarktId": 466810,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "josko-gvardiol",
+      "name": "Josko Gvardiol",
+      "transfermarktId": 475959,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "randal-kolo-muani",
+      "name": "Randal Kolo Muani",
+      "transfermarktId": 487969,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "xavi-simons",
+      "name": "Xavi Simons",
+      "transfermarktId": 566931,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "antoine-semenyo",
+      "name": "Antoine Semenyo",
+      "transfermarktId": 583255,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nuno-mendes",
+      "name": "Nuno Mendes",
+      "transfermarktId": 616341,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "joao-pedro",
+      "name": "João Pedro",
+      "transfermarktId": 626724,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "willian-pacho",
+      "name": "Willian Pacho",
+      "transfermarktId": 661171,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "warren-zaire-emery",
+      "name": "Warren Zaïre-Emery",
+      "transfermarktId": 810092,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nico-paz",
+      "name": "Nico Paz",
+      "transfermarktId": 948294,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "pau-cubarsi",
+      "name": "Pau Cubarsí",
+      "transfermarktId": 962110,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "estevao",
+      "name": "Estêvão",
+      "transfermarktId": 1056993,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "sergio-busquets",
+      "name": "Sergio Busquets",
+      "transfermarktId": 65230,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "raphael-varane",
+      "name": "Raphaël Varane",
+      "transfermarktId": 164770,
+      "highestMarketValue": 80000000,
+      "position": "Defender",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "toni-kroos",
+      "name": "Toni Kroos",
+      "transfermarktId": 31909,
+      "highestMarketValue": 80000000,
+      "position": "Midfield",
+      "lastSeason": 2023,
+      "preferred": false
+    },
+    {
+      "slug": "sergio-aguero",
+      "name": "Sergio Agüero",
+      "transfermarktId": 26399,
+      "highestMarketValue": 80000000,
+      "position": "Attack",
+      "lastSeason": 2021,
+      "preferred": false
+    },
+    {
+      "slug": "thomas-muller",
+      "name": "Thomas Müller",
+      "transfermarktId": 58358,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "pierre-emerick-aubameyang",
+      "name": "Pierre-Emerick Aubameyang",
+      "transfermarktId": 58864,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kalidou-koulibaly",
+      "name": "Kalidou Koulibaly",
+      "transfermarktId": 93128,
+      "highestMarketValue": 75000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "thibaut-courtois",
+      "name": "Thibaut Courtois",
+      "transfermarktId": 108390,
+      "highestMarketValue": 75000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "aymeric-laporte",
+      "name": "Aymeric Laporte",
+      "transfermarktId": 176553,
+      "highestMarketValue": 75000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marquinhos",
+      "name": "Marquinhos",
+      "transfermarktId": 181767,
+      "highestMarketValue": 75000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marcus-thuram",
+      "name": "Marcus Thuram",
+      "transfermarktId": 318528,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "viktor-gyokeres",
+      "name": "Viktor Gyökeres",
+      "transfermarktId": 325443,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "matthijs-de-ligt",
+      "name": "Matthijs de Ligt",
+      "transfermarktId": 326031,
+      "highestMarketValue": 75000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nicolas-pepe",
+      "name": "Nicolas Pépé",
+      "transfermarktId": 343052,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "mason-mount",
+      "name": "Mason Mount",
+      "transfermarktId": 346483,
+      "highestMarketValue": 75000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "gabriel",
+      "name": "Gabriel",
+      "transfermarktId": 435338,
+      "highestMarketValue": 75000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "omar-marmoush",
+      "name": "Omar Marmoush",
+      "transfermarktId": 445939,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jeremy-doku",
+      "name": "Jérémy Doku",
+      "transfermarktId": 486049,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "matheus-cunha",
+      "name": "Matheus Cunha",
+      "transfermarktId": 517894,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "elliot-anderson",
+      "name": "Elliot Anderson",
+      "transfermarktId": 567576,
+      "highestMarketValue": 75000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "antony",
+      "name": "Antony",
+      "transfermarktId": 602105,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "benjamin-sesko",
+      "name": "Benjamin Sesko",
+      "transfermarktId": 627442,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kenan-yildiz",
+      "name": "Kenan Yıldız",
+      "transfermarktId": 845654,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marco-verratti",
+      "name": "Marco Verratti",
+      "transfermarktId": 102558,
+      "highestMarketValue": 75000000,
+      "position": "Midfield",
+      "lastSeason": 2022,
+      "preferred": false
+    },
+    {
+      "slug": "lorenzo-insigne",
+      "name": "Lorenzo Insigne",
+      "transfermarktId": 133964,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2021,
+      "preferred": false
+    },
+    {
+      "slug": "gonzalo-higuain",
+      "name": "Gonzalo Higuaín",
+      "transfermarktId": 39153,
+      "highestMarketValue": 75000000,
+      "position": "Attack",
+      "lastSeason": 2019,
+      "preferred": false
+    },
+    {
+      "slug": "alexis-sanchez",
+      "name": "Alexis Sánchez",
+      "transfermarktId": 40433,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "david-de-gea",
+      "name": "David de Gea",
+      "transfermarktId": 59377,
+      "highestMarketValue": 70000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "koke",
+      "name": "Koke",
+      "transfermarktId": 74229,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alexandre-lacazette",
+      "name": "Alexandre Lacazette",
+      "transfermarktId": 93720,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "leon-goretzka",
+      "name": "Leon Goretzka",
+      "transfermarktId": 153084,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "harry-maguire",
+      "name": "Harry Maguire",
+      "transfermarktId": 177907,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "joao-cancelo",
+      "name": "João Cancelo",
+      "transfermarktId": 182712,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "thomas-lemar",
+      "name": "Thomas Lemar",
+      "transfermarktId": 205562,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "fabinho",
+      "name": "Fabinho",
+      "transfermarktId": 225693,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ederson",
+      "name": "Ederson",
+      "transfermarktId": 238223,
+      "highestMarketValue": 70000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jose-maria-gimenez",
+      "name": "José María Giménez",
+      "transfermarktId": 250845,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "lucas-hernandez",
+      "name": "Lucas Hernández",
+      "transfermarktId": 281963,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "james-maddison",
+      "name": "James Maddison",
+      "transfermarktId": 294057,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "federico-chiesa",
+      "name": "Federico Chiesa",
+      "transfermarktId": 341092,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "dayot-upamecano",
+      "name": "Dayot Upamecano",
+      "transfermarktId": 344695,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "mikel-oyarzabal",
+      "name": "Mikel Oyarzabal",
+      "transfermarktId": 351478,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "arthur-melo",
+      "name": "Arthur Melo",
+      "transfermarktId": 362842,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "marc-guehi",
+      "name": "Marc Guéhi",
+      "transfermarktId": 392757,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "eder-militao",
+      "name": "Éder Militão",
+      "transfermarktId": 401530,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jurrien-timber",
+      "name": "Jurriën Timber",
+      "transfermarktId": 420243,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "morgan-gibbs-white",
+      "name": "Morgan Gibbs-White",
+      "transfermarktId": 429014,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "cody-gakpo",
+      "name": "Cody Gakpo",
+      "transfermarktId": 434675,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "douglas-luiz",
+      "name": "Douglas Luiz",
+      "transfermarktId": 447661,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nick-woltemade",
+      "name": "Nick Woltemade",
+      "transfermarktId": 455661,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "tijjani-reijnders",
+      "name": "Tijjani Reijnders",
+      "transfermarktId": 460939,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "reece-james",
+      "name": "Reece James",
+      "transfermarktId": 472423,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ronald-araujo",
+      "name": "Ronald Araujo",
+      "transfermarktId": 480267,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "darwin-nunez",
+      "name": "Darwin Núñez",
+      "transfermarktId": 546543,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "bradley-barcola",
+      "name": "Bradley Barcola",
+      "transfermarktId": 708265,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nico-williams",
+      "name": "Nico Williams",
+      "transfermarktId": 709187,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "nico-oreilly",
+      "name": "Nico O'Reilly",
+      "transfermarktId": 743413,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "adam-wharton",
+      "name": "Adam Wharton",
+      "transfermarktId": 744149,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kobbie-mainoo",
+      "name": "Kobbie Mainoo",
+      "transfermarktId": 820374,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "dean-huijsen",
+      "name": "Dean Huijsen",
+      "transfermarktId": 890290,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "junior-kroupi",
+      "name": "Junior Kroupi",
+      "transfermarktId": 955357,
+      "highestMarketValue": 70000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "ivan-rakitic",
+      "name": "Ivan Rakitic",
+      "transfermarktId": 32467,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "miralem-pjanic",
+      "name": "Miralem Pjanić",
+      "transfermarktId": 44162,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "jordi-alba",
+      "name": "Jordi Alba",
+      "transfermarktId": 69751,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "samuel-umtiti",
+      "name": "Samuel Umtiti",
+      "transfermarktId": 126540,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "nabil-fekir",
+      "name": "Nabil Fekir",
+      "transfermarktId": 203496,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2024,
+      "preferred": false
+    },
+    {
+      "slug": "thiago-alcantara",
+      "name": "Thiago Alcántara",
+      "transfermarktId": 60444,
+      "highestMarketValue": 70000000,
+      "position": "Midfield",
+      "lastSeason": 2023,
+      "preferred": false
+    },
+    {
+      "slug": "marcelo",
+      "name": "Marcelo",
+      "transfermarktId": 44501,
+      "highestMarketValue": 70000000,
+      "position": "Defender",
+      "lastSeason": 2022,
+      "preferred": false
+    },
+    {
+      "slug": "angel-di-maria",
+      "name": "Ángel Di María",
+      "transfermarktId": 45320,
+      "highestMarketValue": 65000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "david-alaba",
+      "name": "David Alaba",
+      "transfermarktId": 59016,
+      "highestMarketValue": 65000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "jorginho",
+      "name": "Jorginho",
+      "transfermarktId": 102017,
+      "highestMarketValue": 65000000,
+      "position": "Midfield",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "alvaro-morata",
+      "name": "Álvaro Morata",
+      "transfermarktId": 128223,
+      "highestMarketValue": 65000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "anthony-martial",
+      "name": "Anthony Martial",
+      "transfermarktId": 182877,
+      "highestMarketValue": 65000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "milan-skriniar",
+      "name": "Milan Škriniar",
+      "transfermarktId": 204069,
+      "highestMarketValue": 65000000,
+      "position": "Defender",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "kingsley-coman",
+      "name": "Kingsley Coman",
+      "transfermarktId": 243714,
+      "highestMarketValue": 65000000,
+      "position": "Attack",
+      "lastSeason": 2025,
+      "preferred": false
+    },
+    {
+      "slug": "gianluigi-donnarumma",
+      "name": "Gianluigi Donnarumma",
+      "transfermarktId": 315858,
+      "highestMarketValue": 65000000,
+      "position": "Goalkeeper",
+      "lastSeason": 2025,
+      "preferred": false
+    }
+  ]
+}

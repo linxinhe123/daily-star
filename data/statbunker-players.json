@@ -1,0 +1,13 @@
+{
+  "players": [
+    { "slug": "luka-modric", "name": "Luka Modric", "club": "Real Madrid" },
+    { "slug": "lionel-messi", "name": "Lionel Messi" },
+    { "slug": "lamine-yamal", "name": "Lamine Yamal" }
+  ],
+  "seasons": [
+    { "season": "20/21", "competitions": [
+      { "name": "La Liga", "id": 675 },
+      { "name": "UEFA Champions League", "id": 678 }
+    ]}
+  ]
+}

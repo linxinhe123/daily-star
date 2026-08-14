@@ -1,0 +1,9 @@
+{
+  "maxSeason": 2025,
+  "coverage": "partial-major-competitions-only",
+  "players": [
+    { "slug": "luka-modric", "name": "Luka Modric", "transfermarktId": 27992, "playerCode": "luka-modric" },
+    { "slug": "lionel-messi", "name": "Lionel Messi", "transfermarktId": 28003, "playerCode": "lionel-messi" },
+    { "slug": "lamine-yamal", "name": "Lamine Yamal", "transfermarktId": 937958, "playerCode": "lamine-yamal" }
+  ]
+}

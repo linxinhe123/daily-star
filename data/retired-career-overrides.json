@@ -1,0 +1,94 @@
+{
+  "gianluigi-buffon": [
+    { "club": "Parma", "start": "1995-01-01", "end": "2001-07-03" },
+    { "club": "Juventus", "start": "2001-07-03", "end": "2018-07-06" },
+    { "club": "Paris Saint-Germain", "start": "2018-07-06", "end": "2019-07-04" },
+    { "club": "Juventus", "start": "2019-07-04", "end": "2021-07-01" },
+    { "club": "Parma", "start": "2021-07-01", "end": "2023-08-02" }
+  ],
+  "andres-iniesta": [
+    { "club": "Barcelona", "start": "2002-01-01", "end": "2018-07-01" },
+    { "club": "Vissel Kobe", "start": "2018-07-01", "end": "2023-08-09" },
+    { "club": "Emirates Club", "start": "2023-08-09", "end": "2024-10-08" }
+  ],
+  "kaka": [
+    { "club": "Sao Paulo", "start": "2001-01-01", "end": "2003-08-16" },
+    { "club": "AC Milan", "start": "2003-08-16", "end": "2009-07-01" },
+    { "club": "Real Madrid", "start": "2009-07-01", "end": "2013-09-02" },
+    { "club": "AC Milan", "start": "2013-09-02", "end": "2014-07-01" },
+    { "club": "Sao Paulo", "start": "2014-07-01", "end": "2014-12-31" },
+    { "club": "Orlando City", "start": "2015-01-01", "end": "2017-12-17" }
+  ],
+  "eden-hazard": [
+    { "club": "Lille", "start": "2007-01-01", "end": "2012-07-01" },
+    { "club": "Chelsea", "start": "2012-07-01", "end": "2019-07-01" },
+    { "club": "Real Madrid", "start": "2019-07-01", "end": "2023-10-10" }
+  ],
+  "gareth-bale": [
+    { "club": "Southampton", "start": "2006-01-01", "end": "2007-07-01" },
+    { "club": "Tottenham Hotspur", "start": "2007-07-01", "end": "2013-09-01" },
+    { "club": "Real Madrid", "start": "2013-09-01", "end": "2020-09-19" },
+    { "club": "Tottenham Hotspur", "start": "2020-09-19", "end": "2021-06-30" },
+    { "club": "Real Madrid", "start": "2021-06-30", "end": "2022-07-07" },
+    { "club": "Los Angeles FC", "start": "2022-07-07", "end": "2023-01-09" }
+  ],
+  "sergio-busquets": [
+    { "club": "Barcelona", "start": "2008-01-01", "end": "2023-07-16" },
+    { "club": "Inter Miami", "start": "2023-07-16", "end": "2026-05-01" }
+  ],
+  "sergio-aguero": [
+    { "club": "Independiente", "start": "2003-01-01", "end": "2006-07-01" },
+    { "club": "Atletico Madrid", "start": "2006-07-01", "end": "2011-07-28" },
+    { "club": "Manchester City", "start": "2011-07-28", "end": "2021-07-01" },
+    { "club": "Barcelona", "start": "2021-07-01", "end": "2021-12-15" }
+  ],
+  "gonzalo-higuain": [
+    { "club": "River Plate", "start": "2005-01-01", "end": "2007-01-01" },
+    { "club": "Real Madrid", "start": "2007-01-01", "end": "2013-07-27" },
+    { "club": "Napoli", "start": "2013-07-27", "end": "2016-07-26" },
+    { "club": "Juventus", "start": "2016-07-26", "end": "2018-08-02" },
+    { "club": "AC Milan", "start": "2018-08-02", "end": "2019-01-23" },
+    { "club": "Chelsea", "start": "2019-01-23", "end": "2019-06-30" },
+    { "club": "Juventus", "start": "2019-06-30", "end": "2020-09-18" },
+    { "club": "Inter Miami", "start": "2020-09-18", "end": "2022-10-03" }
+  ],
+  "jordi-alba": [
+    { "club": "Valencia", "start": "2007-01-01", "end": "2008-07-01" },
+    { "club": "Gimnastic", "start": "2008-07-01", "end": "2009-06-30" },
+    { "club": "Valencia", "start": "2009-06-30", "end": "2012-07-01" },
+    { "club": "Barcelona", "start": "2012-07-01", "end": "2023-07-20" },
+    { "club": "Inter Miami", "start": "2023-07-20", "end": "2026-05-01" }
+  ],
+  "marcelo": [
+    { "club": "Fluminense", "start": "2005-01-01", "end": "2007-01-01" },
+    { "club": "Real Madrid", "start": "2007-01-01", "end": "2022-09-02" },
+    { "club": "Olympiacos", "start": "2022-09-02", "end": "2023-02-24" },
+    { "club": "Fluminense", "start": "2023-02-24", "end": "2024-11-02" }
+  ],
+  "pele": [
+    { "club": "Santos", "start": "1956-09-07", "end": "1974-10-02" },
+    { "club": "New York Cosmos", "start": "1975-06-10", "end": "1977-10-01" }
+  ],
+  "roberto-firmino": [
+    { "club": "Figueirense", "start": "2009-01-01", "end": "2011-01-01" },
+    { "club": "TSG 1899 Hoffenheim", "start": "2011-01-01", "end": "2015-07-01" },
+    { "club": "Liverpool", "start": "2015-07-01", "end": "2023-07-04" },
+    { "club": "Al-Ahli", "start": "2023-07-04", "end": "2025-07-23" },
+    { "club": "Al-Sadd", "start": "2025-07-23", "end": "" }
+  ],
+  "marco-verratti": [
+    { "club": "Pescara", "start": "2008-01-01", "end": "2012-07-18" },
+    { "club": "Paris Saint-Germain", "start": "2012-07-18", "end": "2023-09-13" },
+    { "club": "Al-Arabi", "start": "2023-09-13", "end": "2025-07-01" },
+    { "club": "Al-Duhail", "start": "2025-07-01", "end": "" }
+  ],
+  "lorenzo-insigne": [
+    { "club": "Napoli", "start": "2009-01-01", "end": "2010-02-01" },
+    { "club": "Cavese", "start": "2010-02-01", "end": "2010-06-30" },
+    { "club": "Foggia", "start": "2010-07-01", "end": "2011-06-30" },
+    { "club": "Pescara", "start": "2011-07-01", "end": "2012-06-30" },
+    { "club": "Napoli", "start": "2012-07-01", "end": "2022-07-07" },
+    { "club": "Toronto FC", "start": "2022-07-07", "end": "2025-07-01" },
+    { "club": "Pescara", "start": "2025-07-01", "end": "" }
+  ]
+}

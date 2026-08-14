@@ -1,0 +1,7335 @@
+{
+  "generatedAt": "2026-08-14T07:20:02.290Z",
+  "players": {
+    "lionel-messi": {
+      "transfermarktId": 28003,
+      "spells": [
+        {
+          "club": "Newell's JV",
+          "start": "2000-01-01",
+          "end": "2005-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2005-07-01",
+          "end": "2021-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2021-08-10",
+          "end": "2023-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Miami",
+          "start": "2023-07-15",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "cristiano-ronaldo": {
+      "transfermarktId": 8198,
+      "spells": [
+        {
+          "club": "Sporting",
+          "start": "2002-01-01",
+          "end": "2003-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2003-08-12",
+          "end": "2009-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2009-07-06",
+          "end": "2018-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2018-07-10",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2021-08-31",
+          "end": "2023-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Nassr",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "pele": {
+      "transfermarktId": 99189,
+      "spells": [
+        {
+          "club": "Santos",
+          "start": "1956-09-07",
+          "end": "1974-10-02",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "New York Cosmos",
+          "start": "1975-06-10",
+          "end": "1977-10-01",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "kaka": {
+      "transfermarktId": 380696,
+      "spells": [
+        {
+          "club": "Sao Paulo",
+          "start": "2001-01-01",
+          "end": "2003-08-16",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2003-08-16",
+          "end": "2009-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2009-07-01",
+          "end": "2013-09-02",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2013-09-02",
+          "end": "2014-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Sao Paulo",
+          "start": "2014-07-01",
+          "end": "2014-12-31",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Orlando City",
+          "start": "2015-01-01",
+          "end": "2017-12-17",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "andres-iniesta": {
+      "transfermarktId": 7600,
+      "spells": [
+        {
+          "club": "Barcelona",
+          "start": "2002-01-01",
+          "end": "2018-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Vissel Kobe",
+          "start": "2018-07-01",
+          "end": "2023-08-09",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Emirates Club",
+          "start": "2023-08-09",
+          "end": "2024-10-08",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "gianluigi-buffon": {
+      "transfermarktId": 5023,
+      "spells": [
+        {
+          "club": "Parma",
+          "start": "1995-01-01",
+          "end": "2001-07-03",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Juventus",
+          "start": "2001-07-03",
+          "end": "2018-07-06",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "start": "2018-07-06",
+          "end": "2019-07-04",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Juventus",
+          "start": "2019-07-04",
+          "end": "2021-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Parma",
+          "start": "2021-07-01",
+          "end": "2023-08-02",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "manuel-neuer": {
+      "transfermarktId": 17259,
+      "spells": [
+        {
+          "club": "FC Schalke 04",
+          "start": "2005-01-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2011-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "luka-modric": {
+      "transfermarktId": 27992,
+      "spells": [
+        {
+          "club": "Dinamo Zagreb",
+          "start": "2003-01-01",
+          "end": "2003-07-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Zrinjski Mostar",
+          "start": "2003-07-29",
+          "end": "2004-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dinamo Zagreb",
+          "start": "2004-06-30",
+          "end": "2004-07-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter Zapresic",
+          "start": "2004-07-13",
+          "end": "2005-01-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dinamo Zagreb",
+          "start": "2005-01-12",
+          "end": "2008-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2008-07-01",
+          "end": "2012-08-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2012-08-27",
+          "end": "2025-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2025-07-14",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "mohamed-salah": {
+      "transfermarktId": 148455,
+      "spells": [
+        {
+          "club": "El Mokawloon",
+          "start": "2010-01-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Basel",
+          "start": "2012-07-01",
+          "end": "2014-01-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2014-01-26",
+          "end": "2015-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fiorentina",
+          "start": "2015-02-02",
+          "end": "2015-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2015-06-30",
+          "end": "2015-08-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2015-08-06",
+          "end": "2016-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2016-06-30",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2016-07-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2017-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kylian-mbappe": {
+      "transfermarktId": 342229,
+      "spells": [
+        {
+          "club": "Monaco",
+          "start": "2016-01-01",
+          "end": "2017-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2017-08-31",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2018-06-30",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2018-07-01",
+          "end": "2024-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2024-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "vinicius-junior": {
+      "transfermarktId": 371998,
+      "spells": [
+        {
+          "club": "Flamengo",
+          "start": "2017-01-01",
+          "end": "2018-07-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2018-07-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "erling-haaland": {
+      "transfermarktId": 418560,
+      "spells": [
+        {
+          "club": "Bryne",
+          "start": "2015-01-01",
+          "end": "2017-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Molde FK",
+          "start": "2017-02-01",
+          "end": "2019-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Salzburg",
+          "start": "2019-01-01",
+          "end": "2020-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2020-01-01",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2022-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "lamine-yamal": {
+      "transfermarktId": 937958,
+      "spells": [
+        {
+          "club": "Barcelona",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "neymar": {
+      "transfermarktId": 68290,
+      "spells": [
+        {
+          "club": "Santos",
+          "start": "2009-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2013-07-01",
+          "end": "2017-08-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2017-08-03",
+          "end": "2023-08-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2023-08-15",
+          "end": "2025-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Santos",
+          "start": "2025-01-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jude-bellingham": {
+      "transfermarktId": 581678,
+      "spells": [
+        {
+          "club": "Birmingham",
+          "start": "2019-01-01",
+          "end": "2020-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2020-07-23",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "raheem-sterling": {
+      "transfermarktId": 134425,
+      "spells": [
+        {
+          "club": "Liverpool",
+          "start": "2012-01-01",
+          "end": "2015-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2015-07-14",
+          "end": "2022-07-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2022-07-13",
+          "end": "2024-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2024-08-30",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2025-06-30",
+          "end": "2026-02-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Feyenoord",
+          "start": "2026-02-13",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kevin-de-bruyne": {
+      "transfermarktId": 88755,
+      "spells": [
+        {
+          "club": "Genk",
+          "start": "2008-01-01",
+          "end": "2012-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2012-01-31",
+          "end": "2012-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Genk",
+          "start": "2012-02-01",
+          "end": "2012-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2012-06-30",
+          "end": "2012-08-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Werder Bremen",
+          "start": "2012-08-02",
+          "end": "2013-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2013-06-30",
+          "end": "2014-01-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2014-01-18",
+          "end": "2015-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2015-08-30",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "antoine-griezmann": {
+      "transfermarktId": 125781,
+      "spells": [
+        {
+          "club": "Real Sociedad Y",
+          "start": "2005-01-01",
+          "end": "2009-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Sociedad",
+          "start": "2009-07-01",
+          "end": "2014-07-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2014-07-28",
+          "end": "2019-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2019-07-14",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2021-08-31",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2023-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2023-07-01",
+          "end": "2026-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Orlando",
+          "start": "2026-07-10",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "harry-kane": {
+      "transfermarktId": 132098,
+      "spells": [
+        {
+          "club": "Tottenham",
+          "start": "2010-01-01",
+          "end": "2011-01-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leyton Orient",
+          "start": "2011-01-07",
+          "end": "2011-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2011-05-31",
+          "end": "2012-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Millwall",
+          "start": "2012-01-01",
+          "end": "2012-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2012-05-31",
+          "end": "2012-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Norwich",
+          "start": "2012-08-31",
+          "end": "2013-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2013-02-01",
+          "end": "2013-02-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leicester",
+          "start": "2013-02-21",
+          "end": "2013-05-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2013-05-14",
+          "end": "2023-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2023-08-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "sadio-mane": {
+      "transfermarktId": 200512,
+      "spells": [
+        {
+          "club": "Génération Foot",
+          "start": "2012-01-01",
+          "end": "2012-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Metz",
+          "start": "2012-01-01",
+          "end": "2012-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Salzburg",
+          "start": "2012-08-31",
+          "end": "2014-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Southampton",
+          "start": "2014-09-01",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2016-07-01",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2022-07-01",
+          "end": "2023-08-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Nassr",
+          "start": "2023-08-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "phil-foden": {
+      "transfermarktId": 406635,
+      "spells": [
+        {
+          "club": "Man City",
+          "start": "2017-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bukayo-saka": {
+      "transfermarktId": 433177,
+      "spells": [
+        {
+          "club": "Arsenal",
+          "start": "2019-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "michael-olise": {
+      "transfermarktId": 566723,
+      "spells": [
+        {
+          "club": "Reading",
+          "start": "2019-01-01",
+          "end": "2021-07-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Crystal Palace",
+          "start": "2021-07-08",
+          "end": "2024-07-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2024-07-07",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "pedri": {
+      "transfermarktId": 683840,
+      "spells": [
+        {
+          "club": "UD Las Palmas",
+          "start": "2019-01-01",
+          "end": "2019-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2019-09-02",
+          "end": "2019-09-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "UD Las Palmas",
+          "start": "2019-09-03",
+          "end": "2020-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2020-07-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "philippe-coutinho": {
+      "transfermarktId": 80444,
+      "spells": [
+        {
+          "club": "Inter",
+          "start": "2010-01-01",
+          "end": "2008-07-24",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Vasco da Gama",
+          "start": "2008-07-24",
+          "end": "2010-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2010-06-30",
+          "end": "2012-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Espanyol",
+          "start": "2012-01-30",
+          "end": "2012-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2012-06-30",
+          "end": "2013-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2013-01-30",
+          "end": "2018-01-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2018-01-08",
+          "end": "2019-08-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2019-08-19",
+          "end": "2020-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2020-08-31",
+          "end": "2022-01-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2022-01-07",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2022-06-30",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2022-07-01",
+          "end": "2023-09-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Duhail SC",
+          "start": "2023-09-08",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2024-06-30",
+          "end": "2024-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Vasco da Gama",
+          "start": "2024-07-10",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2025-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "eden-hazard": {
+      "transfermarktId": 50202,
+      "spells": [
+        {
+          "club": "Lille",
+          "start": "2007-01-01",
+          "end": "2012-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2012-07-01",
+          "end": "2019-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2019-07-01",
+          "end": "2023-10-10",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "alexander-isak": {
+      "transfermarktId": 349066,
+      "spells": [
+        {
+          "club": "AIK",
+          "start": "2016-01-01",
+          "end": "2017-01-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2017-01-23",
+          "end": "2019-01-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Willem II",
+          "start": "2019-01-25",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2019-06-30",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Sociedad",
+          "start": "2019-07-01",
+          "end": "2022-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newcastle",
+          "start": "2022-08-26",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "vitinha": {
+      "transfermarktId": 487469,
+      "spells": [
+        {
+          "club": "Porto",
+          "start": "2020-01-01",
+          "end": "2020-09-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolves",
+          "start": "2020-09-10",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2021-06-30",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2022-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "khvicha-kvaratskhelia": {
+      "transfermarktId": 502670,
+      "spells": [
+        {
+          "club": "Dinamo Tbilisi",
+          "start": "2017-01-01",
+          "end": "2018-03-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rustavi",
+          "start": "2018-03-20",
+          "end": "2019-02-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Loko Moscow",
+          "start": "2019-02-12",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rustavi",
+          "start": "2019-06-30",
+          "end": "2019-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rubin Kazan",
+          "start": "2019-07-06",
+          "end": "2022-03-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dinamo Batumi",
+          "start": "2022-03-31",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2022-07-01",
+          "end": "2025-01-17",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2025-01-17",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jamal-musiala": {
+      "transfermarktId": 580195,
+      "spells": [
+        {
+          "club": "Southampton Aca",
+          "start": "2010-01-01",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2020-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "florian-wirtz": {
+      "transfermarktId": 598577,
+      "spells": [
+        {
+          "club": "Leverkusen",
+          "start": "2020-01-01",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "joao-neves": {
+      "transfermarktId": 670681,
+      "spells": [
+        {
+          "club": "Benfica",
+          "start": "2023-01-01",
+          "end": "2024-08-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2024-08-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "rodri": {
+      "transfermarktId": 357565,
+      "spells": [
+        {
+          "club": "Villarreal",
+          "start": "2016-01-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2018-07-01",
+          "end": "2019-07-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2019-07-04",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "federico-valverde": {
+      "transfermarktId": 369081,
+      "spells": [
+        {
+          "club": "Peñarol",
+          "start": "2015-01-01",
+          "end": "2016-07-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2016-07-22",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dep. La Coruña",
+          "start": "2017-07-01",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2018-06-30",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2018-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jadon-sancho": {
+      "transfermarktId": 401173,
+      "spells": [
+        {
+          "club": "Dortmund",
+          "start": "2018-01-01",
+          "end": "2021-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2021-07-23",
+          "end": "2024-01-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2024-01-11",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2024-06-30",
+          "end": "2024-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2024-08-30",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-06-30",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2025-09-01",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "cole-palmer": {
+      "transfermarktId": 568177,
+      "spells": [
+        {
+          "club": "Man City",
+          "start": "2021-01-01",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ousmane-dembele": {
+      "transfermarktId": 288230,
+      "spells": [
+        {
+          "club": "Stade Rennais",
+          "start": "2015-01-01",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2016-07-01",
+          "end": "2017-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2017-08-25",
+          "end": "2023-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-08-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "declan-rice": {
+      "transfermarktId": 357662,
+      "spells": [
+        {
+          "club": "West Ham",
+          "start": "2017-01-01",
+          "end": "2023-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2023-07-15",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "victor-osimhen": {
+      "transfermarktId": 401923,
+      "spells": [
+        {
+          "club": "Ult. Strikers",
+          "start": "2017-01-01",
+          "end": "2017-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2017-01-01",
+          "end": "2018-08-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "R Charleroi SC",
+          "start": "2018-08-22",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2019-06-30",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "R Charleroi SC",
+          "start": "2019-07-01",
+          "end": "2019-08-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2019-08-01",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2020-09-01",
+          "end": "2024-09-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2024-09-04",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2025-06-30",
+          "end": "2025-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2025-07-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "desire-doue": {
+      "transfermarktId": 914562,
+      "spells": [
+        {
+          "club": "Stade Rennais",
+          "start": "2022-01-01",
+          "end": "2024-08-17",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2024-08-17",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "paulo-dybala": {
+      "transfermarktId": 206050,
+      "spells": [
+        {
+          "club": "Instituto ACC",
+          "start": "2011-01-01",
+          "end": "2012-07-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "US Palermo",
+          "start": "2012-07-20",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2015-07-01",
+          "end": "2022-07-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2022-07-20",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "trent-alexander-arnold": {
+      "transfermarktId": 314353,
+      "spells": [
+        {
+          "club": "Liverpool",
+          "start": "2016-01-01",
+          "end": "2025-06-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2025-06-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "martin-odegaard": {
+      "transfermarktId": 316264,
+      "spells": [
+        {
+          "club": "Strømsgodset",
+          "start": "2014-01-01",
+          "end": "2015-01-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2015-01-22",
+          "end": "2017-01-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2017-01-08",
+          "end": "2017-01-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Heerenveen",
+          "start": "2017-01-09",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2018-06-30",
+          "end": "2018-08-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Vitesse",
+          "start": "2018-08-21",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2019-06-30",
+          "end": "2019-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Sociedad",
+          "start": "2019-07-05",
+          "end": "2020-07-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2020-07-20",
+          "end": "2021-01-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2021-01-27",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2021-06-30",
+          "end": "2021-08-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2021-08-20",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "lautaro-martinez": {
+      "transfermarktId": 406625,
+      "spells": [
+        {
+          "club": "Racing Club",
+          "start": "2016-01-01",
+          "end": "2018-07-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2018-07-04",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "rodrygo": {
+      "transfermarktId": 412363,
+      "spells": [
+        {
+          "club": "Santos",
+          "start": "2017-01-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2019-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "moises-caicedo": {
+      "transfermarktId": 687626,
+      "spells": [
+        {
+          "club": "Independiente",
+          "start": "2020-01-01",
+          "end": "2021-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2021-02-01",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Beerschot VA",
+          "start": "2021-08-31",
+          "end": "2022-01-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2022-01-12",
+          "end": "2023-08-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-08-14",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "mauro-icardi": {
+      "transfermarktId": 68863,
+      "spells": [
+        {
+          "club": "Vecindario You.",
+          "start": "2008-01-01",
+          "end": "2011-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sampdoria",
+          "start": "2011-07-16",
+          "end": "2013-07-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2013-07-09",
+          "end": "2019-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2019-09-02",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2020-06-30",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2020-07-01",
+          "end": "2022-09-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2022-09-08",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-06-30",
+          "end": "2023-07-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2023-07-26",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "christian-eriksen": {
+      "transfermarktId": 69633,
+      "spells": [
+        {
+          "club": "Ajax",
+          "start": "2010-01-01",
+          "end": "2013-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2013-08-30",
+          "end": "2020-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2020-01-28",
+          "end": "2022-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brentford",
+          "start": "2022-01-31",
+          "end": "2022-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2022-07-15",
+          "end": "2025-09-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2025-09-10",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "romelu-lukaku": {
+      "transfermarktId": 96341,
+      "spells": [
+        {
+          "club": "RSC Anderlecht",
+          "start": "2009-01-01",
+          "end": "2011-08-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2011-08-08",
+          "end": "2012-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "West Brom",
+          "start": "2012-08-10",
+          "end": "2013-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2013-05-31",
+          "end": "2013-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2013-09-02",
+          "end": "2014-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2014-05-31",
+          "end": "2014-07-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2014-07-30",
+          "end": "2017-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2017-07-10",
+          "end": "2019-08-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2019-08-08",
+          "end": "2021-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2021-08-12",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2022-07-01",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-06-30",
+          "end": "2023-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2023-08-30",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2024-06-30",
+          "end": "2024-08-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2024-08-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jan-oblak": {
+      "transfermarktId": 121483,
+      "spells": [
+        {
+          "club": "NK Olimpija",
+          "start": "2009-01-01",
+          "end": "2010-01-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2010-01-04",
+          "end": "2010-01-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Beira-Mar",
+          "start": "2010-01-05",
+          "end": "2010-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2010-06-30",
+          "end": "2011-01-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Olhanense",
+          "start": "2011-01-04",
+          "end": "2011-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2011-06-30",
+          "end": "2011-09-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leiria",
+          "start": "2011-09-09",
+          "end": "2012-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2012-06-30",
+          "end": "2012-09-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rio Ave",
+          "start": "2012-09-09",
+          "end": "2013-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2013-06-30",
+          "end": "2014-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2014-07-16",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "paul-pogba": {
+      "transfermarktId": 122153,
+      "spells": [
+        {
+          "club": "Juventus",
+          "start": "2012-01-01",
+          "end": "2016-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2016-08-09",
+          "end": "2022-07-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2022-07-11",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "virgil-van-dijk": {
+      "transfermarktId": 139208,
+      "spells": [
+        {
+          "club": "FC Groningen",
+          "start": "2011-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Celtic",
+          "start": "2013-07-01",
+          "end": "2015-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Southampton",
+          "start": "2015-09-01",
+          "end": "2018-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2018-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "leroy-sane": {
+      "transfermarktId": 192565,
+      "spells": [
+        {
+          "club": "FC Schalke 04",
+          "start": "2014-01-01",
+          "end": "2016-08-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2016-08-02",
+          "end": "2020-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2020-07-15",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jack-grealish": {
+      "transfermarktId": 203460,
+      "spells": [
+        {
+          "club": "Aston Villa",
+          "start": "2019-01-01",
+          "end": "2013-09-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Notts County",
+          "start": "2013-09-13",
+          "end": "2014-05-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2014-05-04",
+          "end": "2021-08-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2021-08-05",
+          "end": "2025-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2025-08-12",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ngolo-kante": {
+      "transfermarktId": 225083,
+      "spells": [
+        {
+          "club": "Suresnes",
+          "start": "2010-01-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "US Boulogne",
+          "start": "2012-07-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "SM Caen",
+          "start": "2013-07-01",
+          "end": "2015-08-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leicester",
+          "start": "2015-08-03",
+          "end": "2016-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2016-07-16",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Ittihad",
+          "start": "2023-07-01",
+          "end": "2026-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fenerbahçe",
+          "start": "2026-02-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bernardo-silva": {
+      "transfermarktId": 241641,
+      "spells": [
+        {
+          "club": "Benfica",
+          "start": "2014-01-01",
+          "end": "2014-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2014-08-07",
+          "end": "2015-01-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2015-01-19",
+          "end": "2015-01-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2015-01-20",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2017-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "aurelien-tchouameni": {
+      "transfermarktId": 413112,
+      "spells": [
+        {
+          "club": "G. Bordeaux",
+          "start": "2018-01-01",
+          "end": "2020-01-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2020-01-29",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2022-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "dominik-szoboszlai": {
+      "transfermarktId": 451276,
+      "spells": [
+        {
+          "club": "FC Liefering",
+          "start": "2017-01-01",
+          "end": "2018-01-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Salzburg",
+          "start": "2018-01-16",
+          "end": "2021-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2021-01-01",
+          "end": "2023-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2023-07-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "joao-felix": {
+      "transfermarktId": 462250,
+      "spells": [
+        {
+          "club": "Pestinhas Form.",
+          "start": "2008-01-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dragon Force F.",
+          "start": "2011-07-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2018-07-01",
+          "end": "2019-07-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2019-07-03",
+          "end": "2023-01-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-01-11",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2023-06-30",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2023-09-01",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2024-06-30",
+          "end": "2024-08-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2024-08-21",
+          "end": "2025-02-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2025-02-03",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2025-06-30",
+          "end": "2025-07-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Nassr",
+          "start": "2025-07-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "william-saliba": {
+      "transfermarktId": 495666,
+      "spells": [
+        {
+          "club": "Saint-Étienne",
+          "start": "2018-01-01",
+          "end": "2019-07-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2019-07-25",
+          "end": "2019-07-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Saint-Étienne",
+          "start": "2019-07-26",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2020-06-30",
+          "end": "2021-01-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nice",
+          "start": "2021-01-04",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2021-06-30",
+          "end": "2021-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Marseille",
+          "start": "2021-07-15",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2022-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alexis-mac-allister": {
+      "transfermarktId": 534033,
+      "spells": [
+        {
+          "club": "Argentinos Jrs.",
+          "start": "2017-01-01",
+          "end": "2019-01-24",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2019-01-24",
+          "end": "2019-01-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Argentinos Jrs.",
+          "start": "2019-01-25",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2019-06-30",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Boca Juniors",
+          "start": "2019-07-01",
+          "end": "2020-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2020-01-31",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "julian-alvarez": {
+      "transfermarktId": 576024,
+      "spells": [
+        {
+          "club": "CA Atalaya",
+          "start": "2016-01-01",
+          "end": "2019-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "River Plate",
+          "start": "2019-01-01",
+          "end": "2022-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2022-01-31",
+          "end": "2022-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "River Plate",
+          "start": "2022-02-01",
+          "end": "2022-07-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2022-07-07",
+          "end": "2024-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2024-08-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "fermin-lopez": {
+      "transfermarktId": 636703,
+      "spells": [
+        {
+          "club": "Barça Atlètic",
+          "start": "2022-01-01",
+          "end": "2022-08-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Linares",
+          "start": "2022-08-19",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barça Atlètic",
+          "start": "2023-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "eduardo-camavinga": {
+      "transfermarktId": 640428,
+      "spells": [
+        {
+          "club": "Stade Rennais",
+          "start": "2019-01-01",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2021-08-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "dele-alli": {
+      "transfermarktId": 207929,
+      "spells": [
+        {
+          "club": "MK Dons",
+          "start": "2013-01-01",
+          "end": "2015-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2015-02-02",
+          "end": "2015-02-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "MK Dons",
+          "start": "2015-02-03",
+          "end": "2015-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2015-05-31",
+          "end": "2022-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2022-01-31",
+          "end": "2022-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Besiktas",
+          "start": "2022-08-25",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2023-06-30",
+          "end": "2025-01-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Como",
+          "start": "2025-01-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "robert-lewandowski": {
+      "transfermarktId": 38253,
+      "spells": [
+        {
+          "club": "Delta Warszawa",
+          "start": "2005-01-01",
+          "end": "2006-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Znicz Pruszkow",
+          "start": "2006-07-01",
+          "end": "2008-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lech Poznan",
+          "start": "2008-07-01",
+          "end": "2010-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2010-07-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2014-07-01",
+          "end": "2022-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2022-07-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "luis-suarez": {
+      "transfermarktId": 44352,
+      "spells": [
+        {
+          "club": "Nacional",
+          "start": "2005-01-01",
+          "end": "2006-07-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Groningen",
+          "start": "2006-07-11",
+          "end": "2007-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Ajax",
+          "start": "2007-08-09",
+          "end": "2011-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2011-01-31",
+          "end": "2014-07-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2014-07-11",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2020-07-01",
+          "end": "2022-07-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nacional",
+          "start": "2022-07-27",
+          "end": "2023-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Grêmio",
+          "start": "2023-01-01",
+          "end": "2024-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Miami",
+          "start": "2024-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marc-andre-ter-stegen": {
+      "transfermarktId": 74857,
+      "spells": [
+        {
+          "club": "Mönchengladbach",
+          "start": "2010-01-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2014-07-01",
+          "end": "2026-01-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Girona",
+          "start": "2026-01-20",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "isco": {
+      "transfermarktId": 85288,
+      "spells": [
+        {
+          "club": "Málaga CF",
+          "start": "2011-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2013-07-01",
+          "end": "2022-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2022-08-07",
+          "end": "2023-07-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Betis",
+          "start": "2023-07-26",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "heung-min-son": {
+      "transfermarktId": 91845,
+      "spells": [
+        {
+          "club": "C. Buan ES",
+          "start": "2005-01-01",
+          "end": "2005-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hupyeong MS",
+          "start": "2005-01-01",
+          "end": "2007-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Yukminkwan MS",
+          "start": "2007-01-01",
+          "end": "2007-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dongbuk MS",
+          "start": "2007-07-01",
+          "end": "2010-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hamburg",
+          "start": "2010-07-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leverkusen",
+          "start": "2013-07-01",
+          "end": "2015-08-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2015-08-28",
+          "end": "2025-08-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "LAFC",
+          "start": "2025-08-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alisson": {
+      "transfermarktId": 105470,
+      "spells": [
+        {
+          "club": "Internacional",
+          "start": "2013-01-01",
+          "end": "2016-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2016-07-06",
+          "end": "2018-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2018-07-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "saul-niguez": {
+      "transfermarktId": 148928,
+      "spells": [
+        {
+          "club": "Atl. Madrileño",
+          "start": "2010-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2013-07-01",
+          "end": "2013-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rayo Vallecano",
+          "start": "2013-07-23",
+          "end": "2014-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2014-06-30",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2021-08-31",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2022-06-30",
+          "end": "2024-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2024-07-15",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2025-06-30",
+          "end": "2025-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Flamengo",
+          "start": "2025-07-23",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "serge-gnabry": {
+      "transfermarktId": 159471,
+      "spells": [
+        {
+          "club": "Feuerbach Jug.",
+          "start": "2003-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2013-07-01",
+          "end": "2015-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "West Brom",
+          "start": "2015-08-07",
+          "end": "2016-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2016-02-01",
+          "end": "2016-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Werder Bremen",
+          "start": "2016-08-31",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2017-07-01",
+          "end": "2017-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hoffenheim",
+          "start": "2017-07-14",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2018-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "joshua-kimmich": {
+      "transfermarktId": 161056,
+      "spells": [
+        {
+          "club": "Leipzig",
+          "start": "2013-01-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stuttgart",
+          "start": "2015-07-01",
+          "end": "2015-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2015-07-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bruno-fernandes": {
+      "transfermarktId": 240306,
+      "spells": [
+        {
+          "club": "Boavista CJ",
+          "start": "2004-01-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Boavista Y19",
+          "start": "2011-07-01",
+          "end": "2012-08-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Novara",
+          "start": "2012-08-27",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2013-07-01",
+          "end": "2016-08-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sampdoria",
+          "start": "2016-08-16",
+          "end": "2017-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2017-06-30",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sampdoria",
+          "start": "2017-07-01",
+          "end": "2017-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sporting",
+          "start": "2017-07-02",
+          "end": "2020-01-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2020-01-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "sergej-milinkovic-savic": {
+      "transfermarktId": 266302,
+      "spells": [
+        {
+          "club": "Vojvodina",
+          "start": "2013-01-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Genk",
+          "start": "2014-07-01",
+          "end": "2015-08-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lazio",
+          "start": "2015-08-06",
+          "end": "2023-07-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2023-07-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marco-asensio": {
+      "transfermarktId": 296622,
+      "spells": [
+        {
+          "club": "RCD Mallorca Yo",
+          "start": "2012-01-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RCD Mallorca",
+          "start": "2014-07-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2015-07-01",
+          "end": "2015-08-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Espanyol",
+          "start": "2015-08-20",
+          "end": "2016-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2016-06-30",
+          "end": "2023-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-07-06",
+          "end": "2025-02-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2025-02-03",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2025-06-30",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fenerbahçe",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kai-havertz": {
+      "transfermarktId": 309400,
+      "spells": [
+        {
+          "club": "Leverkusen",
+          "start": "2016-01-01",
+          "end": "2020-09-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2020-09-04",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "frenkie-de-jong": {
+      "transfermarktId": 326330,
+      "spells": [
+        {
+          "club": "Willem II",
+          "start": "2015-01-01",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Ajax",
+          "start": "2016-07-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2019-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "rafael-leao": {
+      "transfermarktId": 357164,
+      "spells": [
+        {
+          "club": "Sporting",
+          "start": "2018-01-01",
+          "end": "2018-08-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2018-08-08",
+          "end": "2019-08-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2019-08-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "raphinha": {
+      "transfermarktId": 411295,
+      "spells": [
+        {
+          "club": "Vit. Guimarães",
+          "start": "2016-01-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sporting",
+          "start": "2018-07-01",
+          "end": "2019-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stade Rennais",
+          "start": "2019-09-02",
+          "end": "2020-10-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leeds",
+          "start": "2020-10-05",
+          "end": "2022-07-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2022-07-13",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ryan-gravenberch": {
+      "transfermarktId": 478573,
+      "spells": [
+        {
+          "club": "Ajax",
+          "start": "2019-01-01",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2022-07-01",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2023-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "morgan-rogers": {
+      "transfermarktId": 503743,
+      "spells": [
+        {
+          "club": "Lincoln City",
+          "start": "2021-01-01",
+          "end": "2021-08-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bournemouth",
+          "start": "2021-08-23",
+          "end": "2023-01-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Blackpool",
+          "start": "2023-01-04",
+          "end": "2023-07-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Middlesbrough",
+          "start": "2023-07-07",
+          "end": "2024-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2024-02-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "rayan-cherki": {
+      "transfermarktId": 607223,
+      "spells": [
+        {
+          "club": "Lyon",
+          "start": "2020-01-01",
+          "end": "2025-06-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2025-06-10",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "gavi": {
+      "transfermarktId": 646740,
+      "spells": [
+        {
+          "club": "Barcelona",
+          "start": "2021-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "enzo-fernandez": {
+      "transfermarktId": 648195,
+      "spells": [
+        {
+          "club": "Defensa",
+          "start": "2020-01-01",
+          "end": "2021-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "River Plate",
+          "start": "2021-07-01",
+          "end": "2022-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2022-07-14",
+          "end": "2023-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-01-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "hugo-ekitike": {
+      "transfermarktId": 709726,
+      "spells": [
+        {
+          "club": "Vejle BK",
+          "start": "2021-01-01",
+          "end": "2021-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stade Reims",
+          "start": "2021-07-01",
+          "end": "2022-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2022-07-16",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stade Reims",
+          "start": "2023-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-07-01",
+          "end": "2024-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Frankfurt",
+          "start": "2024-02-01",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2024-06-30",
+          "end": "2024-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Frankfurt",
+          "start": "2024-07-01",
+          "end": "2025-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2025-07-23",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "aleksandar-pavlovic": {
+      "transfermarktId": 792380,
+      "spells": [
+        {
+          "club": "Bayern Munich",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "arda-guler": {
+      "transfermarktId": 861410,
+      "spells": [
+        {
+          "club": "Fenerbahçe",
+          "start": "2021-01-01",
+          "end": "2023-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2023-07-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "yan-diomande": {
+      "transfermarktId": 1390649,
+      "spells": [
+        {
+          "club": "Yulee Hornets",
+          "start": "2022-01-01",
+          "end": "2025-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "CD Leganés",
+          "start": "2025-01-01",
+          "end": "2025-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2025-07-16",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "roberto-firmino": {
+      "transfermarktId": 131789,
+      "spells": [
+        {
+          "club": "Figueirense",
+          "start": "2009-01-01",
+          "end": "2011-01-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "TSG 1899 Hoffenheim",
+          "start": "2011-01-01",
+          "end": "2015-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2015-07-01",
+          "end": "2023-07-04",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Al-Ahli",
+          "start": "2023-07-04",
+          "end": "2025-07-23",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Al-Sadd",
+          "start": "2025-07-23",
+          "end": "",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "gareth-bale": {
+      "transfermarktId": 39381,
+      "spells": [
+        {
+          "club": "Southampton",
+          "start": "2006-01-01",
+          "end": "2007-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "start": "2007-07-01",
+          "end": "2013-09-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2013-09-01",
+          "end": "2020-09-19",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "start": "2020-09-19",
+          "end": "2021-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2021-06-30",
+          "end": "2022-07-07",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Los Angeles FC",
+          "start": "2022-07-07",
+          "end": "2023-01-09",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "marcus-rashford": {
+      "transfermarktId": 258923,
+      "spells": [
+        {
+          "club": "Man Utd",
+          "start": "2016-01-01",
+          "end": "2025-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2025-02-02",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-06-30",
+          "end": "2025-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2025-07-23",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "dusan-vlahovic": {
+      "transfermarktId": 357498,
+      "spells": [
+        {
+          "club": "Partizan",
+          "start": "2016-01-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fiorentina",
+          "start": "2018-07-01",
+          "end": "2022-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2022-01-28",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "luis-diaz": {
+      "transfermarktId": 480692,
+      "spells": [
+        {
+          "club": "Barranquilla FC",
+          "start": "2016-01-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Junior FC",
+          "start": "2017-07-01",
+          "end": "2019-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2019-07-10",
+          "end": "2022-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2022-01-30",
+          "end": "2025-07-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2025-07-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bruno-guimaraes": {
+      "transfermarktId": 520624,
+      "spells": [
+        {
+          "club": "GO Audax",
+          "start": "2020-01-01",
+          "end": "2017-05-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético-PR",
+          "start": "2017-05-11",
+          "end": "2020-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Athletico-PR",
+          "start": "",
+          "end": "2020-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lyon",
+          "start": "2020-01-30",
+          "end": "2022-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newcastle",
+          "start": "2022-01-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "gabriel-martinelli": {
+      "transfermarktId": 655488,
+      "spells": [
+        {
+          "club": "Ituano",
+          "start": "2018-01-01",
+          "end": "2019-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2019-07-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "casemiro": {
+      "transfermarktId": 16306,
+      "spells": [
+        {
+          "club": "São Paulo",
+          "start": "2010-01-01",
+          "end": "2013-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2013-01-31",
+          "end": "2013-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "São Paulo",
+          "start": "2013-06-30",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2013-07-01",
+          "end": "2014-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2014-07-19",
+          "end": "2015-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2015-06-30",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2015-07-01",
+          "end": "2015-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2015-07-02",
+          "end": "2022-08-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2022-08-22",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "james-rodriguez": {
+      "transfermarktId": 88103,
+      "spells": [
+        {
+          "club": "Envigado",
+          "start": "2007-01-01",
+          "end": "2009-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Banfield",
+          "start": "2009-01-01",
+          "end": "2010-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2010-07-06",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2013-07-01",
+          "end": "2014-07-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2014-07-22",
+          "end": "2017-07-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2017-07-12",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2019-06-30",
+          "end": "2020-09-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Everton",
+          "start": "2020-09-07",
+          "end": "2021-09-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Rayyan",
+          "start": "2021-09-22",
+          "end": "2022-09-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Olympiacos",
+          "start": "2022-09-15",
+          "end": "2023-07-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "São Paulo",
+          "start": "2023-07-29",
+          "end": "2024-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rayo Vallecano",
+          "start": "2024-08-26",
+          "end": "2025-01-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "León",
+          "start": "2025-01-13",
+          "end": "2026-02-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Minnesota",
+          "start": "2026-02-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "timo-werner": {
+      "transfermarktId": 170527,
+      "spells": [
+        {
+          "club": "Stuttgart",
+          "start": "2013-01-01",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2016-07-01",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2020-07-01",
+          "end": "2022-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2022-08-09",
+          "end": "2024-01-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2024-01-09",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2025-06-30",
+          "end": "2026-01-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "SJ Earthquakes",
+          "start": "2026-01-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "andrew-robertson": {
+      "transfermarktId": 234803,
+      "spells": [
+        {
+          "club": "Queen's Park",
+          "start": "2012-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dundee United",
+          "start": "2013-07-01",
+          "end": "2014-07-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hull City",
+          "start": "2014-07-29",
+          "end": "2017-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2017-07-21",
+          "end": "2026-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2026-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nicolo-barella": {
+      "transfermarktId": 255942,
+      "spells": [
+        {
+          "club": "Cagliari",
+          "start": "2014-01-01",
+          "end": "2016-01-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Como",
+          "start": "2016-01-05",
+          "end": "2016-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Cagliari",
+          "start": "2016-06-30",
+          "end": "2019-07-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2019-07-12",
+          "end": "2020-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Cagliari",
+          "start": "2020-08-31",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2020-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ruben-dias": {
+      "transfermarktId": 258004,
+      "spells": [
+        {
+          "club": "Estrela A. F",
+          "start": "2008-01-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2017-07-01",
+          "end": "2020-09-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2020-09-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marcos-llorente": {
+      "transfermarktId": 282411,
+      "spells": [
+        {
+          "club": "RM Castilla",
+          "start": "2014-01-01",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2016-07-01",
+          "end": "2016-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Alavés",
+          "start": "2016-08-10",
+          "end": "2017-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2017-06-30",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2019-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alessandro-bastoni": {
+      "transfermarktId": 315853,
+      "spells": [
+        {
+          "club": "Atalanta",
+          "start": "2017-01-01",
+          "end": "2017-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2017-08-31",
+          "end": "2017-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atalanta",
+          "start": "2017-08-31",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2018-06-30",
+          "end": "2018-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Parma",
+          "start": "2018-08-07",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2019-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "christopher-nkunku": {
+      "transfermarktId": 344381,
+      "spells": [
+        {
+          "club": "PSG",
+          "start": "2015-01-01",
+          "end": "2019-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2019-07-18",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2023-07-01",
+          "end": "2025-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2025-08-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "gabriel-jesus": {
+      "transfermarktId": 363205,
+      "spells": [
+        {
+          "club": "Palmeiras",
+          "start": "2015-01-01",
+          "end": "2017-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2017-01-01",
+          "end": "2022-07-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2022-07-04",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "sandro-tonali": {
+      "transfermarktId": 397033,
+      "spells": [
+        {
+          "club": "Lombardia uno",
+          "start": "2009-01-01",
+          "end": "2018-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brescia",
+          "start": "2018-01-01",
+          "end": "2020-09-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2020-09-09",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brescia",
+          "start": "2021-06-30",
+          "end": "2021-07-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2021-07-08",
+          "end": "2023-07-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newcastle",
+          "start": "2023-07-03",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "achraf-hakimi": {
+      "transfermarktId": 398073,
+      "spells": [
+        {
+          "club": "RM Castilla",
+          "start": "2016-01-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2017-07-01",
+          "end": "2018-07-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2018-07-11",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2020-06-30",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2020-09-01",
+          "end": "2021-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2021-07-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bryan-mbeumo": {
+      "transfermarktId": 413039,
+      "spells": [
+        {
+          "club": "Troyes",
+          "start": "2018-01-01",
+          "end": "2019-08-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brentford",
+          "start": "2019-08-05",
+          "end": "2025-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-07-21",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "martin-zubimendi": {
+      "transfermarktId": 423440,
+      "spells": [
+        {
+          "club": "Real Sociedad Y",
+          "start": "2011-01-01",
+          "end": "2020-09-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Sociedad",
+          "start": "2020-09-10",
+          "end": "2025-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2025-07-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alphonso-davies": {
+      "transfermarktId": 424204,
+      "spells": [
+        {
+          "club": "Whitecaps FC 2",
+          "start": "2016-01-01",
+          "end": "2016-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Vancouver",
+          "start": "2016-07-15",
+          "end": "2019-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2019-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ansu-fati": {
+      "transfermarktId": 466810,
+      "spells": [
+        {
+          "club": "Barcelona",
+          "start": "2020-01-01",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2023-09-01",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2024-06-30",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "josko-gvardiol": {
+      "transfermarktId": 475959,
+      "spells": [
+        {
+          "club": "NK Tresnjevka",
+          "start": "2010-01-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dinamo Zagreb",
+          "start": "2019-07-01",
+          "end": "2021-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2021-07-01",
+          "end": "2023-08-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2023-08-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "randal-kolo-muani": {
+      "transfermarktId": 487969,
+      "spells": [
+        {
+          "club": "FC Nantes",
+          "start": "2017-01-01",
+          "end": "2019-08-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "US Boulogne",
+          "start": "2019-08-22",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Nantes",
+          "start": "2020-06-30",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Frankfurt",
+          "start": "2022-07-01",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-09-01",
+          "end": "2025-01-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2025-01-23",
+          "end": "2025-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2025-07-15",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2025-09-01",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "xavi-simons": {
+      "transfermarktId": 566931,
+      "spells": [
+        {
+          "club": "PSG",
+          "start": "2022-01-01",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSV",
+          "start": "2022-07-01",
+          "end": "2023-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-07-18",
+          "end": "2023-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2023-07-19",
+          "end": "2025-01-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2025-01-29",
+          "end": "2025-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2025-01-30",
+          "end": "2025-08-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2025-08-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "antoine-semenyo": {
+      "transfermarktId": 583255,
+      "spells": [
+        {
+          "club": "Bath City",
+          "start": "2018-01-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bristol City",
+          "start": "2018-07-01",
+          "end": "2018-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newport County",
+          "start": "2018-07-18",
+          "end": "2019-01-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bristol City",
+          "start": "2019-01-27",
+          "end": "2020-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sunderland",
+          "start": "2020-01-31",
+          "end": "2020-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bristol City",
+          "start": "2020-05-31",
+          "end": "2023-01-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bournemouth",
+          "start": "2023-01-27",
+          "end": "2026-01-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2026-01-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nuno-mendes": {
+      "transfermarktId": 616341,
+      "spells": [
+        {
+          "club": "O Despertar Fo.",
+          "start": "2020-01-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sporting",
+          "start": "2019-07-01",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2021-08-31",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sporting",
+          "start": "2022-06-30",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2022-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "joao-pedro": {
+      "transfermarktId": 626724,
+      "spells": [
+        {
+          "club": "Fluminense",
+          "start": "2019-01-01",
+          "end": "2020-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Watford",
+          "start": "2020-01-01",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2023-07-01",
+          "end": "2025-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2025-07-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "willian-pacho": {
+      "transfermarktId": 661171,
+      "spells": [
+        {
+          "club": "Independiente",
+          "start": "2020-01-01",
+          "end": "2022-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Royal Antwerp",
+          "start": "2022-01-28",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Frankfurt",
+          "start": "2023-07-01",
+          "end": "2024-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2024-08-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "warren-zaire-emery": {
+      "transfermarktId": 810092,
+      "spells": [
+        {
+          "club": "PSG",
+          "start": "2022-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nico-paz": {
+      "transfermarktId": 948294,
+      "spells": [
+        {
+          "club": "CD Tenerife You",
+          "start": "2016-01-01",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2023-07-01",
+          "end": "2024-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Como",
+          "start": "2024-08-25",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "pau-cubarsi": {
+      "transfermarktId": 962110,
+      "spells": [
+        {
+          "club": "Barça Atlètic",
+          "start": "2023-01-01",
+          "end": "2024-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2024-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "estevao": {
+      "transfermarktId": 1056993,
+      "spells": [
+        {
+          "club": "Palmeiras",
+          "start": "2024-01-01",
+          "end": "2025-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2025-07-14",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "sergio-busquets": {
+      "transfermarktId": 65230,
+      "spells": [
+        {
+          "club": "Barcelona",
+          "start": "2008-01-01",
+          "end": "2023-07-16",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Inter Miami",
+          "start": "2023-07-16",
+          "end": "2026-05-01",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "raphael-varane": {
+      "transfermarktId": 164770,
+      "spells": [
+        {
+          "club": "Lens",
+          "start": "2010-01-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2011-07-01",
+          "end": "2021-08-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2021-08-14",
+          "end": "2024-12-31",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "toni-kroos": {
+      "transfermarktId": 31909,
+      "spells": [
+        {
+          "club": "Bayern Munich",
+          "start": "2007-01-01",
+          "end": "2009-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "B. Leverkusen",
+          "start": "2009-01-31",
+          "end": "2010-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2010-06-30",
+          "end": "2014-07-17",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2014-07-17",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "sergio-aguero": {
+      "transfermarktId": 26399,
+      "spells": [
+        {
+          "club": "Independiente",
+          "start": "2003-01-01",
+          "end": "2006-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Atletico Madrid",
+          "start": "2006-07-01",
+          "end": "2011-07-28",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Manchester City",
+          "start": "2011-07-28",
+          "end": "2021-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2021-07-01",
+          "end": "2021-12-15",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "thomas-muller": {
+      "transfermarktId": 58358,
+      "spells": [
+        {
+          "club": "Bayern Munich",
+          "start": "2009-01-01",
+          "end": "2025-08-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Vancouver",
+          "start": "2025-08-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "pierre-emerick-aubameyang": {
+      "transfermarktId": 58864,
+      "spells": [
+        {
+          "club": "AC Milan",
+          "start": "2008-01-01",
+          "end": "2008-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dijon",
+          "start": "2008-07-02",
+          "end": "2009-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2009-06-30",
+          "end": "2009-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2009-07-01",
+          "end": "2010-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2010-06-30",
+          "end": "2010-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2010-07-06",
+          "end": "2011-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2011-01-30",
+          "end": "2011-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Saint-Étienne",
+          "start": "2011-01-31",
+          "end": "2011-12-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2011-12-31",
+          "end": "2012-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Saint-Étienne",
+          "start": "2012-01-01",
+          "end": "2013-07-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Dortmund",
+          "start": "2013-07-04",
+          "end": "2018-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2018-01-31",
+          "end": "2022-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2022-01-31",
+          "end": "2022-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2022-09-01",
+          "end": "2023-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Marseille",
+          "start": "2023-07-21",
+          "end": "2024-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Qadsiah",
+          "start": "2024-07-18",
+          "end": "2025-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Marseille",
+          "start": "2025-07-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kalidou-koulibaly": {
+      "transfermarktId": 93128,
+      "spells": [
+        {
+          "club": "SR Saint-Dié",
+          "start": "2006-01-01",
+          "end": "2010-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Metz",
+          "start": "2010-07-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Genk",
+          "start": "2012-07-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2014-07-01",
+          "end": "2022-07-16",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2022-07-16",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "thibaut-courtois": {
+      "transfermarktId": 108390,
+      "spells": [
+        {
+          "club": "Genk",
+          "start": "2009-01-01",
+          "end": "2011-07-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2011-07-26",
+          "end": "2011-07-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2011-07-27",
+          "end": "2014-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2014-06-30",
+          "end": "2018-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2018-08-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "aymeric-laporte": {
+      "transfermarktId": 176553,
+      "spells": [
+        {
+          "club": "CD Basconia",
+          "start": "2011-01-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bilbao Athletic",
+          "start": "2012-07-01",
+          "end": "2012-12-17",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Athletic Club",
+          "start": "2012-12-17",
+          "end": "2018-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2018-01-30",
+          "end": "2023-08-24",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Nassr",
+          "start": "2023-08-24",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Athletic Club",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marquinhos": {
+      "transfermarktId": 181767,
+      "spells": [
+        {
+          "club": "Corinthians",
+          "start": "2012-01-01",
+          "end": "2012-08-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2012-08-21",
+          "end": "2013-01-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Corinthians",
+          "start": "2013-01-02",
+          "end": "2013-01-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2013-01-03",
+          "end": "2013-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2013-07-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marcus-thuram": {
+      "transfermarktId": 318528,
+      "spells": [
+        {
+          "club": "FC Sochaux",
+          "start": "2015-01-01",
+          "end": "2017-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Guingamp",
+          "start": "2017-07-05",
+          "end": "2019-07-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Mönchengladbach",
+          "start": "2019-07-22",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "viktor-gyokeres": {
+      "transfermarktId": 325443,
+      "spells": [
+        {
+          "club": "Brommapojkarna",
+          "start": "2016-01-01",
+          "end": "2018-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2018-01-01",
+          "end": "2019-07-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "St. Pauli",
+          "start": "2019-07-25",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2020-06-30",
+          "end": "2020-10-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Swansea",
+          "start": "2020-10-02",
+          "end": "2021-01-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2021-01-14",
+          "end": "2021-01-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Coventry",
+          "start": "2021-01-15",
+          "end": "2021-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Brighton",
+          "start": "2021-05-31",
+          "end": "2021-07-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Coventry",
+          "start": "2021-07-09",
+          "end": "2023-07-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sporting",
+          "start": "2023-07-13",
+          "end": "2025-07-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2025-07-26",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "matthijs-de-ligt": {
+      "transfermarktId": 326031,
+      "spells": [
+        {
+          "club": "Ajax",
+          "start": "2017-01-01",
+          "end": "2019-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2019-07-18",
+          "end": "2022-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2022-07-19",
+          "end": "2024-08-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2024-08-13",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nicolas-pepe": {
+      "transfermarktId": 343052,
+      "spells": [
+        {
+          "club": "Stade Poitevin",
+          "start": "2012-01-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Angers SCO",
+          "start": "2015-07-01",
+          "end": "2015-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "US Orléans",
+          "start": "2015-07-02",
+          "end": "2016-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Angers SCO",
+          "start": "2016-06-30",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2017-07-01",
+          "end": "2019-08-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2019-08-01",
+          "end": "2022-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nice",
+          "start": "2022-08-25",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2023-06-30",
+          "end": "2023-09-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Trabzonspor",
+          "start": "2023-09-08",
+          "end": "2024-08-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Villarreal",
+          "start": "2024-08-04",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "mason-mount": {
+      "transfermarktId": 346483,
+      "spells": [
+        {
+          "club": "Vitesse",
+          "start": "2017-01-01",
+          "end": "2018-07-17",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Derby",
+          "start": "2018-07-17",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2019-07-01",
+          "end": "2023-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2023-07-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "gabriel": {
+      "transfermarktId": 435338,
+      "spells": [
+        {
+          "club": "Avaí FC",
+          "start": "2006-01-01",
+          "end": "2017-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2017-01-31",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Troyes",
+          "start": "2017-07-01",
+          "end": "2018-02-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lille",
+          "start": "2018-02-14",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2020-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "omar-marmoush": {
+      "transfermarktId": 445939,
+      "spells": [
+        {
+          "club": "Wadi Degla ",
+          "start": "2016-01-01",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2020-07-01",
+          "end": "2021-01-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "St. Pauli",
+          "start": "2021-01-05",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2021-06-30",
+          "end": "2021-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stuttgart",
+          "start": "2021-08-30",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolfsburg",
+          "start": "2022-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Frankfurt",
+          "start": "2023-07-01",
+          "end": "2025-01-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2025-01-23",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jeremy-doku": {
+      "transfermarktId": 486049,
+      "spells": [
+        {
+          "club": "RSC Anderlecht",
+          "start": "2019-01-01",
+          "end": "2020-10-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stade Rennais",
+          "start": "2020-10-05",
+          "end": "2023-08-24",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2023-08-24",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "matheus-cunha": {
+      "transfermarktId": 517894,
+      "spells": [
+        {
+          "club": "FC Sion",
+          "start": "2017-01-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2018-07-01",
+          "end": "2020-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hertha BSC",
+          "start": "2020-01-31",
+          "end": "2021-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2021-08-25",
+          "end": "2023-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolves",
+          "start": "2023-01-01",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2023-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolves",
+          "start": "2023-07-01",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "elliot-anderson": {
+      "transfermarktId": 567576,
+      "spells": [
+        {
+          "club": "Bristol Rovers",
+          "start": "2022-01-01",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newcastle",
+          "start": "2022-07-01",
+          "end": "2024-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nott'm Forest",
+          "start": "2024-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "antony": {
+      "transfermarktId": 602105,
+      "spells": [
+        {
+          "club": "São Paulo",
+          "start": "2019-01-01",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Ajax",
+          "start": "2020-07-01",
+          "end": "2022-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2022-08-30",
+          "end": "2025-01-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Betis",
+          "start": "2025-01-25",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-06-30",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Betis",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "benjamin-sesko": {
+      "transfermarktId": 627442,
+      "spells": [
+        {
+          "club": "Salzburg",
+          "start": "2019-01-01",
+          "end": "2019-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Liefering",
+          "start": "2019-07-02",
+          "end": "2021-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Salzburg",
+          "start": "2021-06-30",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2023-07-01",
+          "end": "2025-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2025-08-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kenan-yildiz": {
+      "transfermarktId": 845654,
+      "spells": [
+        {
+          "club": "Juventus",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marco-verratti": {
+      "transfermarktId": 102558,
+      "spells": [
+        {
+          "club": "Pescara",
+          "start": "2008-01-01",
+          "end": "2012-07-18",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "start": "2012-07-18",
+          "end": "2023-09-13",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Al-Arabi",
+          "start": "2023-09-13",
+          "end": "2025-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Al-Duhail",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "lorenzo-insigne": {
+      "transfermarktId": 133964,
+      "spells": [
+        {
+          "club": "Napoli",
+          "start": "2009-01-01",
+          "end": "2010-02-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Cavese",
+          "start": "2010-02-01",
+          "end": "2010-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Foggia",
+          "start": "2010-07-01",
+          "end": "2011-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Pescara",
+          "start": "2011-07-01",
+          "end": "2012-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Napoli",
+          "start": "2012-07-01",
+          "end": "2022-07-07",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Toronto FC",
+          "start": "2022-07-07",
+          "end": "2025-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Pescara",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "gonzalo-higuain": {
+      "transfermarktId": 39153,
+      "spells": [
+        {
+          "club": "River Plate",
+          "start": "2005-01-01",
+          "end": "2007-01-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2007-01-01",
+          "end": "2013-07-27",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Napoli",
+          "start": "2013-07-27",
+          "end": "2016-07-26",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Juventus",
+          "start": "2016-07-26",
+          "end": "2018-08-02",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2018-08-02",
+          "end": "2019-01-23",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2019-01-23",
+          "end": "2019-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Juventus",
+          "start": "2019-06-30",
+          "end": "2020-09-18",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Inter Miami",
+          "start": "2020-09-18",
+          "end": "2022-10-03",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "alexis-sanchez": {
+      "transfermarktId": 40433,
+      "spells": [
+        {
+          "club": "Cobreloa",
+          "start": "2005-01-01",
+          "end": "2006-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2006-07-01",
+          "end": "2006-07-11",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Colo-Colo",
+          "start": "2006-07-11",
+          "end": "2007-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2007-06-30",
+          "end": "2007-08-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "River Plate",
+          "start": "2007-08-15",
+          "end": "2008-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2008-06-30",
+          "end": "2011-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2011-07-21",
+          "end": "2014-07-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2014-07-10",
+          "end": "2018-01-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2018-01-22",
+          "end": "2019-08-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2019-08-29",
+          "end": "2020-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2020-08-31",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2020-09-01",
+          "end": "2022-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Marseille",
+          "start": "2022-08-10",
+          "end": "2023-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2023-08-26",
+          "end": "2024-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Udinese",
+          "start": "2024-08-10",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "david-de-gea": {
+      "transfermarktId": 59377,
+      "spells": [
+        {
+          "club": "Atl. Madrileño",
+          "start": "2014-01-01",
+          "end": "2009-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2009-07-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2011-07-01",
+          "end": "2024-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fiorentina",
+          "start": "2024-08-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "koke": {
+      "transfermarktId": 74229,
+      "spells": [
+        {
+          "club": "Atl. Madrileño",
+          "start": "2008-01-01",
+          "end": "2011-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2011-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alexandre-lacazette": {
+      "transfermarktId": 93720,
+      "spells": [
+        {
+          "club": "Lyon",
+          "start": "2009-01-01",
+          "end": "2017-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2017-07-05",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lyon",
+          "start": "2022-07-01",
+          "end": "2025-07-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "NEOM SC",
+          "start": "2025-07-03",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "leon-goretzka": {
+      "transfermarktId": 153084,
+      "spells": [
+        {
+          "club": "VfL Bochum",
+          "start": "2012-01-01",
+          "end": "2013-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Schalke 04",
+          "start": "2013-07-02",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2018-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "harry-maguire": {
+      "transfermarktId": 177907,
+      "spells": [
+        {
+          "club": "Sheff Utd",
+          "start": "2011-01-01",
+          "end": "2014-07-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hull City",
+          "start": "2014-07-29",
+          "end": "2015-02-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wigan",
+          "start": "2015-02-10",
+          "end": "2015-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hull City",
+          "start": "2015-05-31",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leicester",
+          "start": "2017-07-01",
+          "end": "2019-08-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2019-08-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "joao-cancelo": {
+      "transfermarktId": 182712,
+      "spells": [
+        {
+          "club": "Barreirense J",
+          "start": "2007-01-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2014-07-01",
+          "end": "2014-08-20",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Valencia",
+          "start": "2014-08-20",
+          "end": "2015-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2015-06-30",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Valencia",
+          "start": "2015-07-01",
+          "end": "2017-08-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2017-08-22",
+          "end": "2018-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Valencia",
+          "start": "2018-06-30",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2018-07-01",
+          "end": "2019-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2019-08-07",
+          "end": "2023-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2023-01-31",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2023-06-30",
+          "end": "2023-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2023-09-01",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2024-06-30",
+          "end": "2024-08-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2024-08-27",
+          "end": "2026-01-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2026-01-13",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "thomas-lemar": {
+      "transfermarktId": 205562,
+      "spells": [
+        {
+          "club": "Solidarité ",
+          "start": "2010-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "SM Caen",
+          "start": "2013-07-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2015-07-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2018-07-01",
+          "end": "2025-07-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Girona",
+          "start": "2025-07-30",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "fabinho": {
+      "transfermarktId": 225693,
+      "spells": [
+        {
+          "club": "Paulínia-SP",
+          "start": "2011-01-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rio Ave",
+          "start": "2012-07-01",
+          "end": "2012-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RM Castilla",
+          "start": "2012-07-19",
+          "end": "2013-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rio Ave",
+          "start": "2013-06-30",
+          "end": "2013-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2013-07-19",
+          "end": "2015-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rio Ave",
+          "start": "2015-06-30",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monaco",
+          "start": "2015-07-01",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2018-07-01",
+          "end": "2023-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Ittihad",
+          "start": "2023-07-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ederson": {
+      "transfermarktId": 238223,
+      "spells": [
+        {
+          "club": "GD Ribeirão",
+          "start": "2011-01-01",
+          "end": "2012-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rio Ave",
+          "start": "2012-07-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2015-07-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2017-07-01",
+          "end": "2025-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fenerbahçe",
+          "start": "2025-09-02",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jose-maria-gimenez": {
+      "transfermarktId": 250845,
+      "spells": [
+        {
+          "club": "Danubio FC",
+          "start": "2012-01-01",
+          "end": "2013-04-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2013-04-25",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "lucas-hernandez": {
+      "transfermarktId": 281963,
+      "spells": [
+        {
+          "club": "Atl. Madrileño",
+          "start": "2014-01-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2015-07-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2019-07-01",
+          "end": "2023-07-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-07-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "james-maddison": {
+      "transfermarktId": 294057,
+      "spells": [
+        {
+          "club": "Coventry",
+          "start": "2014-01-01",
+          "end": "2016-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Norwich",
+          "start": "2016-02-01",
+          "end": "2016-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Coventry",
+          "start": "2016-02-02",
+          "end": "2016-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Norwich",
+          "start": "2016-05-31",
+          "end": "2016-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aberdeen FC",
+          "start": "2016-08-31",
+          "end": "2017-01-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Norwich",
+          "start": "2017-01-02",
+          "end": "2018-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leicester",
+          "start": "2018-07-01",
+          "end": "2023-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Tottenham",
+          "start": "2023-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "federico-chiesa": {
+      "transfermarktId": 341092,
+      "spells": [
+        {
+          "club": "Fiorentina",
+          "start": "2016-01-01",
+          "end": "2020-10-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2020-10-05",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fiorentina",
+          "start": "2022-06-30",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2022-07-01",
+          "end": "2024-08-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2024-08-29",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "dayot-upamecano": {
+      "transfermarktId": 344695,
+      "spells": [
+        {
+          "club": "Salzburg",
+          "start": "2015-01-01",
+          "end": "2017-01-13",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Leipzig",
+          "start": "2017-01-13",
+          "end": "2021-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2021-07-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "mikel-oyarzabal": {
+      "transfermarktId": 351478,
+      "spells": [
+        {
+          "club": "Real Sociedad Y",
+          "start": "2011-01-01",
+          "end": "2016-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Sociedad",
+          "start": "2016-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "arthur-melo": {
+      "transfermarktId": 362842,
+      "spells": [
+        {
+          "club": "Grêmio",
+          "start": "2017-01-01",
+          "end": "2018-07-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2018-07-09",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2020-09-01",
+          "end": "2022-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2022-09-01",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2023-06-30",
+          "end": "2023-07-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fiorentina",
+          "start": "2023-07-22",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2024-06-30",
+          "end": "2025-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Girona",
+          "start": "2025-02-01",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2025-06-30",
+          "end": "2025-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Grêmio",
+          "start": "2025-08-26",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marc-guehi": {
+      "transfermarktId": 392757,
+      "spells": [
+        {
+          "club": "Chelsea",
+          "start": "2020-01-01",
+          "end": "2020-01-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Swansea",
+          "start": "2020-01-10",
+          "end": "2020-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2020-07-31",
+          "end": "2020-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Swansea",
+          "start": "2020-08-26",
+          "end": "2021-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2021-05-31",
+          "end": "2021-07-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Crystal Palace",
+          "start": "2021-07-18",
+          "end": "2026-01-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2026-01-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "eder-militao": {
+      "transfermarktId": 401530,
+      "spells": [
+        {
+          "club": "São Paulo",
+          "start": "2017-01-01",
+          "end": "2018-08-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Porto",
+          "start": "2018-08-07",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2019-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jurrien-timber": {
+      "transfermarktId": 420243,
+      "spells": [
+        {
+          "club": "Ajax",
+          "start": "2020-01-01",
+          "end": "2023-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2023-07-14",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "morgan-gibbs-white": {
+      "transfermarktId": 429014,
+      "spells": [
+        {
+          "club": "Wolves",
+          "start": "2017-01-01",
+          "end": "2020-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Swansea",
+          "start": "2020-08-25",
+          "end": "2021-01-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolves",
+          "start": "2021-01-06",
+          "end": "2021-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sheff Utd",
+          "start": "2021-08-31",
+          "end": "2022-05-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Wolves",
+          "start": "2022-05-31",
+          "end": "2022-08-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nott'm Forest",
+          "start": "2022-08-19",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "cody-gakpo": {
+      "transfermarktId": 434675,
+      "spells": [
+        {
+          "club": "PSV",
+          "start": "2018-01-01",
+          "end": "2023-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "douglas-luiz": {
+      "transfermarktId": 447661,
+      "spells": [
+        {
+          "club": "Vasco da Gama",
+          "start": "2016-01-01",
+          "end": "2017-07-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2017-07-15",
+          "end": "2017-08-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Girona",
+          "start": "2017-08-01",
+          "end": "2019-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2019-06-30",
+          "end": "2019-07-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2019-07-25",
+          "end": "2024-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2024-07-01",
+          "end": "2025-08-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Nott'm Forest",
+          "start": "2025-08-21",
+          "end": "2026-01-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2026-01-27",
+          "end": "2026-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Aston Villa",
+          "start": "2026-01-28",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nick-woltemade": {
+      "transfermarktId": 455661,
+      "spells": [
+        {
+          "club": "Werder Bremen",
+          "start": "2020-01-01",
+          "end": "2022-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "SV Elversberg",
+          "start": "2022-08-30",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Werder Bremen",
+          "start": "2023-06-30",
+          "end": "2024-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Stuttgart",
+          "start": "2024-07-01",
+          "end": "2025-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Newcastle",
+          "start": "2025-08-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "tijjani-reijnders": {
+      "transfermarktId": 460939,
+      "spells": [
+        {
+          "club": "CSV '28",
+          "start": "2015-01-01",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PEC Zwolle",
+          "start": "2017-07-01",
+          "end": "2018-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AZ Alkmaar",
+          "start": "2018-01-01",
+          "end": "2020-01-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "RKC Waalwijk",
+          "start": "2020-01-02",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AZ Alkmaar",
+          "start": "2020-06-30",
+          "end": "2023-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2023-07-19",
+          "end": "2025-06-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2025-06-10",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "reece-james": {
+      "transfermarktId": 472423,
+      "spells": [
+        {
+          "club": "Wigan",
+          "start": "2018-01-01",
+          "end": "2019-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2019-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ronald-araujo": {
+      "transfermarktId": 480267,
+      "spells": [
+        {
+          "club": "Rentistas",
+          "start": "2016-01-01",
+          "end": "2017-07-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Boston River",
+          "start": "2017-07-28",
+          "end": "2020-10-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2020-10-05",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "darwin-nunez": {
+      "transfermarktId": 546543,
+      "spells": [
+        {
+          "club": "Peñarol",
+          "start": "2017-01-01",
+          "end": "2019-08-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "UD Almería",
+          "start": "2019-08-29",
+          "end": "2020-09-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2020-09-04",
+          "end": "2022-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2022-07-01",
+          "end": "2025-08-09",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Hilal",
+          "start": "2025-08-09",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "bradley-barcola": {
+      "transfermarktId": 708265,
+      "spells": [
+        {
+          "club": "Lyon",
+          "start": "2022-01-01",
+          "end": "2023-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-08-31",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nico-williams": {
+      "transfermarktId": 709187,
+      "spells": [
+        {
+          "club": "Bilbao Athletic",
+          "start": "2020-01-01",
+          "end": "2021-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Athletic Club",
+          "start": "2021-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nico-oreilly": {
+      "transfermarktId": 743413,
+      "spells": [
+        {
+          "club": "Man City",
+          "start": "2024-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "adam-wharton": {
+      "transfermarktId": 744149,
+      "spells": [
+        {
+          "club": "Blackburn",
+          "start": "2022-01-01",
+          "end": "2024-02-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Crystal Palace",
+          "start": "2024-02-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kobbie-mainoo": {
+      "transfermarktId": 820374,
+      "spells": [
+        {
+          "club": "Man Utd",
+          "start": "2023-01-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "dean-huijsen": {
+      "transfermarktId": 890290,
+      "spells": [
+        {
+          "club": "Juventus",
+          "start": "2023-01-01",
+          "end": "2024-01-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2024-01-06",
+          "end": "2024-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2024-06-30",
+          "end": "2024-07-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bournemouth",
+          "start": "2024-07-30",
+          "end": "2025-06-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2025-06-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "junior-kroupi": {
+      "transfermarktId": 955357,
+      "spells": [
+        {
+          "club": "FC Lorient",
+          "start": "2023-01-01",
+          "end": "2025-02-03",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bournemouth",
+          "start": "2025-02-03",
+          "end": "2025-02-04",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Lorient",
+          "start": "2025-02-04",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bournemouth",
+          "start": "2025-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "ivan-rakitic": {
+      "transfermarktId": 32467,
+      "spells": [
+        {
+          "club": "FC Basel",
+          "start": "2007-01-01",
+          "end": "2007-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Schalke 04",
+          "start": "2007-07-01",
+          "end": "2011-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2011-01-28",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2014-07-01",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2020-09-01",
+          "end": "2024-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Shabab",
+          "start": "2024-01-30",
+          "end": "2024-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hajduk Split",
+          "start": "2024-07-21",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "miralem-pjanic": {
+      "transfermarktId": 44162,
+      "spells": [
+        {
+          "club": "FC Metz",
+          "start": "2007-01-01",
+          "end": "2008-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lyon",
+          "start": "2008-07-01",
+          "end": "2011-08-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Roma",
+          "start": "2011-08-31",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2016-07-01",
+          "end": "2020-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2020-09-01",
+          "end": "2021-09-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Besiktas",
+          "start": "2021-09-02",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2022-06-30",
+          "end": "2022-09-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sharjah FC",
+          "start": "2022-09-07",
+          "end": "2024-09-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "CSKA Moscow",
+          "start": "2024-09-26",
+          "end": "2025-12-31",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jordi-alba": {
+      "transfermarktId": 69751,
+      "spells": [
+        {
+          "club": "Valencia",
+          "start": "2007-01-01",
+          "end": "2008-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Gimnastic",
+          "start": "2008-07-01",
+          "end": "2009-06-30",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Valencia",
+          "start": "2009-06-30",
+          "end": "2012-07-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2012-07-01",
+          "end": "2023-07-20",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Inter Miami",
+          "start": "2023-07-20",
+          "end": "2026-05-01",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "samuel-umtiti": {
+      "transfermarktId": 126540,
+      "spells": [
+        {
+          "club": "Olympique Lyon",
+          "start": "2012-01-01",
+          "end": "2016-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2016-07-14",
+          "end": "2022-08-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Lecce",
+          "start": "2022-08-25",
+          "end": "2023-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2023-06-30",
+          "end": "2023-07-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "LOSC Lille",
+          "start": "2023-07-22",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "nabil-fekir": {
+      "transfermarktId": 203496,
+      "spells": [
+        {
+          "club": "Villeurbanne EL",
+          "start": "2001-01-01",
+          "end": "2001-09-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Vaulx-en-Vel",
+          "start": "2001-09-15",
+          "end": "2003-09-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Caluire",
+          "start": "2003-09-28",
+          "end": "2007-07-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC Vaulx-en-Vel",
+          "start": "2007-07-31",
+          "end": "2010-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AS Saint-Priest",
+          "start": "2010-08-10",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Olympique Lyon",
+          "start": "2013-07-01",
+          "end": "2019-07-23",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Betis",
+          "start": "2019-07-23",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "thiago-alcantara": {
+      "transfermarktId": 60444,
+      "spells": [
+        {
+          "club": "Barça Atlètic",
+          "start": "2008-01-01",
+          "end": "2011-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Barcelona",
+          "start": "2011-07-01",
+          "end": "2013-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2013-07-14",
+          "end": "2020-09-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Liverpool",
+          "start": "2020-09-18",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "marcelo": {
+      "transfermarktId": 44501,
+      "spells": [
+        {
+          "club": "Fluminense",
+          "start": "2005-01-01",
+          "end": "2007-01-01",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2007-01-01",
+          "end": "2022-09-02",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Olympiacos",
+          "start": "2022-09-02",
+          "end": "2023-02-24",
+          "source": "curated-transfermarkt-career"
+        },
+        {
+          "club": "Fluminense",
+          "start": "2023-02-24",
+          "end": "2024-11-02",
+          "source": "curated-transfermarkt-career"
+        }
+      ]
+    },
+    "angel-di-maria": {
+      "transfermarktId": 45320,
+      "spells": [
+        {
+          "club": "Rosario Central",
+          "start": "2006-01-01",
+          "end": "2007-07-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2007-07-27",
+          "end": "2010-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2010-07-01",
+          "end": "2014-08-26",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2014-08-26",
+          "end": "2015-08-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2015-08-06",
+          "end": "2022-07-08",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2022-07-08",
+          "end": "2023-07-05",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Benfica",
+          "start": "2023-07-05",
+          "end": "2025-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Rosario Central",
+          "start": "2025-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "david-alaba": {
+      "transfermarktId": 59016,
+      "spells": [
+        {
+          "club": "Bayern Munich",
+          "start": "2010-01-01",
+          "end": "2011-01-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hoffenheim",
+          "start": "2011-01-01",
+          "end": "2011-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2011-06-30",
+          "end": "2021-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2021-07-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "jorginho": {
+      "transfermarktId": 102017,
+      "spells": [
+        {
+          "club": "Hellas Verona",
+          "start": "2010-01-01",
+          "end": "2010-07-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sambonifacese",
+          "start": "2010-07-02",
+          "end": "2011-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Hellas Verona",
+          "start": "2011-06-30",
+          "end": "2014-01-18",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Napoli",
+          "start": "2014-01-18",
+          "end": "2018-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2018-07-14",
+          "end": "2023-01-31",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Arsenal",
+          "start": "2023-01-31",
+          "end": "2025-06-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Flamengo",
+          "start": "2025-06-06",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "alvaro-morata": {
+      "transfermarktId": 128223,
+      "spells": [
+        {
+          "club": "RM Castilla",
+          "start": "2010-01-01",
+          "end": "2013-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2013-07-01",
+          "end": "2014-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2014-07-19",
+          "end": "2016-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Real Madrid",
+          "start": "2016-07-01",
+          "end": "2017-07-21",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2017-07-21",
+          "end": "2019-01-28",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2019-01-28",
+          "end": "2020-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Chelsea",
+          "start": "2020-06-30",
+          "end": "2020-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2020-07-01",
+          "end": "2020-09-22",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2020-09-22",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Atlético",
+          "start": "2022-06-30",
+          "end": "2024-07-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2024-07-19",
+          "end": "2025-02-02",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Galatasaray",
+          "start": "2025-02-02",
+          "end": "2025-08-10",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2025-08-10",
+          "end": "2025-08-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Como",
+          "start": "2025-08-12",
+          "end": "2026-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2026-06-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "anthony-martial": {
+      "transfermarktId": 182877,
+      "spells": [
+        {
+          "club": "Monaco",
+          "start": "2013-01-01",
+          "end": "2015-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2015-09-01",
+          "end": "2022-01-25",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sevilla FC",
+          "start": "2022-01-25",
+          "end": "2022-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man Utd",
+          "start": "2022-06-30",
+          "end": "2024-09-19",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AEK Athens",
+          "start": "2024-09-19",
+          "end": "2025-09-12",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Monterrey",
+          "start": "2025-09-12",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "milan-skriniar": {
+      "transfermarktId": 204069,
+      "spells": [
+        {
+          "club": "MSK Zilina",
+          "start": "2012-01-01",
+          "end": "2013-02-27",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "FC ViOn",
+          "start": "2013-02-27",
+          "end": "2013-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "MSK Zilina",
+          "start": "2013-06-30",
+          "end": "2016-01-29",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Sampdoria",
+          "start": "2016-01-29",
+          "end": "2017-07-07",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Inter",
+          "start": "2017-07-07",
+          "end": "2023-07-06",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2023-07-06",
+          "end": "2025-01-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fenerbahçe",
+          "start": "2025-01-30",
+          "end": "2025-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2025-06-30",
+          "end": "2025-07-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Fenerbahçe",
+          "start": "2025-07-30",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "kingsley-coman": {
+      "transfermarktId": 243714,
+      "spells": [
+        {
+          "club": "PSG",
+          "start": "2013-01-01",
+          "end": "2014-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2014-07-01",
+          "end": "2015-08-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2015-08-30",
+          "end": "2017-06-30",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Juventus",
+          "start": "2017-06-30",
+          "end": "2017-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Bayern Munich",
+          "start": "2017-07-01",
+          "end": "2025-08-15",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Al-Nassr",
+          "start": "2025-08-15",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    },
+    "gianluigi-donnarumma": {
+      "transfermarktId": 315858,
+      "spells": [
+        {
+          "club": "Castellammare",
+          "start": "2013-01-01",
+          "end": "2015-07-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "AC Milan",
+          "start": "2015-07-01",
+          "end": "2021-07-14",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "PSG",
+          "start": "2021-07-14",
+          "end": "2025-09-01",
+          "source": "transfermarkt-transfers"
+        },
+        {
+          "club": "Man City",
+          "start": "2025-09-01",
+          "end": "",
+          "source": "transfermarkt-transfers"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "players": {
+    "lionel-messi": {
+      "currentClub": "迈阿密国际",
+      "currentValue": "€18m",
+      "caps": 193,
+      "nationalGoals": 112,
+      "birthDate": "1987-06-24",
+      "height": "1.70m",
+      "foot": "左脚",
+      "theme": { "primary": "#18233d", "secondary": "#6c4fa0", "accent": "#75bde8" },
+      "clubs": [
+        { "club": "巴塞罗那", "period": "2004–2021", "appearances": 778, "goals": 672 },
+        { "club": "巴黎圣日耳曼", "period": "2021–2023", "appearances": 75, "goals": 32 },
+        { "club": "迈阿密国际", "period": "2023–至今", "note": "2023 年加盟美职联" }
+      ],
+      "marketValues": [
+        { "year": 2005, "value": 3, "club": "巴塞罗那" },
+        { "year": 2008, "value": 55, "club": "巴塞罗那" },
+        { "year": 2010, "value": 100, "club": "巴塞罗那" },
+        { "year": 2012, "value": 120, "club": "巴塞罗那" },
+        { "year": 2014, "value": 120, "club": "巴塞罗那" },
+        { "year": 2016, "value": 120, "club": "巴塞罗那" },
+        { "year": 2018, "value": 180, "club": "巴塞罗那" },
+        { "year": 2020, "value": 100, "club": "巴塞罗那" },
+        { "year": 2021, "value": 80, "club": "巴黎圣日耳曼" },
+        { "year": 2023, "value": 35, "club": "迈阿密国际" },
+        { "year": 2025, "value": 18, "club": "迈阿密国际" }
+      ],
+      "honorGroups": [
+        { "category": "俱乐部荣誉", "total": 39, "items": [
+          { "title": "欧洲冠军联赛", "count": 4, "years": "2006, 2009, 2011, 2015" },
+          { "title": "西班牙甲级联赛", "count": 10, "years": "2005, 2006, 2009, 2010, 2011, 2013, 2015, 2016, 2018, 2019" },
+          { "title": "西班牙国王杯", "count": 7, "years": "2009, 2012, 2015, 2016, 2017, 2018, 2021" },
+          { "title": "西班牙超级杯", "count": 8, "years": "2005, 2006, 2009, 2010, 2011, 2013, 2016, 2018" },
+          { "title": "国际足联俱乐部世界杯", "count": 3, "years": "2009, 2011, 2015" },
+          { "title": "欧洲超级杯", "count": 3, "years": "2009, 2011, 2015" },
+          { "title": "法国甲级联赛", "count": 2, "years": "2022, 2023" },
+          { "title": "法国超级杯", "count": 1, "years": "2022" },
+          { "title": "北美联赛杯", "count": 1, "years": "2023" }
+        ]},
+        { "category": "国家队荣誉", "total": 6, "items": [
+          { "title": "世界杯冠军", "count": 1, "years": "2022" },
+          { "title": "美洲杯冠军", "count": 2, "years": "2021, 2024" },
+          { "title": "欧美杯冠军", "count": 1, "years": "2022" },
+          { "title": "奥运会金牌", "count": 1, "years": "2008" },
+          { "title": "U20 世界杯冠军", "count": 1, "years": "2005" }
+        ]},
+        { "category": "个人奖项", "total": 18, "items": [
+          { "title": "金球奖", "count": 8, "years": "2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023" },
+          { "title": "FIFA 世界足球先生", "count": 4, "years": "2009, 2019, 2022, 2023" },
+          { "title": "欧洲金靴奖", "count": 6, "years": "2010, 2012, 2013, 2017, 2018, 2019" }
+        ]}
+      ],
+      "sources": [
+        { "label": "Transfermarkt 球员资料与身价", "url": "https://www.transfermarkt.com/lionel-messi/profil/spieler/28003" },
+        { "label": "FC Barcelona 球员档案", "url": "https://www.fcbarcelona.com/en/card/2214377/leo-messi" },
+        { "label": "FIFA 球员与赛事资料", "url": "https://www.fifa.com/" }
+      ]
+    }
+  }
+}

@@ -1,3 +1,8 @@
+import generatedStatbunkerRosterStats from './generated/statbunker-roster-stats.json'
+import generatedPlayerIdentities from './generated/player-identities.json'
+import { formatClubName } from './club-names'
+import { buildFeaturedBiographySupplement, buildPlayerBiography, formatNationName } from './player-biography'
+
 export type Player = {
   slug: string
   name: string
@@ -21,7 +26,7 @@ export type Player = {
 
 const commons = (file: string) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=1000`
 
-export const players: Player[] = [
+export const featuredPlayers: Player[] = [
   {
     slug: 'lionel-messi', name: 'Lionel Messi', zh: '梅西', aliases: ['里奥梅西', '莱昂内尔梅西', 'messi'], nation: '阿根廷', flag: '🇦🇷', position: '右边锋 / 前腰', years: '2004—至今', number: 10,
     kicker: '把足球变成贴着左脚运行的艺术', intro: '从拉玛西亚的瘦小少年，到带领阿根廷登上世界之巅。梅西以极低重心的连续触球、穿透防线的传球和冷静终结，重新定义了现代进攻核心。',
@@ -49,6 +54,107 @@ export const players: Player[] = [
   { slug:'kylian-mbappe',name:'Kylian Mbappé',zh:'姆巴佩',aliases:['基利安姆巴佩','mbappe'],nation:'法国',flag:'🇫🇷',position:'中锋 / 左边锋',years:'2015—至今',number:10,kicker:'把防线身后的每一米变成危险',intro:'爆发启动、无球前插和高效终结使姆巴佩很早就站上世界舞台。他在两届世界杯决赛中打入四球，仍在书写上限。',clues:['我出生在巴黎郊区。','我的父亲是足球教练。','速度是我的第一标签。','我未满 20 岁便赢得世界杯。','我在一场世界杯决赛上演帽子戏法。'],timeline:[{year:'2015',title:'摩纳哥首秀',text:'刷新俱乐部最年轻纪录。'},{year:'2017',title:'欧冠突破',text:'帮助摩纳哥打入四强。'},{year:'2018',title:'世界杯冠军',text:'决赛进球。'},{year:'2022',title:'决赛帽子戏法',text:'赢得世界杯金靴。'},{year:'2024',title:'加盟皇马',text:'开启西甲生涯。'}],honors:['世界杯冠军','世界杯金靴','多次法甲冠军'],match:'2022 世界杯决赛 · 阿根廷 vs 法国',fact:'他是继赫斯特之后第二位在男足世界杯决赛戴帽的球员。',image:commons('Kylian Mbappé 2019.jpg'),credit:'Wikimedia Commons · CC BY'},
   { slug:'son-heung-min',name:'Son Heung-min',zh:'孙兴慜',aliases:['孙兴民','son','son heungmin'],nation:'韩国',flag:'🇰🇷',position:'左边锋 / 中锋',years:'2010—至今',number:7,kicker:'亚洲攻击手在欧洲最高舞台的答案',intro:'双足均衡、纵向速度与快速终结让孙兴慜成为英超顶级攻击手。他以无点球金靴证明亚洲球员同样可以定义世界级。',clues:['我来自东亚。','父亲对我的基本功训练非常严格。','我在德国开启欧洲职业生涯。','我左右脚终结都很出色。','我是首位获得英超金靴的亚洲球员。'],timeline:[{year:'2010',title:'汉堡首秀',text:'在德甲开启职业生涯。'},{year:'2013',title:'加盟勒沃库森',text:'继续成长为主力。'},{year:'2015',title:'登陆英超',text:'加盟托特纳姆热刺。'},{year:'2019',title:'欧冠决赛',text:'随队创造队史成绩。'},{year:'2022',title:'英超金靴',text:'23 球且无点球。'}],honors:['英超金靴','普斯卡什奖','亚运会冠军'],match:'2019 英超 · 热刺 vs 伯恩利',fact:'他获得普斯卡什奖的进球来自一次贯穿大半场的长途奔袭。',image:commons('Team Korea Russia WorldCup 02 (cropped).png'),credit:'Wikimedia Commons · CC licensed'}
 ]
+
+type DatabasePlayerRecord = {
+  name?: string
+  position?: string
+  lastSeason?: number
+  seasons: { season: string; club: string; playerName?: string; appearances?: number; goals?: number }[]
+  clubTotals: { club: string; appearances?: number; goals?: number }[]
+}
+
+type DatabasePlayerIdentity = {
+  name?: string
+  zh?: string
+  nation?: string
+  flag?: string
+  position?: string
+  currentClub?: string
+  number?: number | null
+  active?: boolean
+  image?: string
+  imageCredit?: string
+  traits?: string[]
+  birthDate?: string
+  height?: string
+  foot?: string
+  descriptionEn?: string
+}
+
+const databasePosition: Record<string, string> = {
+  Attack: '前锋',
+  Midfield: '中场',
+  Defender: '后卫',
+  Goalkeeper: '门将',
+}
+
+const nationalityCorrections: Record<string, { nation: string; flag: string }> = {
+  'virgil-van-dijk': { nation: '荷兰', flag: '🇳🇱' },
+  'frenkie-de-jong': { nation: '荷兰', flag: '🇳🇱' },
+  'ryan-gravenberch': { nation: '荷兰', flag: '🇳🇱' },
+  'xavi-simons': { nation: '荷兰', flag: '🇳🇱' },
+  'matthijs-de-ligt': { nation: '荷兰', flag: '🇳🇱' },
+  'jurrien-timber': { nation: '荷兰', flag: '🇳🇱' },
+  'cody-gakpo': { nation: '荷兰', flag: '🇳🇱' },
+  'tijjani-reijnders': { nation: '荷兰', flag: '🇳🇱' },
+  gavi: { nation: '西班牙', flag: '🇪🇸' },
+  antony: { nation: '巴西', flag: '🇧🇷' },
+  'miralem-pjanic': { nation: '波斯尼亚和黑塞哥维那', flag: '🇧🇦' },
+}
+
+const databasePlayers = Object.entries(generatedStatbunkerRosterStats.players as Record<string, DatabasePlayerRecord>).map(([slug, record]): Player => {
+  const identity = (generatedPlayerIdentities.players as Record<string, DatabasePlayerIdentity>)[slug]
+  const name = record.name ?? record.seasons[0]?.playerName ?? slug.replace(/-/g, ' ')
+  const firstSeason = record.seasons[0]?.season ?? '未知'
+  const lastSeason = record.seasons[record.seasons.length - 1]?.season ?? firstSeason
+  const identityClub = identity?.currentClub || ''
+  const retired = identityClub === '_Retired Soccer' && (record.lastSeason ?? 0) < 2025
+  const active = !retired && (Boolean(identityClub && identityClub !== '_Free Agent Soccer') || (record.lastSeason ?? 0) >= 2025 || identity?.active === true)
+  const appearances = record.seasons.reduce((sum, season) => sum + ((season as { appearances?: number }).appearances ?? 0), 0)
+  const goals = record.seasons.reduce((sum, season) => sum + ((season as { goals?: number }).goals ?? 0), 0)
+  const currentClub = active && !['_Retired Soccer', '_Free Agent Soccer'].includes(identityClub) ? identityClub || record.seasons[record.seasons.length - 1]?.club || '' : ''
+  const currentClubLabel = formatClubName(currentClub)
+  const nationality = nationalityCorrections[slug]
+  const nation = nationality?.nation ?? formatNationName(identity?.nation)
+  const position = identity?.position || databasePosition[record.position ?? ''] || '职业球员'
+  return {
+    slug,
+    name,
+    zh: identity?.zh || name,
+    aliases: [name, identity?.zh || ''].filter(Boolean),
+    nation,
+    flag: nationality?.flag ?? (identity?.flag || '⚽'),
+    position,
+    years: active ? `${firstSeason}—至今` : `${firstSeason}—${lastSeason}`,
+    number: identity?.number ?? 0,
+    kicker: identity?.traits?.length ? `${nation}${position}，以${identity.traits.join('、')}见长` : currentClub ? `${nation}${position}，现效力于${currentClubLabel}` : `${nation}${position}的俱乐部生涯档案`,
+    intro: buildPlayerBiography(identity ? { ...identity, nation } : identity, record),
+    clues: [],
+    timeline: record.clubTotals.map(({ club }) => ({ year: '', title: club, text: '俱乐部生涯数据已收录' })),
+    honors: [],
+    match: currentClub ? `查看 ${currentClubLabel} 最新赛季表现` : '查看完整赛季表现',
+    fact: `目前档案共覆盖 ${appearances} 次俱乐部出场和 ${goals} 粒进球。`,
+    image: identity?.image || '',
+    credit: identity?.imageCredit || '当前俱乐部视觉封面',
+  }
+})
+
+const databasePlayerBySlug = new Map(databasePlayers.map((player) => [player.slug, player]))
+featuredPlayers.forEach((player) => {
+  const record = (generatedStatbunkerRosterStats.players as Record<string, DatabasePlayerRecord>)[player.slug]
+  const identity = (generatedPlayerIdentities.players as Record<string, DatabasePlayerIdentity>)[player.slug]
+  if (record && identity && databasePlayerBySlug.has(player.slug) && player.slug !== 'pele') {
+    player.intro += buildFeaturedBiographySupplement(identity, record)
+    const normalizeIdentity = (value = '') => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/gi, '').toLowerCase()
+    if (identity.image && normalizeIdentity(identity.name) === normalizeIdentity(player.name)) {
+      player.image = identity.image
+      player.credit = identity.imageCredit || player.credit
+    }
+  }
+})
+
+const featuredSlugs = new Set(featuredPlayers.map((player) => player.slug))
+export const players: Player[] = [...featuredPlayers, ...databasePlayers.filter((player) => !featuredSlugs.has(player.slug))]
 
 export const normalize = (value: string) => value.toLowerCase().replace(/[\s·.\-_']/g, '')
 export const accepts = (player: Player, input: string) => [player.zh, player.name, ...player.aliases].some(name => normalize(name) === normalize(input))

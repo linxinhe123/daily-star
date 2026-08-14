@@ -1,0 +1,25 @@
+{
+  "seasonStart": 2000,
+  "seasonEnd": 2025,
+  "competitionTypes": [
+    { "code": "EPL", "name": "Premier League" },
+    { "code": "LL", "name": "La Liga" },
+    { "code": "SA", "name": "Serie A" },
+    { "code": "BL", "name": "Bundesliga" },
+    { "code": "LC", "name": "Ligue 1" },
+    { "code": "UCL", "name": "UEFA Champions League" },
+    { "code": "UCUP", "name": "UEFA Europa League" },
+    { "code": "UECON", "name": "UEFA Europa Conference League" },
+    { "code": "FAC", "name": "FA Cup" },
+    { "code": "CC", "name": "English League Cup" },
+    { "code": "ESC", "name": "UEFA Super Cup" },
+    { "code": "FWCC", "name": "FIFA Club World Cup" },
+    { "code": "UCLQ", "name": "UEFA Champions League Qualifying" },
+    { "code": "ELQ", "name": "UEFA Europa League Qualifying" },
+    { "code": "CS", "name": "FA Community Shield" },
+    { "code": "SSC", "name": "Spanish Super Cup" },
+    { "code": "GSC", "name": "German Super Cup" },
+    { "code": "ISC", "name": "Supercoppa Italiana" },
+    { "code": "FSC", "name": "Trophee des Champions" }
+  ]
+}
