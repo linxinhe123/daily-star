@@ -79,7 +79,6 @@ const clubNames: Record<string, string> = {
 }
 
 export function getVerifiedSeasonStats(slug: string, fallback: SeasonStat[] = []) {
-  if (slug === 'pele') return { seasons: fallback, coverage: 'curated' as const, updatedAt: undefined }
   const rosterSeasons = (generatedStatbunkerRosterStats.players as Record<string, { seasons: SeasonStat[] }>)[slug]?.seasons ?? []
   if (rosterSeasons.length) return {
     seasons: rosterSeasons.map((row) => ({ ...row, club: clubNames[row.club] ?? row.club })),
@@ -107,28 +106,6 @@ export function getVerifiedSeasonStats(slug: string, fallback: SeasonStat[] = []
 }
 
 const curatedPlayerData: Record<string, PlayerData> = {
-  pele: {
-    currentClub: '', retired: true, caps: 92, nationalGoals: 77,
-    birthDate: '1940-10-23', height: '1.73 m',
-    theme: { primary: '#18382b', secondary: '#245641', accent: '#f2d34f' },
-    seasons: [],
-    clubs: [
-      { club: 'Santos', period: '1956–1974' },
-      { club: 'New York Cosmos', period: '1975–1977' },
-    ],
-    marketValues: [],
-    honorGroups: [
-      { category: '国家队荣誉', total: 3, items: [{ title: '世界杯冠军', count: 3, years: '1958, 1962, 1970' }] },
-      { category: '俱乐部荣誉', total: 4, items: [
-        { title: '南美解放者杯', count: 2, years: '1962, 1963' },
-        { title: '洲际杯', count: 2, years: '1962, 1963' },
-      ] },
-    ],
-    sources: [
-      { label: 'FIFA 贝利档案', url: 'https://www.fifa.com/fifaplus/en/articles/pele-the-king-of-football' },
-      { label: 'Santos FC 历史档案', url: 'https://www.santosfc.com.br/' },
-    ],
-  },
   'luka-modric': {
     currentClub: 'AC 米兰', currentValue: '€3.5m', caps: 202, nationalGoals: 29,
     birthDate: '1985-09-09', height: '1.72m', foot: '右脚',
@@ -321,7 +298,7 @@ export const playerData: Record<string, PlayerData> = Object.fromEntries(Object.
   const identity = (generatedPlayerIdentities.players as Record<string, GeneratedIdentity>)[slug]
   const record = (generatedStatbunkerRosterStats.players as Record<string, RosterProfile>)[slug]
   const retired = (identity?.currentClub === '_Retired Soccer' && (record?.lastSeason ?? 0) < 2025) || data.retired === true
-  const valuation = slug === 'pele' || slug === 'kaka' ? [] : (generatedPlayerValuations.players as Record<string, { points: MarketValuePoint[] }>)[slug]?.points ?? []
+  const valuation = slug === 'kaka' ? [] : (generatedPlayerValuations.players as Record<string, { points: MarketValuePoint[] }>)[slug]?.points ?? []
   const latestValue = valuation[valuation.length - 1]?.value
   return [slug, {
     ...data,

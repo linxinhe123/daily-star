@@ -4,6 +4,7 @@
   "packageManager": "pnpm@11.13.0",
   "scripts": {
     "sync:football-assets": "node scripts/sync-football-assets.mjs",
+    "sync:national-team-assets": "node scripts/sync-national-team-assets.mjs",
     "sync:reep": "node scripts/sync-reep-identities.mjs",
     "sync:profiles": "node scripts/sync-player-profiles.mjs",
     "sync:player-identities": "node scripts/sync-transfermarkt-identities.mjs",
@@ -15,6 +16,8 @@
     "sync:careers": "node scripts/sync-player-careers.mjs",
     "sync:statbunker": "node scripts/sync-statbunker-stats.mjs",
     "sync:statbunker-roster": "node scripts/build-player-roster.mjs && node scripts/sync-statbunker-roster.mjs",
+    "prune:players": "node scripts/prune-player-roster.mjs",
+    "export:player-content": "node scripts/export-player-content.mjs",
     "dev": "pnpm --filter @daily-star/web dev",
     "build": "pnpm --filter @daily-star/web build",
     "preview": "pnpm --filter @daily-star/web preview"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T07:36:25.756Z",
+  "generatedAt": "2026-08-14T09:11:06.546Z",
   "source": "transfermarkt-id-verified",
   "players": {
     "lionel-messi": {
@@ -67,31 +67,6 @@
         {
           "label": "TheSportsDB 球员资料",
           "url": "https://www.thesportsdb.com/player/34146304"
-        }
-      ]
-    },
-    "pele": {
-      "name": "Pelé",
-      "zh": "贝利",
-      "nation": "巴西",
-      "flag": "🇧🇷",
-      "birthDate": "1940-10-23",
-      "height": "1.73 m",
-      "foot": "",
-      "position": "影锋",
-      "currentClub": "_Retired Soccer",
-      "number": 10,
-      "active": false,
-      "image": "",
-      "imageSource": "",
-      "imageCredit": "",
-      "descriptionEn": "",
-      "traits": [],
-      "transfermarktId": null,
-      "sources": [
-        {
-          "label": "FIFA 贝利档案",
-          "url": "https://www.fifa.com/fifaplus/en/articles/pele-the-king-of-football"
         }
       ]
     },
@@ -774,6 +749,7 @@
       ]
     },
     "pedri": {
+      "providerId": "34172243",
       "transfermarktId": 683840,
       "name": "Pedri",
       "zh": "佩德里",
@@ -786,9 +762,9 @@
       "currentClub": "FC Barcelona",
       "number": null,
       "active": true,
-      "image": "/assets/players/pedri.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/683840-1744278342.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/pedri.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/82xtuu1726509836.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 47,
@@ -797,6 +773,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/pedri/profil/spieler/683840"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34172243"
         }
       ]
     },
@@ -1074,6 +1054,7 @@
       ]
     },
     "rodri": {
+      "providerId": "34163415",
       "transfermarktId": 357565,
       "name": "Rodri",
       "zh": "罗德里",
@@ -1086,9 +1067,9 @@
       "currentClub": "Manchester City",
       "number": null,
       "active": true,
-      "image": "/assets/players/rodri.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/357565-1682587890.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/rodri.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/6ggnc31769182523.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 68,
@@ -1097,6 +1078,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/rodri/profil/spieler/357565"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34163415"
         }
       ]
     },
@@ -2811,6 +2796,7 @@
       ]
     },
     "gavi": {
+      "providerId": "34193417",
       "transfermarktId": 646740,
       "name": "Gavi",
       "zh": "加维",
@@ -2823,9 +2809,9 @@
       "currentClub": "FC Barcelona",
       "number": null,
       "active": true,
-      "image": "/assets/players/gavi.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/646740-1682685701.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/gavi.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/amm91q1726510077.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 32,
@@ -2834,6 +2820,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/gavi/profil/spieler/646740"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34193417"
         }
       ]
     },
@@ -3559,6 +3549,7 @@
       ]
     },
     "sandro-tonali": {
+      "providerId": "34168180",
       "transfermarktId": 397033,
       "name": "Sandro Tonali",
       "zh": "托纳利",
@@ -3571,9 +3562,9 @@
       "currentClub": "Newcastle United",
       "number": null,
       "active": true,
-      "image": "/assets/players/sandro-tonali.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/397033-1688389270.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/sandro-tonali.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/b9oang1766824727.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 32,
@@ -3582,6 +3573,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/sandro-tonali/profil/spieler/397033"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34168180"
         }
       ]
     },
@@ -3910,6 +3905,7 @@
       ]
     },
     "joao-pedro": {
+      "providerId": "34169326",
       "transfermarktId": 626724,
       "name": "João Pedro",
       "zh": "若昂·佩德罗",
@@ -3922,9 +3918,9 @@
       "currentClub": "Chelsea FC",
       "number": null,
       "active": true,
-      "image": "/assets/players/joao-pedro.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/626724-1724792744.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/joao-pedro.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/kdguq61757010204.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 8,
@@ -3932,6 +3928,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/joao-pedro/profil/spieler/626724"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34169326"
         }
       ]
     },
@@ -4604,6 +4604,7 @@
       ]
     },
     "gabriel": {
+      "providerId": "34172252",
       "transfermarktId": 435338,
       "name": "Gabriel",
       "zh": "加布里埃尔",
@@ -4616,9 +4617,9 @@
       "currentClub": "Arsenal FC",
       "number": null,
       "active": true,
-      "image": "/assets/players/gabriel.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/435338-1684162833.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/gabriel.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/trz5x71769331076.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 22,
@@ -4627,6 +4628,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/gabriel/profil/spieler/435338"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34172252"
         }
       ]
     },
@@ -4761,6 +4766,7 @@
       ]
     },
     "antony": {
+      "providerId": "34172989",
       "transfermarktId": 602105,
       "name": "Antony",
       "zh": "安东尼",
@@ -4773,9 +4779,9 @@
       "currentClub": "Real Betis Balompié",
       "number": null,
       "active": true,
-      "image": "/assets/players/antony.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/602105-1758783018.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/antony.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/vmgket1761255257.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 16,
@@ -4784,6 +4790,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/antony/profil/spieler/602105"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34172989"
         }
       ]
     },
@@ -5723,6 +5733,7 @@
       ]
     },
     "tijjani-reijnders": {
+      "providerId": "34170530",
       "transfermarktId": 460939,
       "name": "Tijjani Reijnders",
       "zh": "赖因德斯",
@@ -5735,9 +5746,9 @@
       "currentClub": "Manchester City",
       "number": null,
       "active": true,
-      "image": "/assets/players/tijjani-reijnders.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/460939-1773302677.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/tijjani-reijnders.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/edgl5b1769182353.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 35,
@@ -5746,6 +5757,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/tijjani-reijnders/profil/spieler/460939"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34170530"
         }
       ]
     },
@@ -5762,9 +5777,9 @@
       "currentClub": "Chelsea FC",
       "number": null,
       "active": true,
-      "image": "/assets/players/reece-james.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/472423-1683900849.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/reece-james.png",
+      "imageSource": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png",
+      "imageCredit": "英超官方球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 26,
@@ -5936,6 +5951,7 @@
       ]
     },
     "adam-wharton": {
+      "providerId": "34217528",
       "transfermarktId": 744149,
       "name": "Adam Wharton",
       "zh": "沃顿",
@@ -5948,9 +5964,9 @@
       "currentClub": "Crystal Palace",
       "number": null,
       "active": true,
-      "image": "/assets/players/adam-wharton.jpg",
-      "imageSource": "https://img.a.transfermarkt.technology/portrait/header/744149-1716297290.jpg?lm=1",
-      "imageCredit": "Transfermarkt 球员图片",
+      "image": "/assets/players/adam-wharton.png",
+      "imageSource": "https://r2.thesportsdb.com/images/media/player/cutout/dierqf1761492318.png",
+      "imageCredit": "TheSportsDB 球员抠图",
       "descriptionEn": "",
       "traits": [],
       "caps": 4,
@@ -5958,6 +5974,10 @@
         {
           "label": "Transfermarkt 球员资料",
           "url": "https://www.transfermarkt.co.uk/adam-wharton/profil/spieler/744149"
+        },
+        {
+          "label": "TheSportsDB 球员资料",
+          "url": "https://www.thesportsdb.com/player/34217528"
         }
       ]
     },

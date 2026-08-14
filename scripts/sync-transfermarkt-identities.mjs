@@ -15,6 +15,18 @@ const databaseFile = join(root, 'data/daily-star.sqlite')
 const previous = existsSync(dataFile) ? JSON.parse(await readFile(dataFile, 'utf8')).players ?? {} : {}
 
 const identityProfileIds = { kaka: '3366' }
+const verifiedPortraits = {
+  'adam-wharton': { providerId: '34217528', url: 'https://r2.thesportsdb.com/images/media/player/cutout/dierqf1761492318.png', credit: 'TheSportsDB 球员抠图' },
+  antony: { providerId: '34172989', url: 'https://r2.thesportsdb.com/images/media/player/cutout/vmgket1761255257.png', credit: 'TheSportsDB 球员抠图' },
+  gabriel: { providerId: '34172252', url: 'https://r2.thesportsdb.com/images/media/player/cutout/trz5x71769331076.png', credit: 'TheSportsDB 球员抠图' },
+  gavi: { providerId: '34193417', url: 'https://r2.thesportsdb.com/images/media/player/cutout/amm91q1726510077.png', credit: 'TheSportsDB 球员抠图' },
+  'joao-pedro': { providerId: '34169326', url: 'https://r2.thesportsdb.com/images/media/player/cutout/kdguq61757010204.png', credit: 'TheSportsDB 球员抠图' },
+  pedri: { providerId: '34172243', url: 'https://r2.thesportsdb.com/images/media/player/cutout/82xtuu1726509836.png', credit: 'TheSportsDB 球员抠图' },
+  'reece-james': { url: 'https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png', credit: '英超官方球员抠图' },
+  rodri: { providerId: '34163415', url: 'https://r2.thesportsdb.com/images/media/player/cutout/6ggnc31769182523.png', credit: 'TheSportsDB 球员抠图' },
+  'sandro-tonali': { providerId: '34168180', url: 'https://r2.thesportsdb.com/images/media/player/cutout/b9oang1766824727.png', credit: 'TheSportsDB 球员抠图' },
+  'tijjani-reijnders': { providerId: '34170530', url: 'https://r2.thesportsdb.com/images/media/player/cutout/edgl5b1769182353.png', credit: 'TheSportsDB 球员抠图' },
+}
 const targetIds = new Set([...roster.map((player) => String(player.transfermarktId)), ...Object.values(identityProfileIds)])
 const profiles = new Map()
 await readCsv(join(root, 'data/cache/transfermarkt/players.csv.gz'), (row) => {
@@ -66,16 +78,22 @@ for (const player of roster) {
   const [nation, flag] = nationLabels[profile.country_of_citizenship] ?? [profile.country_of_citizenship || '国籍待核验', '⚽']
   const retired = cached.currentClub === '_Retired Soccer' && player.lastSeason < 2025
   const currentClub = retired ? '_Retired Soccer' : profile.current_club_name || cached.currentClub || ''
+  const verifiedPortrait = verifiedPortraits[player.slug]
   let image = providerValid ? cached.image || '' : ''
   let imageSource = providerValid ? cached.imageSource || '' : profile.image_url || ''
   let imageCredit = providerValid ? cached.imageCredit || '' : imageSource ? 'Transfermarkt 球员图片' : ''
-  if (!providerValid && imageSource) {
+  if (verifiedPortrait) {
+    imageSource = verifiedPortrait.url
+    imageCredit = verifiedPortrait.credit
+    try { image = await downloadImage(player.slug, imageSource) }
+    catch (error) { console.warn(`${player.slug}: verified portrait skipped (${error.message})`) }
+  } else if (!providerValid && imageSource) {
     try { image = await downloadImage(player.slug, imageSource) }
     catch (error) { console.warn(`${player.slug}: image skipped (${error.message})`) }
   }
 
   players[player.slug] = {
-    providerId: providerValid ? cached.providerId : undefined,
+    providerId: verifiedPortrait?.providerId ?? (providerValid ? cached.providerId : undefined),
     transfermarktId: Number(profile.player_id), name: player.name, zh: localizations[player.slug], nation, flag,
     birthDate: expectedBirth, height: profile.height_in_cm ? `${(Number(profile.height_in_cm) / 100).toFixed(2)} m` : '',
     foot: profile.foot === 'right' ? '右脚' : profile.foot === 'left' ? '左脚' : profile.foot === 'both' ? '双脚' : '',
@@ -87,7 +105,8 @@ for (const player of roster) {
     nationalGoals: Number(profile.international_goals || 0) || undefined,
     sources: [
       { label: 'Transfermarkt 球员资料', url: profile.url },
-      ...(providerValid && cached.providerId ? [{ label: 'TheSportsDB 球员资料', url: `https://www.thesportsdb.com/player/${cached.providerId}` }] : []),
+      ...(verifiedPortrait?.providerId ? [{ label: 'TheSportsDB 球员资料', url: `https://www.thesportsdb.com/player/${verifiedPortrait.providerId}` }] : []),
+      ...(!verifiedPortrait?.providerId && providerValid && cached.providerId ? [{ label: 'TheSportsDB 球员资料', url: `https://www.thesportsdb.com/player/${cached.providerId}` }] : []),
     ],
   }
 }

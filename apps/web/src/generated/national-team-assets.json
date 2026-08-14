@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-08-14T08:55:46.398Z",
+  "source": "TheSportsDB national-team badges",
+  "assets": {
+    "Cote d'Ivoire": {
+      "src": "/assets/nations/nation-134502.png",
+      "providerId": "134502",
+      "team": "Ivory Coast",
+      "source": "TheSportsDB national team 134502"
+    },
+    "Korea, South": {
+      "src": "/assets/nations/nation-134517.png",
+      "providerId": "134517",
+      "team": "South Korea",
+      "source": "TheSportsDB national team 134517"
+    },
+    "Türkiye": {
+      "src": "/assets/nations/nation-135985.png",
+      "providerId": "135985",
+      "team": "Turkey",
+      "source": "TheSportsDB national team 135985"
+    },
+    "丹麦": {
+      "src": "/assets/nations/nation-133906.png",
+      "providerId": "133906",
+      "team": "Denmark",
+      "source": "TheSportsDB national team 133906"
+    },
+    "乌拉圭": {
+      "src": "/assets/nations/nation-134504.png",
+      "providerId": "134504",
+      "team": "Uruguay",
+      "source": "TheSportsDB national team 134504"
+    },
+    "克罗地亚": {
+      "src": "/assets/nations/nation-133912.png",
+      "providerId": "133912",
+      "team": "Croatia",
+      "source": "TheSportsDB national team 133912"
+    },
+    "加拿大": {
+      "src": "/assets/nations/nation-140073.png",
+      "providerId": "140073",
+      "team": "Canada",
+      "source": "TheSportsDB national team 140073"
+    },
+    "加纳": {
+      "src": "/assets/nations/nation-134513.png",
+      "providerId": "134513",
+      "team": "Ghana",
+      "source": "TheSportsDB national team 134513"
+    },
+    "加蓬": {
+      "src": "/assets/nations/nation-136478.png",
+      "providerId": "136478",
+      "team": "Gabon",
+      "source": "TheSportsDB national team 136478"
+    },
+    "匈牙利": {
+      "src": "/assets/nations/nation-135987.png",
+      "providerId": "135987",
+      "team": "Hungary",
+      "source": "TheSportsDB national team 135987"
+    },
+    "厄瓜多尔": {
+      "src": "/assets/nations/nation-134507.png",
+      "providerId": "134507",
+      "team": "Ecuador",
+      "source": "TheSportsDB national team 134507"
+    },
+    "哥伦比亚": {
+      "src": "/assets/nations/nation-134501.png",
+      "providerId": "134501",
+      "team": "Colombia",
+      "source": "TheSportsDB national team 134501"
+    },
+    "喀麦隆": {
+      "src": "/assets/nations/nation-134498.png",
+      "providerId": "134498",
+      "team": "Cameroon",
+      "source": "TheSportsDB national team 134498"
+    },
+    "埃及": {
+      "src": "/assets/nations/nation-136138.png",
+      "providerId": "136138",
+      "team": "Egypt",
+      "source": "TheSportsDB national team 136138"
+    },
+    "塞内加尔": {
+      "src": "/assets/nations/nation-136143.png",
+      "providerId": "136143",
+      "team": "Senegal",
+      "source": "TheSportsDB national team 136143"
+    },
+    "塞尔维亚": {
+      "src": "/assets/nations/nation-136140.png",
+      "providerId": "136140",
+      "team": "Serbia",
+      "source": "TheSportsDB national team 136140"
+    },
+    "奥地利": {
+      "src": "/assets/nations/nation-135986.png",
+      "providerId": "135986",
+      "team": "Austria",
+      "source": "TheSportsDB national team 135986"
+    },
+    "威尔士": {
+      "src": "/assets/nations/nation-135982.png",
+      "providerId": "135982",
+      "team": "Wales",
+      "source": "TheSportsDB national team 135982"
+    },
+    "尼日利亚": {
+      "src": "/assets/nations/nation-134512.png",
+      "providerId": "134512",
+      "team": "Nigeria",
+      "source": "TheSportsDB national team 134512"
+    },
+    "巴西": {
+      "src": "/assets/nations/nation-134496.png",
+      "providerId": "134496",
+      "team": "Brazil",
+      "source": "TheSportsDB national team 134496"
+    },
+    "德国": {
+      "src": "/assets/nations/nation-133907.png",
+      "providerId": "133907",
+      "team": "Germany",
+      "source": "TheSportsDB national team 133907"
+    },
+    "意大利": {
+      "src": "/assets/nations/nation-133910.png",
+      "providerId": "133910",
+      "team": "Italy",
+      "source": "TheSportsDB national team 133910"
+    },
+    "挪威": {
+      "src": "/assets/nations/nation-136516.png",
+      "providerId": "136516",
+      "team": "Norway",
+      "source": "TheSportsDB national team 136516"
+    },
+    "摩洛哥": {
+      "src": "/assets/nations/nation-136139.png",
+      "providerId": "136139",
+      "team": "Morocco",
+      "source": "TheSportsDB national team 136139"
+    },
+    "斯洛伐克": {
+      "src": "/assets/nations/nation-135983.png",
+      "providerId": "135983",
+      "team": "Slovakia",
+      "source": "TheSportsDB national team 135983"
+    },
+    "斯洛文尼亚": {
+      "src": "/assets/nations/nation-136456.png",
+      "providerId": "136456",
+      "team": "Slovenia",
+      "source": "TheSportsDB national team 136456"
+    },
+    "智利": {
+      "src": "/assets/nations/nation-134499.png",
+      "providerId": "134499",
+      "team": "Chile",
+      "source": "TheSportsDB national team 134499"
+    },
+    "格鲁吉亚": {
+      "src": "/assets/nations/nation-uefa-57157.png",
+      "providerId": "uefa-57157",
+      "team": "Georgia",
+      "source": "UEFA national team 57157"
+    },
+    "比利时": {
+      "src": "/assets/nations/nation-134515.png",
+      "providerId": "134515",
+      "team": "Belgium",
+      "source": "TheSportsDB national team 134515"
+    },
+    "法国": {
+      "src": "/assets/nations/nation-133913.png",
+      "providerId": "133913",
+      "team": "France",
+      "source": "TheSportsDB national team 133913"
+    },
+    "波兰": {
+      "src": "/assets/nations/nation-133901.png",
+      "providerId": "133901",
+      "team": "Poland",
+      "source": "TheSportsDB national team 133901"
+    },
+    "波斯尼亚和黑塞哥维那": {
+      "src": "/assets/nations/nation-134510.png",
+      "providerId": "134510",
+      "team": "Bosnia-Herzegovina",
+      "source": "TheSportsDB national team 134510"
+    },
+    "瑞典": {
+      "src": "/assets/nations/nation-133916.png",
+      "providerId": "133916",
+      "team": "Sweden",
+      "source": "TheSportsDB national team 133916"
+    },
+    "苏格兰": {
+      "src": "/assets/nations/nation-136450.png",
+      "providerId": "136450",
+      "team": "Scotland",
+      "source": "TheSportsDB national team 136450"
+    },
+    "英格兰": {
+      "src": "/assets/nations/nation-133914.png",
+      "providerId": "133914",
+      "team": "England",
+      "source": "TheSportsDB national team 133914"
+    },
+    "荷兰": {
+      "src": "/assets/nations/nation-133905.png",
+      "providerId": "133905",
+      "team": "Netherlands",
+      "source": "TheSportsDB national team 133905"
+    },
+    "葡萄牙": {
+      "src": "/assets/nations/nation-133908.png",
+      "providerId": "133908",
+      "team": "Portugal",
+      "source": "TheSportsDB national team 133908"
+    },
+    "西班牙": {
+      "src": "/assets/nations/nation-133909.png",
+      "providerId": "133909",
+      "team": "Spain",
+      "source": "TheSportsDB national team 133909"
+    },
+    "阿根廷": {
+      "src": "/assets/nations/nation-134509.png",
+      "providerId": "134509",
+      "team": "Argentina",
+      "source": "TheSportsDB national team 134509"
+    }
+  }
+}

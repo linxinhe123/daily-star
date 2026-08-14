@@ -71,23 +71,6 @@
         }
       ]
     },
-    "pele": {
-      "transfermarktId": 99189,
-      "spells": [
-        {
-          "club": "Santos",
-          "start": "1956-09-07",
-          "end": "1974-10-02",
-          "source": "curated-transfermarkt-career"
-        },
-        {
-          "club": "New York Cosmos",
-          "start": "1975-06-10",
-          "end": "1977-10-01",
-          "source": "curated-transfermarkt-career"
-        }
-      ]
-    },
     "kaka": {
       "transfermarktId": 380696,
       "spells": [

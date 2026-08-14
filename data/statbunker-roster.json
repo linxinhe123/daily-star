@@ -21,15 +21,6 @@
       "preferred": true
     },
     {
-      "slug": "pele",
-      "name": "Pelé",
-      "transfermarktId": 99189,
-      "highestMarketValue": 8000000,
-      "position": "Midfield",
-      "lastSeason": 2022,
-      "preferred": true
-    },
-    {
       "slug": "kaka",
       "name": "Kaká",
       "transfermarktId": 380696,

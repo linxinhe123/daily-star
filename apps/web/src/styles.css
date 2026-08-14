@@ -14,6 +14,16 @@
 .player-meta small{white-space:nowrap}
 .player-meta span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:9px}
 .player-grid p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.national-team-mark{display:inline-flex;align-items:center;gap:5px;min-width:0;color:inherit;font-style:normal;white-space:nowrap}
+.national-team-mark>img,.national-team-mark>svg{width:15px;height:15px;object-fit:contain;flex:0 0 15px}
+.national-team-mark>svg{color:#8a948e}
+.player-meta .national-team-mark{min-width:0;overflow:hidden;color:var(--muted);font-size:9px}
+.player-meta .national-team-mark>span{overflow:hidden;text-overflow:ellipsis}
+.hero-info>p{display:flex;align-items:center;gap:6px}
+.hero-info .national-team-mark>img,.profile-identity .national-team-mark>img{width:18px;height:18px;flex-basis:18px}
+.profile-identity>.national-team-mark{width:22px;justify-content:center}
+.recent .national-team-mark>img{width:22px;height:22px;flex-basis:22px}
+.player-fallback .national-team-mark{justify-content:center}
 
 /* Let narrow mobile viewports shrink instead of forcing horizontal scrolling. */
 body{min-width:0}

@@ -1,0 +1,7 @@
+{
+  "targetCount": 199,
+  "excludedSlugs": [
+    "pele"
+  ],
+  "reason": "Exclude archive entries without a usable portrait and verified match statistics."
+}
