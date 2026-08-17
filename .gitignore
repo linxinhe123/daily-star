@@ -4,6 +4,7 @@ dist/
 *.tsbuildinfo
 .env
 .DS_Store
+.worktrees/
 data/cache/
 data/*.sqlite
 data/*.sqlite-*
