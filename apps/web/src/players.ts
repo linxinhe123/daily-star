@@ -1,5 +1,6 @@
 import generatedStatbunkerRosterStats from './generated/statbunker-roster-stats.json'
 import generatedPlayerIdentities from './generated/player-identities.json'
+import generatedPlayerContent from './generated/player-content-overrides.json'
 import { formatClubName } from './club-names'
 import { buildFeaturedBiographySupplement, buildPlayerBiography, formatNationName } from './player-biography'
 
@@ -34,7 +35,7 @@ export const featuredPlayers: Player[] = [
     timeline: [{ year: '2004', title: '巴萨一线队首秀', text: '17 岁完成正式比赛首秀。' }, { year: '2009', title: '首夺金球奖', text: '三冠王赛季成为世界最佳。' }, { year: '2012', title: '年度 91 球', text: '刷新自然年进球纪录。' }, { year: '2021', title: '美洲杯登顶', text: '赢得成年国家队首座大赛冠军。' }, { year: '2022', title: '加冕世界杯', text: '在卡塔尔完成国家队生涯巅峰。' }],
     honors: ['世界杯冠军', '8× 金球奖', '4× 欧冠冠军', '美洲杯冠军'], match: '2022 世界杯决赛 · 阿根廷 vs 法国', fact: '他在巴塞罗那正式比赛打入 672 球，是单一俱乐部进球纪录保持者。', image: commons('Lionel-Messi-Argentina-2022-FIFA-World-Cup.jpg'), credit: 'Wikimedia Commons · CC licensed'
   },
-  { slug:'cristiano-ronaldo', name:'Cristiano Ronaldo', zh:'C 罗', aliases:['c罗纳尔多','克里斯蒂亚诺罗纳尔多','ronaldo','cr7'], nation:'葡萄牙', flag:'🇵🇹', position:'左边锋 / 中锋', years:'2002—至今', number:7, kicker:'用极致自律不断改写进球边界', intro:'从马德拉岛走出的边锋，逐渐进化为足球史上最高产的终结者之一。爆发力、头球、无球跑位与长期稳定性构成了他的标志。', clues:['我来自欧洲伊比利亚半岛。','7 号是我最具辨识度的号码。','我在英格兰、西班牙和意大利都赢得过联赛冠军。','我以弹跳、头球和逆足终结闻名。','我是葡萄牙国家队历史上的代表人物。'], timeline:[{year:'2003',title:'登陆曼联',text:'从葡萄牙体育加盟英超。'},{year:'2008',title:'首夺金球',text:'帮助曼联赢得欧冠。'},{year:'2009',title:'转会皇马',text:'开启队史最高产阶段。'},{year:'2016',title:'欧洲杯冠军',text:'葡萄牙首夺欧洲杯。'},{year:'2018',title:'转战意甲',text:'加盟尤文图斯。'}], honors:['5× 金球奖','5× 欧冠冠军','欧洲杯冠军','欧国联冠军'], match:'2018 欧冠 · 皇家马德里 vs 尤文图斯', fact:'他的职业生涯正式比赛进球跨越了多个时代。', image:commons('Cristiano Ronaldo 2018.jpg'), credit:'Wikimedia Commons · CC BY-SA' },
+  { slug:'cristiano-ronaldo', name:'Cristiano Ronaldo', zh:'C 罗', aliases:['c罗纳尔多','克里斯蒂亚诺罗纳尔多','ronaldo','cr7'], nation:'葡萄牙', flag:'🇵🇹', position:'左边锋 / 中锋', years:'2002—至今', number:7, kicker:'用极致自律不断改写进球边界', intro:'从马德拉岛走出的边锋，逐渐进化为足球史上最高产的终结者之一。爆发力、头球、无球跑位与长期稳定性构成了他的标志。', clues:['我来自欧洲伊比利亚半岛。','7 号是我最具辨识度的号码。','我在英格兰、西班牙和意大利都赢得过联赛冠军。','我以弹跳、头球和逆足终结闻名。','我是葡萄牙国家队历史上的代表人物。'], timeline:[{year:'2003',title:'登陆曼联',text:'从葡萄牙体育加盟英超。'},{year:'2008',title:'首夺金球',text:'帮助曼联赢得欧冠。'},{year:'2009',title:'转会皇马',text:'开启队史最高产阶段。'},{year:'2016',title:'欧洲杯冠军',text:'葡萄牙首夺欧洲杯。'},{year:'2018',title:'转战意甲',text:'加盟尤文图斯。'}], honors:['5× 金球奖','5× 欧洲冠军联赛冠军','7× 联赛冠军','欧洲杯冠军','欧国联冠军','4× 欧洲金靴奖','1× 足总杯冠军','2× 英格兰联赛杯冠军','2× 西班牙国王杯冠军','2× 意大利杯冠军','3× 英格兰社区盾冠军','2× 西班牙超级杯冠军'], match:'2018 欧冠 · 皇家马德里 vs 尤文图斯', fact:'他的职业生涯正式比赛进球跨越了多个时代。', image:commons('Cristiano Ronaldo 2018.jpg'), credit:'Wikimedia Commons · CC BY-SA' },
   { slug:'kaka',name:'Kaká',zh:'卡卡',aliases:['里卡多卡卡','kaka'],nation:'巴西',flag:'🇧🇷',position:'前腰',years:'2001—2017',number:22,kicker:'大步流星穿越中场的最后一位古典巨星',intro:'卡卡的推进看似舒展，却能以极高速度直插防线。2007 年，他以欧冠淘汰赛的统治表现赢得金球奖。',clues:['我来自巴西圣保罗。','我的昵称来自弟弟的发音。','我常身穿 22 号。','我的高速长距离推进极具辨识度。','我是梅罗时代前最后一位金球奖得主。'],timeline:[{year:'2001',title:'圣保罗首秀',text:'开启职业生涯。'},{year:'2002',title:'世界杯冠军',text:'入选巴西冠军阵容。'},{year:'2003',title:'加盟米兰',text:'迅速成为进攻核心。'},{year:'2007',title:'欧洲之巅',text:'欧冠冠军并赢得金球。'},{year:'2009',title:'转会皇马',text:'以高额转会费加盟。'}],honors:['世界杯冠军','金球奖','欧冠冠军','意甲冠军'],match:'2007 欧冠半决赛 · 曼联 vs AC 米兰',fact:'2007 年欧冠他以 10 球成为赛事最佳射手。',image:commons('Kaka061115.jpg'),credit:'Wikimedia Commons · CC licensed'},
   { slug:'andres-iniesta',name:'Andrés Iniesta',zh:'伊涅斯塔',aliases:['安德烈斯伊涅斯塔','小白','iniesta'],nation:'西班牙',flag:'🇪🇸',position:'中前卫 / 前腰',years:'2002—2024',number:8,kicker:'在密集防守中找到不存在的出口',intro:'伊涅斯塔的摆脱、半转身和最后一传总在最关键的瞬间出现。2010 年世界杯决赛的进球让他永远属于西班牙足球史。',clues:['我来自西班牙小镇。','我出自拉玛西亚。','人们因我的肤色给我一个中文昵称。','我擅长油炸丸子式摆脱。','我打入世界杯决赛制胜球。'],timeline:[{year:'2002',title:'巴萨首秀',text:'进入一线队。'},{year:'2006',title:'首夺欧冠',text:'逐渐成为主力。'},{year:'2009',title:'斯坦福桥绝杀',text:'帮助球队晋级欧冠决赛。'},{year:'2010',title:'世界杯制胜球',text:'加时绝杀荷兰。'},{year:'2018',title:'告别巴萨',text:'转战日本联赛。'}],honors:['世界杯冠军','2× 欧洲杯冠军','4× 欧冠冠军'],match:'2010 世界杯决赛 · 西班牙 vs 荷兰',fact:'他的世界杯决赛进球献给已故好友达尼·哈尔克。',image:commons('Andrés Iniesta 2018.jpg'),credit:'Wikimedia Commons · CC BY-SA'},
   { slug:'gianluigi-buffon',name:'Gianluigi Buffon',zh:'布冯',aliases:['吉安路易吉布冯','buffon'],nation:'意大利',flag:'🇮🇹',position:'门将',years:'1995—2023',number:1,kicker:'二十八年站在门线前保持热爱',intro:'反应、站位、指挥与惊人的稳定性让布冯成为门将位置的时代标杆。他经历巅峰、降级与重返顶级，忠诚同样定义了他。',clues:['我是一名意大利门将。','我在 17 岁完成意甲首秀。','我的姓氏中文听起来很有福气。','我随俱乐部经历过降级。','我赢得 2006 年世界杯。'],timeline:[{year:'1995',title:'帕尔马首秀',text:'零封强大的 AC 米兰。'},{year:'1999',title:'联盟杯冠军',text:'随帕尔马夺冠。'},{year:'2001',title:'加盟尤文',text:'创造门将转会纪录。'},{year:'2006',title:'世界杯冠军',text:'赛事仅失两球。'},{year:'2023',title:'宣布退役',text:'结束 28 年职业生涯。'}],honors:['世界杯冠军','10× 意甲冠军','联盟杯冠军'],match:'2006 世界杯半决赛 · 德国 vs 意大利',fact:'他曾在尤文降入意乙后选择留队。',image:commons('Gianluigi Buffon (31784615942).jpg'),credit:'Wikimedia Commons · CC BY'},
@@ -68,6 +69,10 @@ type DatabasePlayerIdentity = {
   height?: string
   foot?: string
   descriptionEn?: string
+}
+
+type PlayerContentOverride = Pick<Player, 'name' | 'zh' | 'aliases' | 'nation' | 'position' | 'years' | 'number' | 'kicker' | 'intro' | 'clues' | 'timeline' | 'match' | 'fact'> & {
+  honorsSummary?: string
 }
 
 const databasePosition: Record<string, string> = {
@@ -143,7 +148,11 @@ featuredPlayers.forEach((player) => {
 })
 
 const featuredSlugs = new Set(featuredPlayers.map((player) => player.slug))
-export const players: Player[] = [...featuredPlayers, ...databasePlayers.filter((player) => !featuredSlugs.has(player.slug))]
+const basePlayers: Player[] = [...featuredPlayers, ...databasePlayers.filter((player) => !featuredSlugs.has(player.slug))]
+const contentOverrides = generatedPlayerContent.players as Record<string, PlayerContentOverride>
+
+export const players: Player[] = basePlayers.map((player) => ({ ...player, ...(contentOverrides[player.slug] ?? {}) }))
+featuredPlayers.splice(0, featuredPlayers.length, ...featuredPlayers.map((player) => players.find((candidate) => candidate.slug === player.slug) ?? player))
 
 export const normalize = (value: string) => value.toLowerCase().replace(/[\s·.\-_']/g, '')
 export const accepts = (player: Player, input: string) => [player.zh, player.name, ...player.aliases].some(name => normalize(name) === normalize(input))

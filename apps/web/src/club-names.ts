@@ -6,6 +6,7 @@ const clubNames: Record<string, string> = {
   'Paris Saint-Germain': '巴黎圣日耳曼', 'Bayern Munich': '拜仁慕尼黑', 'Bayer Leverkusen': '勒沃库森',
   'AC Milan': 'AC 米兰', 'Inter Milan': '国际米兰', Juventus: '尤文图斯', Napoli: '那不勒斯',
   'AS Roma': '罗马', 'Atletico Madrid': '马德里竞技', 'RB Leipzig': '莱比锡', Ajax: '阿贾克斯',
+  'Atlético': '马德里竞技',
   Benfica: '本菲卡', 'FC Porto': '波尔图', 'Sporting Lisbon': '葡萄牙体育', Monaco: '摩纳哥',
   'Olympique Lyonnais': '里昂', Marseille: '马赛', Sevilla: '塞维利亚', Valencia: '瓦伦西亚',
   Villarreal: '比利亚雷亚尔', 'Athletic Bilbao': '毕尔巴鄂竞技', 'Real Betis Balompié': '皇家贝蒂斯',

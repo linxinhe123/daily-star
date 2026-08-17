@@ -1,6 +1,15 @@
 import type { Player } from './players'
 
 const compact = (value: string) => value.replace(/\s+/g, ' ').trim()
+const normalizeAnswer = (value: string) => compact(value).toLowerCase().replace(/[\s·.\-_'’]/g, '')
+
+function revealsAnswer(clue: string, player: Player) {
+  const normalizedClue = normalizeAnswer(clue)
+  return [player.zh, player.name, ...player.aliases]
+    .map(normalizeAnswer)
+    .filter((name) => name.length >= 2)
+    .some((name) => normalizedClue.includes(name))
+}
 
 export function buildCluePool(player: Player): string[] {
   const clubs = [...new Set(player.timeline.map((item) => item.title).filter(Boolean))]
@@ -16,5 +25,5 @@ export function buildCluePool(player: Player): string[] {
   ]
 
   return [...new Set([...player.clues, ...generated].map(compact).filter(Boolean))]
+    .filter((clue) => !revealsAnswer(clue, player))
 }
-

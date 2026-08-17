@@ -9,6 +9,7 @@
     "sync:profiles": "node scripts/sync-player-profiles.mjs",
     "sync:player-identities": "node scripts/sync-transfermarkt-identities.mjs",
     "audit:player-identities": "node scripts/audit-player-identities.mjs",
+    "audit:content": "node scripts/audit-content-integrity.mjs",
     "sync:player-identities:deep": "node scripts/sync-player-identities.mjs --deep",
     "verify:reep": "node scripts/verify-reep-identities.mjs",
     "sync:transfermarkt": "node scripts/sync-transfermarkt-history.mjs",
@@ -18,6 +19,7 @@
     "sync:statbunker-roster": "node scripts/build-player-roster.mjs && node scripts/sync-statbunker-roster.mjs",
     "prune:players": "node scripts/prune-player-roster.mjs",
     "export:player-content": "node scripts/export-player-content.mjs",
+    "import:player-content": "node scripts/import-player-content.mjs",
     "dev": "pnpm --filter @daily-star/web dev",
     "build": "pnpm --filter @daily-star/web build",
     "preview": "pnpm --filter @daily-star/web preview"

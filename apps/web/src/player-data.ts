@@ -6,10 +6,11 @@ import generatedStatbunkerRosterStats from './generated/statbunker-roster-stats.
 import generatedPlayerIdentities from './generated/player-identities.json'
 import generatedPlayerValuations from './generated/player-valuations.json'
 import generatedPlayerCareers from './generated/player-careers.json'
+import generatedPlayerContent from './generated/player-content-overrides.json'
 
 export type SeasonStat = { season: string; club: string; appearances: number; goals: number; assists: number; starts?: number | null; averageRating?: number | null; source?: string }
-export type ClubSpell = { club: string; period: string; appearances?: number; goals?: number; note?: string }
-export type MarketValuePoint = { date?: string; year: number; value: number; club: string }
+export type ClubSpell = { club: string; clubId?: number; period: string; appearances?: number; goals?: number; note?: string }
+export type MarketValuePoint = { date?: string; year: number; value: number; clubId?: number; club: string }
 export type HonorGroup = { category: string; total: number; items: { title: string; count: number; years: string }[] }
 export type PlayerData = {
   currentClub: string
@@ -58,13 +59,18 @@ export const footballAssets: Record<string, VisualAsset> = {
   '世界杯铜球奖': { src: '/assets/football/world-cup.jpg', short: 'B.B', kind: 'trophy' },
 }
 
-const generatedAssets = Object.fromEntries(Object.entries(generatedFootballAssets.assets).map(([name, asset]) => [name, {
+type GeneratedAssetRecord = { path: string; kind: string; providerId?: string }
+const generatedAssetEntries = Object.entries(generatedFootballAssets.assets as Record<string, GeneratedAssetRecord>)
+const generatedAssets = Object.fromEntries(generatedAssetEntries.map(([name, asset]) => [name, {
   src: asset.path,
   short: name.replace(/[^A-Za-z0-9]/g, '').slice(0, 3).toUpperCase() || name.slice(0, 2),
   kind: asset.kind as VisualAsset['kind'],
 }])) as Record<string, VisualAsset>
+const generatedAssetsByProviderId = Object.fromEntries(generatedAssetEntries
+  .filter(([, asset]) => asset.providerId)
+  .map(([name, asset]) => [asset.providerId, generatedAssets[name]])) as Record<string, VisualAsset>
 
-export const getFootballAsset = (name: string) => footballAssets[name] ?? generatedAssets[name]
+export const getFootballAsset = (name: string, clubId?: number) => (clubId ? generatedAssetsByProviderId[`tm:${clubId}`] : undefined) ?? footballAssets[name] ?? generatedAssets[name]
 
 type GeneratedSeason = SeasonStat & { seasonStart: number; clubId: number }
 type GeneratedPlayerStats = { coverage: 'partial'; updatedAt: string; seasons: GeneratedSeason[] }
@@ -182,7 +188,17 @@ type RosterProfile = {
 }
 
 type GeneratedCareer = {
-  spells: { club: string; start?: string; end?: string }[]
+  spells: { club: string; clubId?: number; start?: string; end?: string }[]
+}
+
+type GeneratedContentOverride = {
+  retired?: boolean
+  currentClub?: string
+  birthDate?: string
+  height?: string
+  foot?: string
+  clubs?: ClubSpell[]
+  honorsSummary?: string
 }
 
 const profileThemes = [
@@ -242,6 +258,7 @@ function buildCareerClubs(slug: string, record: RosterProfile, fallback: ClubSpe
     const canAttachAggregate = Boolean(total) && occurrenceCount.get(key) === 1
     return {
       club: spell.club,
+      clubId: spell.clubId,
       period: formatCareerPeriod(spell.start, spell.end),
       appearances: canAttachAggregate ? total!.appearances : undefined,
       goals: canAttachAggregate ? total!.goals : undefined,
@@ -300,11 +317,17 @@ export const playerData: Record<string, PlayerData> = Object.fromEntries(Object.
   const retired = (identity?.currentClub === '_Retired Soccer' && (record?.lastSeason ?? 0) < 2025) || data.retired === true
   const valuation = slug === 'kaka' ? [] : (generatedPlayerValuations.players as Record<string, { points: MarketValuePoint[] }>)[slug]?.points ?? []
   const latestValue = valuation[valuation.length - 1]?.value
+  const content = (generatedPlayerContent.players as Record<string, GeneratedContentOverride>)[slug]
+  const finalRetired = content?.retired ?? retired
   return [slug, {
     ...data,
-    currentClub: normalizeCurrentClub(data.currentClub),
-    currentValue: retired ? undefined : latestValue ? `€${latestValue}m` : data.currentValue,
+    currentClub: content?.currentClub ?? normalizeCurrentClub(data.currentClub),
+    currentValue: finalRetired ? undefined : latestValue ? `€${latestValue}m` : data.currentValue,
     marketValues: valuation.length ? valuation : data.marketValues,
-    retired,
+    retired: finalRetired,
+    birthDate: content?.birthDate || data.birthDate,
+    height: content?.height || data.height,
+    foot: content?.foot || data.foot,
+    clubs: data.clubs,
   }]
 }))

@@ -11,11 +11,11 @@
       "providerId": "133961"
     },
     "Dinamo Zagreb": {
-      "path": "/assets/football/dinamo-zagreb.png",
+      "path": "/assets/football/club-tm-419.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133961",
-      "providerId": "133961",
-      "canonicalName": "萨格勒布迪纳摩"
+      "source": "Transfermarkt club 419",
+      "canonicalName": "Dinamo Zagreb",
+      "providerId": "tm:419"
     },
     "日林斯基": {
       "path": "/assets/football/zrinjski.png",
@@ -24,11 +24,11 @@
       "providerId": "134341"
     },
     "Zrinjski Mostar": {
-      "path": "/assets/football/zrinjski.png",
+      "path": "/assets/football/club-tm-6808.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134341",
-      "providerId": "134341",
-      "canonicalName": "日林斯基"
+      "source": "Transfermarkt club 6808",
+      "canonicalName": "Zrinjski Mostar",
+      "providerId": "tm:6808"
     },
     "国际扎普雷希奇": {
       "path": "/assets/football/inter-zapresic.png",
@@ -37,11 +37,11 @@
       "providerId": "137796"
     },
     "Inter Zapresic": {
-      "path": "/assets/football/inter-zapresic.png",
+      "path": "/assets/football/club-tm-918.png",
       "kind": "crest",
-      "source": "TheSportsDB team 137796",
-      "providerId": "137796",
-      "canonicalName": "国际扎普雷希奇"
+      "source": "Transfermarkt club 918",
+      "canonicalName": "Inter Zapresic",
+      "providerId": "tm:918"
     },
     "托特纳姆热刺": {
       "path": "/assets/football/tottenham.png",
@@ -57,11 +57,11 @@
       "canonicalName": "托特纳姆热刺"
     },
     "Tottenham Hotspur": {
-      "path": "/assets/football/tottenham.png",
+      "path": "/assets/football/club-tm-148.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133616",
-      "providerId": "133616",
-      "canonicalName": "托特纳姆热刺"
+      "source": "Transfermarkt club 148",
+      "canonicalName": "Tottenham Hotspur",
+      "providerId": "tm:148"
     },
     "皇家马德里": {
       "path": "/assets/football/real-madrid.png",
@@ -70,11 +70,11 @@
       "providerId": "133738"
     },
     "Real Madrid": {
-      "path": "/assets/football/real-madrid.png",
+      "path": "/assets/football/club-tm-418.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133738",
-      "providerId": "133738",
-      "canonicalName": "皇家马德里"
+      "source": "Transfermarkt club 418",
+      "canonicalName": "Real Madrid",
+      "providerId": "tm:418"
     },
     "AC 米兰": {
       "path": "/assets/football/ac-milan.png",
@@ -83,11 +83,11 @@
       "providerId": "133667"
     },
     "AC Milan": {
-      "path": "/assets/football/ac-milan.png",
+      "path": "/assets/football/club-tm-5.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133667",
-      "providerId": "133667",
-      "canonicalName": "AC 米兰"
+      "source": "Transfermarkt club 5",
+      "canonicalName": "AC Milan",
+      "providerId": "tm:5"
     },
     "克罗地亚": {
       "path": "/assets/football/croatia.png",
@@ -109,18 +109,18 @@
       "providerId": "133739"
     },
     "Barcelona": {
-      "path": "/assets/football/barcelona.png",
+      "path": "/assets/football/club-tm-131.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133739",
-      "providerId": "133739",
-      "canonicalName": "巴塞罗那"
+      "source": "Transfermarkt club 131",
+      "canonicalName": "Barcelona",
+      "providerId": "tm:131"
     },
     "FC Barcelona": {
-      "path": "/assets/football/barcelona.png",
+      "path": "/assets/football/club-tm-131.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133739",
-      "providerId": "133739",
-      "canonicalName": "巴塞罗那"
+      "source": "Transfermarkt club 131",
+      "canonicalName": "FC Barcelona",
+      "providerId": "tm:131"
     },
     "巴黎圣日耳曼": {
       "path": "/assets/football/psg.png",
@@ -129,18 +129,18 @@
       "providerId": "133714"
     },
     "PSG": {
-      "path": "/assets/football/psg.png",
+      "path": "/assets/football/club-tm-583.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133714",
-      "providerId": "133714",
-      "canonicalName": "巴黎圣日耳曼"
+      "source": "Transfermarkt club 583",
+      "canonicalName": "PSG",
+      "providerId": "tm:583"
     },
     "Paris Saint-Germain": {
-      "path": "/assets/football/psg.png",
+      "path": "/assets/football/club-tm-583.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133714",
-      "providerId": "133714",
-      "canonicalName": "巴黎圣日耳曼"
+      "source": "Transfermarkt club 583",
+      "canonicalName": "Paris Saint-Germain",
+      "providerId": "tm:583"
     },
     "迈阿密国际": {
       "path": "/assets/football/inter-miami.png",
@@ -308,66 +308,6 @@
       "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
       "canonicalName": "世界杯冠军"
     },
-    "U20 世界杯冠军": {
-      "path": "/assets/football/world-cup.jpg",
-      "kind": "trophy",
-      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
-      "canonicalName": "世界杯冠军"
-    },
-    "美洲杯冠军": {
-      "path": "/assets/football/world-cup.jpg",
-      "kind": "trophy",
-      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
-      "canonicalName": "世界杯冠军"
-    },
-    "欧美杯冠军": {
-      "path": "/assets/football/world-cup.jpg",
-      "kind": "trophy",
-      "source": "Reuses 世界杯冠军; Existing verified local asset: /assets/football/world-cup.jpg",
-      "canonicalName": "世界杯冠军"
-    },
-    "世界杯金球奖": {
-      "path": "/assets/football/ballon-dor.jpg",
-      "kind": "trophy",
-      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
-      "canonicalName": "金球奖"
-    },
-    "世界杯铜球奖": {
-      "path": "/assets/football/ballon-dor.jpg",
-      "kind": "trophy",
-      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
-      "canonicalName": "金球奖"
-    },
-    "欧洲金靴奖": {
-      "path": "/assets/football/ballon-dor.jpg",
-      "kind": "trophy",
-      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
-      "canonicalName": "金球奖"
-    },
-    "奥运会金牌": {
-      "path": "/assets/football/ballon-dor.jpg",
-      "kind": "trophy",
-      "source": "Reuses 金球奖; Existing verified local asset: /assets/football/ballon-dor.jpg",
-      "canonicalName": "金球奖"
-    },
-    "法国甲级联赛": {
-      "path": "/assets/football/la-liga.png",
-      "kind": "trophy",
-      "source": "Reuses 西班牙甲级联赛; TheSportsDB league 4335",
-      "canonicalName": "西班牙甲级联赛"
-    },
-    "法国超级杯": {
-      "path": "/assets/football/supercopa.png",
-      "kind": "trophy",
-      "source": "Reuses 西班牙超级杯; TheSportsDB league 4511",
-      "canonicalName": "西班牙超级杯"
-    },
-    "北美联赛杯": {
-      "path": "/assets/football/champions-league.png",
-      "kind": "trophy",
-      "source": "Reuses 欧洲冠军联赛; TheSportsDB league 4480",
-      "canonicalName": "欧洲冠军联赛"
-    },
     "AFC Ajax": {
       "path": "/assets/football/club-142699.png",
       "kind": "crest",
@@ -390,11 +330,11 @@
       "providerId": "133682"
     },
     "AZ Alkmaar": {
-      "path": "/assets/football/club-133767.png",
+      "path": "/assets/football/club-tm-1090.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133767",
+      "source": "Transfermarkt club 1090",
       "canonicalName": "AZ Alkmaar",
-      "providerId": "133767"
+      "providerId": "tm:1090"
     },
     "Apollon Limassol": {
       "path": "/assets/football/club-134407.png",
@@ -404,32 +344,32 @@
       "providerId": "134407"
     },
     "Arsenal": {
-      "path": "/assets/football/club-133604.png",
+      "path": "/assets/football/club-tm-11.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133604",
+      "source": "Transfermarkt club 11",
       "canonicalName": "Arsenal",
-      "providerId": "133604"
+      "providerId": "tm:11"
     },
     "Aston Villa": {
-      "path": "/assets/football/club-133601.png",
+      "path": "/assets/football/club-tm-405.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133601",
+      "source": "Transfermarkt club 405",
       "canonicalName": "Aston Villa",
-      "providerId": "133601"
+      "providerId": "tm:405"
     },
     "Atalanta": {
-      "path": "/assets/football/club-134782.png",
+      "path": "/assets/football/club-tm-800.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134782",
+      "source": "Transfermarkt club 800",
       "canonicalName": "Atalanta",
-      "providerId": "134782"
+      "providerId": "tm:800"
     },
     "Athletic Bilbao": {
-      "path": "/assets/football/club-133727.png",
+      "path": "/assets/football/club-tm-621.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133727",
+      "source": "Transfermarkt club 621",
       "canonicalName": "Athletic Bilbao",
-      "providerId": "133727"
+      "providerId": "tm:621"
     },
     "Atletico Madrid": {
       "path": "/assets/football/club-133729.png",
@@ -446,46 +386,46 @@
       "providerId": "133666"
     },
     "AFC Bournemouth": {
-      "path": "/assets/football/club-134301.png",
+      "path": "/assets/football/club-tm-989.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134301",
-      "canonicalName": "Bournemouth",
-      "providerId": "134301"
+      "source": "Transfermarkt club 989",
+      "canonicalName": "AFC Bournemouth",
+      "providerId": "tm:989"
     },
     "AS Monaco": {
-      "path": "/assets/football/club-133823.png",
+      "path": "/assets/football/club-tm-162.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133823",
-      "canonicalName": "Monaco",
-      "providerId": "133823"
+      "source": "Transfermarkt club 162",
+      "canonicalName": "AS Monaco",
+      "providerId": "tm:162"
     },
     "Angers SCO": {
-      "path": "/assets/football/club-134709.png",
+      "path": "/assets/football/club-tm-1420.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134709",
-      "canonicalName": "Angers",
-      "providerId": "134709"
+      "source": "Transfermarkt club 1420",
+      "canonicalName": "Angers SCO",
+      "providerId": "tm:1420"
     },
     "Bayern Munich": {
-      "path": "/assets/football/club-133664.png",
+      "path": "/assets/football/club-tm-27.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133664",
+      "source": "Transfermarkt club 27",
       "canonicalName": "Bayern Munich",
-      "providerId": "133664"
+      "providerId": "tm:27"
     },
     "Benfica": {
-      "path": "/assets/football/club-134108.png",
+      "path": "/assets/football/club-tm-294.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134108",
+      "source": "Transfermarkt club 294",
       "canonicalName": "Benfica",
-      "providerId": "134108"
+      "providerId": "tm:294"
     },
     "Besiktas": {
-      "path": "/assets/football/club-133794.png",
+      "path": "/assets/football/club-tm-114.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133794",
-      "canonicalName": "Beşiktaş",
-      "providerId": "133794"
+      "source": "Transfermarkt club 114",
+      "canonicalName": "Besiktas",
+      "providerId": "tm:114"
     },
     "Birmingham City": {
       "path": "/assets/football/club-133597.png",
@@ -502,18 +442,18 @@
       "providerId": "133598"
     },
     "Blackpool": {
-      "path": "/assets/football/club-133618.png",
+      "path": "/assets/football/club-tm-1181.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133618",
+      "source": "Transfermarkt club 1181",
       "canonicalName": "Blackpool",
-      "providerId": "133618"
+      "providerId": "tm:1181"
     },
     "Borussia Dortmund": {
-      "path": "/assets/football/club-133650.png",
+      "path": "/assets/football/club-tm-16.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133650",
+      "source": "Transfermarkt club 16",
       "canonicalName": "Borussia Dortmund",
-      "providerId": "133650"
+      "providerId": "tm:16"
     },
     "Borussia M'gladbach": {
       "path": "/assets/football/club-138360.png",
@@ -523,25 +463,25 @@
       "providerId": "138360"
     },
     "Brentford": {
-      "path": "/assets/football/club-134355.png",
+      "path": "/assets/football/club-tm-1148.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134355",
+      "source": "Transfermarkt club 1148",
       "canonicalName": "Brentford",
-      "providerId": "134355"
+      "providerId": "tm:1148"
     },
     "Brescia": {
-      "path": "/assets/football/club-133690.png",
+      "path": "/assets/football/club-tm-19.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133690",
+      "source": "Transfermarkt club 19",
       "canonicalName": "Brescia",
-      "providerId": "133690"
+      "providerId": "tm:19"
     },
     "Bristol City": {
-      "path": "/assets/football/club-133621.png",
+      "path": "/assets/football/club-tm-698.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133621",
+      "source": "Transfermarkt club 698",
       "canonicalName": "Bristol City",
-      "providerId": "133621"
+      "providerId": "tm:698"
     },
     "CD Leganes": {
       "path": "/assets/football/club-134701.png",
@@ -565,11 +505,11 @@
       "providerId": "134787"
     },
     "Cagliari": {
-      "path": "/assets/football/club-134783.png",
+      "path": "/assets/football/club-tm-1390.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134783",
+      "source": "Transfermarkt club 1390",
       "canonicalName": "Cagliari",
-      "providerId": "134783"
+      "providerId": "tm:1390"
     },
     "Carlisle United": {
       "path": "/assets/football/club-134360.png",
@@ -579,25 +519,25 @@
       "providerId": "134360"
     },
     "Celtic": {
-      "path": "/assets/football/club-133647.png",
+      "path": "/assets/football/club-tm-371.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133647",
+      "source": "Transfermarkt club 371",
       "canonicalName": "Celtic",
-      "providerId": "133647"
+      "providerId": "tm:371"
     },
     "Chelsea": {
-      "path": "/assets/football/club-133610.png",
+      "path": "/assets/football/club-tm-631.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133610",
+      "source": "Transfermarkt club 631",
       "canonicalName": "Chelsea",
-      "providerId": "133610"
+      "providerId": "tm:631"
     },
     "Como": {
-      "path": "/assets/football/club-134243.png",
+      "path": "/assets/football/club-tm-1047.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134243",
+      "source": "Transfermarkt club 1047",
       "canonicalName": "Como",
-      "providerId": "134243"
+      "providerId": "tm:1047"
     },
     "Coventry City": {
       "path": "/assets/football/club-133625.png",
@@ -607,11 +547,11 @@
       "providerId": "133625"
     },
     "Crystal Palace": {
-      "path": "/assets/football/club-133632.png",
+      "path": "/assets/football/club-tm-873.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133632",
+      "source": "Transfermarkt club 873",
       "canonicalName": "Crystal Palace",
-      "providerId": "133632"
+      "providerId": "tm:873"
     },
     "Deportivo La Coruna": {
       "path": "/assets/football/club-147597.png",
@@ -635,18 +575,18 @@
       "providerId": "133620"
     },
     "Eintracht Frankfurt": {
-      "path": "/assets/football/club-133814.png",
+      "path": "/assets/football/club-tm-24.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133814",
+      "source": "Transfermarkt club 24",
       "canonicalName": "Eintracht Frankfurt",
-      "providerId": "133814"
+      "providerId": "tm:24"
     },
     "Espanyol": {
-      "path": "/assets/football/club-133734.png",
+      "path": "/assets/football/club-tm-714.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133734",
+      "source": "Transfermarkt club 714",
       "canonicalName": "Espanyol",
-      "providerId": "133734"
+      "providerId": "tm:714"
     },
     "Estoril Praia": {
       "path": "/assets/football/club-134106.png",
@@ -656,60 +596,60 @@
       "providerId": "134106"
     },
     "Everton": {
-      "path": "/assets/football/club-133615.png",
+      "path": "/assets/football/club-tm-29.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133615",
+      "source": "Transfermarkt club 29",
       "canonicalName": "Everton",
-      "providerId": "133615"
+      "providerId": "tm:29"
     },
     "FC Basel": {
-      "path": "/assets/football/club-133957.png",
+      "path": "/assets/football/club-tm-26.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133957",
-      "canonicalName": "Basel",
-      "providerId": "133957"
+      "source": "Transfermarkt club 26",
+      "canonicalName": "FC Basel",
+      "providerId": "tm:26"
     },
     "FC Lorient": {
-      "path": "/assets/football/club-133715.png",
+      "path": "/assets/football/club-tm-1158.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133715",
-      "canonicalName": "Lorient",
-      "providerId": "133715"
+      "source": "Transfermarkt club 1158",
+      "canonicalName": "FC Lorient",
+      "providerId": "tm:1158"
     },
     "FC Metz": {
-      "path": "/assets/football/club-133883.png",
+      "path": "/assets/football/club-tm-347.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133883",
-      "canonicalName": "Metz",
-      "providerId": "133883"
+      "source": "Transfermarkt club 347",
+      "canonicalName": "FC Metz",
+      "providerId": "tm:347"
     },
     "FC Nantes": {
-      "path": "/assets/football/club-133861.png",
+      "path": "/assets/football/club-tm-995.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133861",
-      "canonicalName": "Nantes",
-      "providerId": "133861"
+      "source": "Transfermarkt club 995",
+      "canonicalName": "FC Nantes",
+      "providerId": "tm:995"
     },
     "FC Porto": {
-      "path": "/assets/football/club-147944.png",
+      "path": "/assets/football/club-tm-720.png",
       "kind": "crest",
-      "source": "TheSportsDB team 147944",
-      "canonicalName": "FC Porto Juniors",
-      "providerId": "147944"
+      "source": "Transfermarkt club 720",
+      "canonicalName": "FC Porto",
+      "providerId": "tm:720"
     },
     "Fenerbahce": {
-      "path": "/assets/football/club-133807.png",
+      "path": "/assets/football/club-tm-36.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133807",
-      "canonicalName": "Fenerbahçe",
-      "providerId": "133807"
+      "source": "Transfermarkt club 36",
+      "canonicalName": "Fenerbahce",
+      "providerId": "tm:36"
     },
     "Fiorentina": {
-      "path": "/assets/football/club-133674.png",
+      "path": "/assets/football/club-tm-430.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133674",
+      "source": "Transfermarkt club 430",
       "canonicalName": "Fiorentina",
-      "providerId": "133674"
+      "providerId": "tm:430"
     },
     "Genoa": {
       "path": "/assets/football/club-133675.png",
@@ -719,11 +659,11 @@
       "providerId": "133675"
     },
     "Girona FC": {
-      "path": "/assets/football/club-134700.png",
+      "path": "/assets/football/club-tm-12321.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134700",
-      "canonicalName": "Girona",
-      "providerId": "134700"
+      "source": "Transfermarkt club 12321",
+      "canonicalName": "Girona FC",
+      "providerId": "tm:12321"
     },
     "Girondins De Bordeaux": {
       "path": "/assets/football/club-133716.png",
@@ -754,18 +694,18 @@
       "providerId": "138022"
     },
     "Hellas Verona": {
-      "path": "/assets/football/club-134784.png",
+      "path": "/assets/football/club-tm-276.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134784",
+      "source": "Transfermarkt club 276",
       "canonicalName": "Hellas Verona",
-      "providerId": "134784"
+      "providerId": "tm:276"
     },
     "Hertha BSC": {
-      "path": "/assets/football/club-133658.png",
+      "path": "/assets/football/club-tm-44.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133658",
-      "canonicalName": "Hertha",
-      "providerId": "133658"
+      "source": "Transfermarkt club 44",
+      "canonicalName": "Hertha BSC",
+      "providerId": "tm:44"
     },
     "Hibernians FC": {
       "path": "/assets/football/club-138132.png",
@@ -775,11 +715,11 @@
       "providerId": "138132"
     },
     "Hull City": {
-      "path": "/assets/football/club-133617.png",
+      "path": "/assets/football/club-tm-3008.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133617",
+      "source": "Transfermarkt club 3008",
       "canonicalName": "Hull City",
-      "providerId": "133617"
+      "providerId": "tm:3008"
     },
     "Internazionale": {
       "path": "/assets/football/club-133681.png",
@@ -789,18 +729,18 @@
       "providerId": "133681"
     },
     "Juventus": {
-      "path": "/assets/football/club-133676.png",
+      "path": "/assets/football/club-tm-506.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133676",
+      "source": "Transfermarkt club 506",
       "canonicalName": "Juventus",
-      "providerId": "133676"
+      "providerId": "tm:506"
     },
     "KRC Genk": {
-      "path": "/assets/football/club-133779.png",
+      "path": "/assets/football/club-tm-1184.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133779",
-      "canonicalName": "Genk",
-      "providerId": "133779"
+      "source": "Transfermarkt club 1184",
+      "canonicalName": "KRC Genk",
+      "providerId": "tm:1184"
     },
     "Kairat": {
       "path": "/assets/football/club-134602.png",
@@ -810,25 +750,25 @@
       "providerId": "134602"
     },
     "Lecce": {
-      "path": "/assets/football/club-133678.png",
+      "path": "/assets/football/club-tm-1005.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133678",
+      "source": "Transfermarkt club 1005",
       "canonicalName": "Lecce",
-      "providerId": "133678"
+      "providerId": "tm:1005"
     },
     "Leeds United": {
-      "path": "/assets/football/club-133635.png",
+      "path": "/assets/football/club-tm-399.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133635",
+      "source": "Transfermarkt club 399",
       "canonicalName": "Leeds United",
-      "providerId": "133635"
+      "providerId": "tm:399"
     },
     "Leicester City": {
-      "path": "/assets/football/club-133626.png",
+      "path": "/assets/football/club-tm-1003.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133626",
+      "source": "Transfermarkt club 1003",
       "canonicalName": "Leicester City",
-      "providerId": "133626"
+      "providerId": "tm:1003"
     },
     "Levante": {
       "path": "/assets/football/club-133732.png",
@@ -838,11 +778,11 @@
       "providerId": "133732"
     },
     "Leyton Orient": {
-      "path": "/assets/football/club-134367.png",
+      "path": "/assets/football/club-tm-1150.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134367",
+      "source": "Transfermarkt club 1150",
       "canonicalName": "Leyton Orient",
-      "providerId": "134367"
+      "providerId": "tm:1150"
     },
     "Lille OSC": {
       "path": "/assets/football/club-133711.png",
@@ -852,11 +792,11 @@
       "providerId": "133711"
     },
     "Liverpool": {
-      "path": "/assets/football/club-133602.png",
+      "path": "/assets/football/club-tm-31.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133602",
+      "source": "Transfermarkt club 31",
       "canonicalName": "Liverpool",
-      "providerId": "133602"
+      "providerId": "tm:31"
     },
     "Ludogorets Razgrad": {
       "path": "/assets/football/club-133981.png",
@@ -866,11 +806,11 @@
       "providerId": "133981"
     },
     "MSK Zilina": {
-      "path": "/assets/football/club-133975.png",
+      "path": "/assets/football/club-tm-1443.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133975",
-      "canonicalName": "Žilina",
-      "providerId": "133975"
+      "source": "Transfermarkt club 1443",
+      "canonicalName": "MSK Zilina",
+      "providerId": "tm:1443"
     },
     "Malaga": {
       "path": "/assets/football/club-133736.png",
@@ -880,32 +820,32 @@
       "providerId": "133736"
     },
     "Manchester City": {
-      "path": "/assets/football/club-133613.png",
+      "path": "/assets/football/club-tm-281.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133613",
+      "source": "Transfermarkt club 281",
       "canonicalName": "Manchester City",
-      "providerId": "133613"
+      "providerId": "tm:281"
     },
     "Manchester United": {
-      "path": "/assets/football/club-133612.png",
+      "path": "/assets/football/club-tm-985.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133612",
+      "source": "Transfermarkt club 985",
       "canonicalName": "Manchester United",
-      "providerId": "133612"
+      "providerId": "tm:985"
     },
     "Middlesbrough": {
-      "path": "/assets/football/club-133628.png",
+      "path": "/assets/football/club-tm-641.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133628",
+      "source": "Transfermarkt club 641",
       "canonicalName": "Middlesbrough",
-      "providerId": "133628"
+      "providerId": "tm:641"
     },
     "Millwall": {
-      "path": "/assets/football/club-133634.png",
+      "path": "/assets/football/club-tm-1028.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133634",
+      "source": "Transfermarkt club 1028",
       "canonicalName": "Millwall",
-      "providerId": "133634"
+      "providerId": "tm:1028"
     },
     "Milton Keynes Dons": {
       "path": "/assets/football/club-134371.png",
@@ -915,46 +855,46 @@
       "providerId": "134371"
     },
     "Napoli": {
-      "path": "/assets/football/club-133670.png",
+      "path": "/assets/football/club-tm-6195.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133670",
+      "source": "Transfermarkt club 6195",
       "canonicalName": "Napoli",
-      "providerId": "133670"
+      "providerId": "tm:6195"
     },
     "Newcastle United": {
-      "path": "/assets/football/club-134777.png",
+      "path": "/assets/football/club-tm-762.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134777",
+      "source": "Transfermarkt club 762",
       "canonicalName": "Newcastle United",
-      "providerId": "134777"
+      "providerId": "tm:762"
     },
     "Newport County": {
-      "path": "/assets/football/club-134357.png",
+      "path": "/assets/football/club-tm-3716.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134357",
+      "source": "Transfermarkt club 3716",
       "canonicalName": "Newport County",
-      "providerId": "134357"
+      "providerId": "tm:3716"
     },
     "Norwich City": {
-      "path": "/assets/football/club-133608.png",
+      "path": "/assets/football/club-tm-1123.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133608",
+      "source": "Transfermarkt club 1123",
       "canonicalName": "Norwich City",
-      "providerId": "133608"
+      "providerId": "tm:1123"
     },
     "Notts County": {
-      "path": "/assets/football/club-134373.png",
+      "path": "/assets/football/club-tm-1045.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134373",
+      "source": "Transfermarkt club 1045",
       "canonicalName": "Notts County",
-      "providerId": "134373"
+      "providerId": "tm:1045"
     },
     "OGC Nice": {
-      "path": "/assets/football/club-133712.png",
+      "path": "/assets/football/club-tm-417.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133712",
-      "canonicalName": "Nice",
-      "providerId": "133712"
+      "source": "Transfermarkt club 417",
+      "canonicalName": "OGC Nice",
+      "providerId": "tm:417"
     },
     "Olympiakos": {
       "path": "/assets/football/club-133830.png",
@@ -971,18 +911,18 @@
       "providerId": "133713"
     },
     "Olympique Marseille": {
-      "path": "/assets/football/club-133707.png",
+      "path": "/assets/football/club-tm-244.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133707",
-      "canonicalName": "Marseille",
-      "providerId": "133707"
+      "source": "Transfermarkt club 244",
+      "canonicalName": "Olympique Marseille",
+      "providerId": "tm:244"
     },
     "PSV Eindhoven": {
-      "path": "/assets/football/club-133768.png",
+      "path": "/assets/football/club-tm-383.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133768",
+      "source": "Transfermarkt club 383",
       "canonicalName": "PSV Eindhoven",
-      "providerId": "133768"
+      "providerId": "tm:383"
     },
     "Palermo": {
       "path": "/assets/football/club-138166.png",
@@ -999,60 +939,60 @@
       "providerId": "133746"
     },
     "Parma": {
-      "path": "/assets/football/club-135728.png",
+      "path": "/assets/football/club-tm-130.png",
       "kind": "crest",
-      "source": "TheSportsDB team 135728",
+      "source": "Transfermarkt club 130",
       "canonicalName": "Parma",
-      "providerId": "135728"
+      "providerId": "tm:130"
     },
     "RB Leipzig": {
-      "path": "/assets/football/club-134695.png",
+      "path": "/assets/football/club-tm-23826.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134695",
+      "source": "Transfermarkt club 23826",
       "canonicalName": "RB Leipzig",
-      "providerId": "134695"
+      "providerId": "tm:23826"
     },
     "RC Lens": {
-      "path": "/assets/football/club-133822.png",
+      "path": "/assets/football/club-tm-826.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133822",
-      "canonicalName": "Lens",
-      "providerId": "133822"
+      "source": "Transfermarkt club 826",
+      "canonicalName": "RC Lens",
+      "providerId": "tm:826"
     },
     "RSC Anderlecht": {
-      "path": "/assets/football/club-133776.png",
+      "path": "/assets/football/club-tm-58.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133776",
-      "canonicalName": "Anderlecht",
-      "providerId": "133776"
+      "source": "Transfermarkt club 58",
+      "canonicalName": "RSC Anderlecht",
+      "providerId": "tm:58"
     },
     "Rayo Vallecano": {
-      "path": "/assets/football/club-133728.png",
+      "path": "/assets/football/club-tm-367.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133728",
+      "source": "Transfermarkt club 367",
       "canonicalName": "Rayo Vallecano",
-      "providerId": "133728"
+      "providerId": "tm:367"
     },
     "Reading": {
-      "path": "/assets/football/club-133633.png",
+      "path": "/assets/football/club-tm-1032.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133633",
+      "source": "Transfermarkt club 1032",
       "canonicalName": "Reading",
-      "providerId": "133633"
+      "providerId": "tm:1032"
     },
     "Real Betis": {
-      "path": "/assets/football/club-133722.png",
+      "path": "/assets/football/club-tm-150.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133722",
+      "source": "Transfermarkt club 150",
       "canonicalName": "Real Betis",
-      "providerId": "133722"
+      "providerId": "tm:150"
     },
     "Real Sociedad": {
-      "path": "/assets/football/club-133724.png",
+      "path": "/assets/football/club-tm-681.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133724",
+      "source": "Transfermarkt club 681",
       "canonicalName": "Real Sociedad",
-      "providerId": "133724"
+      "providerId": "tm:681"
     },
     "Real Valladolid": {
       "path": "/assets/football/club-133841.png",
@@ -1069,11 +1009,11 @@
       "providerId": "133737"
     },
     "Rio Ave": {
-      "path": "/assets/football/club-134107.png",
+      "path": "/assets/football/club-tm-2425.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134107",
+      "source": "Transfermarkt club 2425",
       "canonicalName": "Rio Ave",
-      "providerId": "134107"
+      "providerId": "tm:2425"
     },
     "Rotherham United": {
       "path": "/assets/football/club-134231.png",
@@ -1090,18 +1030,18 @@
       "providerId": "133668"
     },
     "Salzburg": {
-      "path": "/assets/football/club-147966.png",
+      "path": "/assets/football/club-tm-409.png",
       "kind": "crest",
-      "source": "TheSportsDB team 147966",
-      "canonicalName": "Salzburg Youth",
-      "providerId": "147966"
+      "source": "Transfermarkt club 409",
+      "canonicalName": "Salzburg",
+      "providerId": "tm:409"
     },
     "Sampdoria": {
-      "path": "/assets/football/club-133683.png",
+      "path": "/assets/football/club-tm-1038.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133683",
+      "source": "Transfermarkt club 1038",
       "canonicalName": "Sampdoria",
-      "providerId": "133683"
+      "providerId": "tm:1038"
     },
     "Sevilla": {
       "path": "/assets/football/club-133735.png",
@@ -1111,11 +1051,11 @@
       "providerId": "133735"
     },
     "Sheffield United": {
-      "path": "/assets/football/club-133811.png",
+      "path": "/assets/football/club-tm-350.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133811",
+      "source": "Transfermarkt club 350",
       "canonicalName": "Sheffield United",
-      "providerId": "133811"
+      "providerId": "tm:350"
     },
     "Sheffield Wednesday": {
       "path": "/assets/football/club-133837.png",
@@ -1125,11 +1065,11 @@
       "providerId": "133837"
     },
     "Southampton": {
-      "path": "/assets/football/club-134778.png",
+      "path": "/assets/football/club-tm-180.png",
       "kind": "crest",
-      "source": "TheSportsDB team 134778",
+      "source": "Transfermarkt club 180",
       "canonicalName": "Southampton",
-      "providerId": "134778"
+      "providerId": "tm:180"
     },
     "Sporting Lisbon": {
       "path": "/assets/football/club-135708.png",
@@ -1139,11 +1079,11 @@
       "providerId": "135708"
     },
     "Stade Reims": {
-      "path": "/assets/football/club-133934.png",
+      "path": "/assets/football/club-tm-1421.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133934",
-      "canonicalName": "Stade de Reims",
-      "providerId": "133934"
+      "source": "Transfermarkt club 1421",
+      "canonicalName": "Stade Reims",
+      "providerId": "tm:1421"
     },
     "Stade Rennes": {
       "path": "/assets/football/club-133719.png",
@@ -1160,25 +1100,25 @@
       "providerId": "134564"
     },
     "Sunderland": {
-      "path": "/assets/football/club-133603.png",
+      "path": "/assets/football/club-tm-289.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133603",
+      "source": "Transfermarkt club 289",
       "canonicalName": "Sunderland",
-      "providerId": "133603"
+      "providerId": "tm:289"
     },
     "Swansea City": {
-      "path": "/assets/football/club-133614.png",
+      "path": "/assets/football/club-tm-2288.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133614",
+      "source": "Transfermarkt club 2288",
       "canonicalName": "Swansea City",
-      "providerId": "133614"
+      "providerId": "tm:2288"
     },
     "TSG 1899 Hoffenheim": {
-      "path": "/assets/football/club-133657.png",
+      "path": "/assets/football/club-tm-533.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133657",
-      "canonicalName": "Hoffenheim",
-      "providerId": "133657"
+      "source": "Transfermarkt club 533",
+      "canonicalName": "TSG 1899 Hoffenheim",
+      "providerId": "tm:533"
     },
     "Toulouse": {
       "path": "/assets/football/club-133703.png",
@@ -1202,18 +1142,18 @@
       "providerId": "133817"
     },
     "Udinese": {
-      "path": "/assets/football/club-133679.png",
+      "path": "/assets/football/club-tm-410.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133679",
+      "source": "Transfermarkt club 410",
       "canonicalName": "Udinese",
-      "providerId": "133679"
+      "providerId": "tm:410"
     },
     "Valencia": {
-      "path": "/assets/football/club-133725.png",
+      "path": "/assets/football/club-tm-1049.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133725",
+      "source": "Transfermarkt club 1049",
       "canonicalName": "Valencia",
-      "providerId": "133725"
+      "providerId": "tm:1049"
     },
     "Valletta": {
       "path": "/assets/football/club-134791.png",
@@ -1223,18 +1163,18 @@
       "providerId": "134791"
     },
     "VfB Stuttgart": {
-      "path": "/assets/football/club-133660.png",
+      "path": "/assets/football/club-tm-79.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133660",
-      "canonicalName": "Stuttgart",
-      "providerId": "133660"
+      "source": "Transfermarkt club 79",
+      "canonicalName": "VfB Stuttgart",
+      "providerId": "tm:79"
     },
     "VfL Wolfsburg": {
-      "path": "/assets/football/club-133655.png",
+      "path": "/assets/football/club-tm-82.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133655",
-      "canonicalName": "Wolfsburg",
-      "providerId": "133655"
+      "source": "Transfermarkt club 82",
+      "canonicalName": "VfL Wolfsburg",
+      "providerId": "tm:82"
     },
     "Videoton FC": {
       "path": "/assets/football/club-134003.png",
@@ -1244,18 +1184,18 @@
       "providerId": "134003"
     },
     "Villarreal": {
-      "path": "/assets/football/club-133740.png",
+      "path": "/assets/football/club-tm-1050.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133740",
+      "source": "Transfermarkt club 1050",
       "canonicalName": "Villarreal",
-      "providerId": "133740"
+      "providerId": "tm:1050"
     },
     "Vitesse Arnhem": {
-      "path": "/assets/football/club-133770.png",
+      "path": "/assets/football/club-tm-499.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133770",
-      "canonicalName": "Vitesse",
-      "providerId": "133770"
+      "source": "Transfermarkt club 499",
+      "canonicalName": "Vitesse Arnhem",
+      "providerId": "tm:499"
     },
     "Vitoria Guimaraes": {
       "path": "/assets/football/club-134115.png",
@@ -1265,46 +1205,46 @@
       "providerId": "134115"
     },
     "Watford": {
-      "path": "/assets/football/club-133624.png",
+      "path": "/assets/football/club-tm-1010.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133624",
+      "source": "Transfermarkt club 1010",
       "canonicalName": "Watford",
-      "providerId": "133624"
+      "providerId": "tm:1010"
     },
     "Werder Bremen": {
-      "path": "/assets/football/club-133662.png",
+      "path": "/assets/football/club-tm-86.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133662",
+      "source": "Transfermarkt club 86",
       "canonicalName": "Werder Bremen",
-      "providerId": "133662"
+      "providerId": "tm:86"
     },
     "West Bromwich Albion": {
-      "path": "/assets/football/club-133611.png",
+      "path": "/assets/football/club-tm-984.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133611",
+      "source": "Transfermarkt club 984",
       "canonicalName": "West Bromwich Albion",
-      "providerId": "133611"
+      "providerId": "tm:984"
     },
     "West Ham United": {
-      "path": "/assets/football/club-133636.png",
+      "path": "/assets/football/club-tm-379.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133636",
+      "source": "Transfermarkt club 379",
       "canonicalName": "West Ham United",
-      "providerId": "133636"
+      "providerId": "tm:379"
     },
     "Wigan Athletic": {
-      "path": "/assets/football/club-133607.png",
+      "path": "/assets/football/club-tm-1071.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133607",
+      "source": "Transfermarkt club 1071",
       "canonicalName": "Wigan Athletic",
-      "providerId": "133607"
+      "providerId": "tm:1071"
     },
     "Wolverhampton Wanderers": {
-      "path": "/assets/football/club-133599.png",
+      "path": "/assets/football/club-tm-543.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133599",
+      "source": "Transfermarkt club 543",
       "canonicalName": "Wolverhampton Wanderers",
-      "providerId": "133599"
+      "providerId": "tm:543"
     },
     "AS Saint-Etienne": {
       "path": "/assets/football/club-133717.png",
@@ -1314,11 +1254,11 @@
       "providerId": "133717"
     },
     "Brighton & Hove Albion": {
-      "path": "/assets/football/club-133619.png",
+      "path": "/assets/football/club-tm-1237.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133619",
-      "canonicalName": "Brighton and Hove Albion",
-      "providerId": "133619"
+      "source": "Transfermarkt club 1237",
+      "canonicalName": "Brighton & Hove Albion",
+      "providerId": "tm:1237"
     },
     "CD Alaves": {
       "path": "/assets/football/club-134221.png",
@@ -1335,11 +1275,11 @@
       "providerId": "134244"
     },
     "FC Schalke 04": {
-      "path": "/assets/football/club-133661.png",
+      "path": "/assets/football/club-tm-33.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133661",
-      "canonicalName": "Schalke 04",
-      "providerId": "133661"
+      "source": "Transfermarkt club 33",
+      "canonicalName": "FC Schalke 04",
+      "providerId": "tm:33"
     },
     "Galatasaray SK": {
       "path": "/assets/football/club-133804.png",
@@ -1349,11 +1289,11 @@
       "providerId": "133804"
     },
     "Hamburger SV": {
-      "path": "/assets/football/club-133651.png",
+      "path": "/assets/football/club-tm-41.png",
       "kind": "crest",
-      "source": "TheSportsDB team 133651",
-      "canonicalName": "Hamburg",
-      "providerId": "133651"
+      "source": "Transfermarkt club 41",
+      "canonicalName": "Hamburger SV",
+      "providerId": "tm:41"
     },
     "Sporting Braga": {
       "path": "/assets/football/club-134098.png",
@@ -1361,6 +1301,2232 @@
       "source": "TheSportsDB team 134098",
       "canonicalName": "Braga",
       "providerId": "134098"
+    },
+    "Club Internacional de Fútbol Miami": {
+      "path": "/assets/football/club-tm-69261.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 69261",
+      "canonicalName": "Club Internacional de Fútbol Miami",
+      "providerId": "tm:69261"
+    },
+    "Al-Nassr Football Club": {
+      "path": "/assets/football/club-tm-18544.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18544",
+      "canonicalName": "Al-Nassr Football Club",
+      "providerId": "tm:18544"
+    },
+    "Juventus FC": {
+      "path": "/assets/football/club-tm-506.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 506",
+      "canonicalName": "Juventus FC",
+      "providerId": "tm:506"
+    },
+    "CD Nacional": {
+      "path": "/assets/football/club-tm-982.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 982",
+      "canonicalName": "CD Nacional",
+      "providerId": "tm:982"
+    },
+    "GNK Dinamo Zagreb": {
+      "path": "/assets/football/club-tm-419.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 419",
+      "canonicalName": "GNK Dinamo Zagreb",
+      "providerId": "tm:419"
+    },
+    "Chelsea FC": {
+      "path": "/assets/football/club-tm-631.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 631",
+      "canonicalName": "Chelsea FC",
+      "providerId": "tm:631"
+    },
+    "Liverpool FC": {
+      "path": "/assets/football/club-tm-31.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 31",
+      "canonicalName": "Liverpool FC",
+      "providerId": "tm:31"
+    },
+    "FC Basel 1893": {
+      "path": "/assets/football/club-tm-26.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 26",
+      "canonicalName": "FC Basel 1893",
+      "providerId": "tm:26"
+    },
+    "ACF Fiorentina": {
+      "path": "/assets/football/club-tm-430.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 430",
+      "canonicalName": "ACF Fiorentina",
+      "providerId": "tm:430"
+    },
+    "Clube de Regatas do Flamengo": {
+      "path": "/assets/football/club-tm-614.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 614",
+      "canonicalName": "Clube de Regatas do Flamengo",
+      "providerId": "tm:614"
+    },
+    "Associazione Sportiva Roma": {
+      "path": "/assets/football/club-tm-12.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12",
+      "canonicalName": "Associazione Sportiva Roma",
+      "providerId": "tm:12"
+    },
+    "Fußballclub Red Bull Salzburg": {
+      "path": "/assets/football/club-tm-409.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 409",
+      "canonicalName": "Fußballclub Red Bull Salzburg",
+      "providerId": "tm:409"
+    },
+    "Feyenoord Rotterdam": {
+      "path": "/assets/football/club-tm-234.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 234",
+      "canonicalName": "Feyenoord Rotterdam",
+      "providerId": "tm:234"
+    },
+    "Molde Fotballklubb": {
+      "path": "/assets/football/club-tm-687.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 687",
+      "canonicalName": "Molde Fotballklubb",
+      "providerId": "tm:687"
+    },
+    "Santos Futebol Clube": {
+      "path": "/assets/football/club-tm-221.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 221",
+      "canonicalName": "Santos Futebol Clube",
+      "providerId": "tm:221"
+    },
+    "Arsenal FC": {
+      "path": "/assets/football/club-tm-11.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 11",
+      "canonicalName": "Arsenal FC",
+      "providerId": "tm:11"
+    },
+    "Bryne FK": {
+      "path": "/assets/football/club-tm-1057.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1057",
+      "canonicalName": "Bryne FK",
+      "providerId": "tm:1057"
+    },
+    "Al-Hilal Saudi Football Club": {
+      "path": "/assets/football/club-tm-1114.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1114",
+      "canonicalName": "Al-Hilal Saudi Football Club",
+      "providerId": "tm:1114"
+    },
+    "Atlético de Madrid": {
+      "path": "/assets/football/club-tm-13.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 13",
+      "canonicalName": "Atlético de Madrid",
+      "providerId": "tm:13"
+    },
+    "SSC Napoli": {
+      "path": "/assets/football/club-tm-6195.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6195",
+      "canonicalName": "SSC Napoli",
+      "providerId": "tm:6195"
+    },
+    "Southampton FC": {
+      "path": "/assets/football/club-tm-180.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 180",
+      "canonicalName": "Southampton FC",
+      "providerId": "tm:180"
+    },
+    "Reading FC": {
+      "path": "/assets/football/club-tm-1032.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1032",
+      "canonicalName": "Reading FC",
+      "providerId": "tm:1032"
+    },
+    "SV Werder Bremen": {
+      "path": "/assets/football/club-tm-86.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 86",
+      "canonicalName": "SV Werder Bremen",
+      "providerId": "tm:86"
+    },
+    "RCD Espanyol Barcelona": {
+      "path": "/assets/football/club-tm-714.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 714",
+      "canonicalName": "RCD Espanyol Barcelona",
+      "providerId": "tm:714"
+    },
+    "Inter Milan": {
+      "path": "/assets/football/club-tm-46.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 46",
+      "canonicalName": "Inter Milan",
+      "providerId": "tm:46"
+    },
+    "Club de Regatas Vasco da Gama": {
+      "path": "/assets/football/club-tm-978.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 978",
+      "canonicalName": "Club de Regatas Vasco da Gama",
+      "providerId": "tm:978"
+    },
+    "Allmänna Idrottsklubben": {
+      "path": "/assets/football/club-tm-272.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 272",
+      "canonicalName": "Allmänna Idrottsklubben",
+      "providerId": "tm:272"
+    },
+    "UD Las Palmas": {
+      "path": "/assets/football/club-tm-472.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 472",
+      "canonicalName": "UD Las Palmas",
+      "providerId": "tm:472"
+    },
+    "Willem II Tilburg": {
+      "path": "/assets/football/club-tm-403.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 403",
+      "canonicalName": "Willem II Tilburg",
+      "providerId": "tm:403"
+    },
+    "FC Rubin Kazan": {
+      "path": "/assets/football/club-tm-2698.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2698",
+      "canonicalName": "FC Rubin Kazan",
+      "providerId": "tm:2698"
+    },
+    "Deportivo de La Coruña": {
+      "path": "/assets/football/club-tm-897.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 897",
+      "canonicalName": "Deportivo de La Coruña",
+      "providerId": "tm:897"
+    },
+    "Royal Charleroi Sporting Club": {
+      "path": "/assets/football/club-tm-172.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 172",
+      "canonicalName": "Royal Charleroi Sporting Club",
+      "providerId": "tm:172"
+    },
+    "Stade Rennais FC": {
+      "path": "/assets/football/club-tm-273.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 273",
+      "canonicalName": "Stade Rennais FC",
+      "providerId": "tm:273"
+    },
+    "Bayer 04 Leverkusen": {
+      "path": "/assets/football/club-tm-15.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 15",
+      "canonicalName": "Bayer 04 Leverkusen",
+      "providerId": "tm:15"
+    },
+    "LOSC Lille": {
+      "path": "/assets/football/club-tm-1082.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1082",
+      "canonicalName": "LOSC Lille",
+      "providerId": "tm:1082"
+    },
+    "Villarreal CF": {
+      "path": "/assets/football/club-tm-1050.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1050",
+      "canonicalName": "Villarreal CF",
+      "providerId": "tm:1050"
+    },
+    "SL Benfica": {
+      "path": "/assets/football/club-tm-294.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 294",
+      "canonicalName": "SL Benfica",
+      "providerId": "tm:294"
+    },
+    "Футбольный клуб \"Локомотив\" Москва": {
+      "path": "/assets/football/club-tm-932.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 932",
+      "canonicalName": "Футбольный клуб \"Локомотив\" Москва",
+      "providerId": "tm:932"
+    },
+    "Galatasaray": {
+      "path": "/assets/football/club-tm-141.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 141",
+      "canonicalName": "Galatasaray",
+      "providerId": "tm:141"
+    },
+    "UC Sampdoria": {
+      "path": "/assets/football/club-tm-1038.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1038",
+      "canonicalName": "UC Sampdoria",
+      "providerId": "tm:1038"
+    },
+    "SC Heerenveen": {
+      "path": "/assets/football/club-tm-306.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 306",
+      "canonicalName": "SC Heerenveen",
+      "providerId": "tm:306"
+    },
+    "Racing Club Asociación Civil de Avellaneda": {
+      "path": "/assets/football/club-tm-1444.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1444",
+      "canonicalName": "Racing Club Asociación Civil de Avellaneda",
+      "providerId": "tm:1444"
+    },
+    "Palermo FC": {
+      "path": "/assets/football/club-tm-458.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 458",
+      "canonicalName": "Palermo FC",
+      "providerId": "tm:458"
+    },
+    "Strømsgodset IF": {
+      "path": "/assets/football/club-tm-2817.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2817",
+      "canonicalName": "Strømsgodset IF",
+      "providerId": "tm:2817"
+    },
+    "Instituto Atlético Central Córdoba": {
+      "path": "/assets/football/club-tm-1829.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1829",
+      "canonicalName": "Instituto Atlético Central Córdoba",
+      "providerId": "tm:1829"
+    },
+    "Beerschot VA": {
+      "path": "/assets/football/club-tm-41274.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 41274",
+      "canonicalName": "Beerschot VA",
+      "providerId": "tm:41274"
+    },
+    "Everton FC": {
+      "path": "/assets/football/club-tm-29.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 29",
+      "canonicalName": "Everton FC",
+      "providerId": "tm:29"
+    },
+    "Rio Ave FC": {
+      "path": "/assets/football/club-tm-2425.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2425",
+      "canonicalName": "Rio Ave FC",
+      "providerId": "tm:2425"
+    },
+    "Ajax Amsterdam": {
+      "path": "/assets/football/club-tm-610.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 610",
+      "canonicalName": "Ajax Amsterdam",
+      "providerId": "tm:610"
+    },
+    "Celtic FC": {
+      "path": "/assets/football/club-tm-371.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 371",
+      "canonicalName": "Celtic FC",
+      "providerId": "tm:371"
+    },
+    "FC Groningen": {
+      "path": "/assets/football/club-tm-202.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 202",
+      "canonicalName": "FC Groningen",
+      "providerId": "tm:202"
+    },
+    "SM Caen": {
+      "path": "/assets/football/club-tm-1162.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1162",
+      "canonicalName": "SM Caen",
+      "providerId": "tm:1162"
+    },
+    "Brentford FC": {
+      "path": "/assets/football/club-tm-1148.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1148",
+      "canonicalName": "Brentford FC",
+      "providerId": "tm:1148"
+    },
+    "FC Girondins Bordeaux": {
+      "path": "/assets/football/club-tm-40.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 40",
+      "canonicalName": "FC Girondins Bordeaux",
+      "providerId": "tm:40"
+    },
+    "Club Atlético River Plate": {
+      "path": "/assets/football/club-tm-209.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 209",
+      "canonicalName": "Club Atlético River Plate",
+      "providerId": "tm:209"
+    },
+    "Al-Ittihad Football Club": {
+      "path": "/assets/football/club-tm-8023.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 8023",
+      "canonicalName": "Al-Ittihad Football Club",
+      "providerId": "tm:8023"
+    },
+    "Asociación Atlética Argentinos Juniors": {
+      "path": "/assets/football/club-tm-1030.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1030",
+      "canonicalName": "Asociación Atlética Argentinos Juniors",
+      "providerId": "tm:1030"
+    },
+    "AS Saint-Étienne": {
+      "path": "/assets/football/club-tm-618.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 618",
+      "canonicalName": "AS Saint-Étienne",
+      "providerId": "tm:618"
+    },
+    "Club Atlético Boca Juniors": {
+      "path": "/assets/football/club-tm-189.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 189",
+      "canonicalName": "Club Atlético Boca Juniors",
+      "providerId": "tm:189"
+    },
+    "Real Betis Balompié": {
+      "path": "/assets/football/club-tm-150.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 150",
+      "canonicalName": "Real Betis Balompié",
+      "providerId": "tm:150"
+    },
+    "Borussia Mönchengladbach": {
+      "path": "/assets/football/club-tm-18.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18",
+      "canonicalName": "Borussia Mönchengladbach",
+      "providerId": "tm:18"
+    },
+    "Grêmio Foot-Ball Porto Alegrense": {
+      "path": "/assets/football/club-tm-210.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 210",
+      "canonicalName": "Grêmio Foot-Ball Porto Alegrense",
+      "providerId": "tm:210"
+    },
+    "Beşiktaş Jimnastik Kulübü": {
+      "path": "/assets/football/club-tm-114.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 114",
+      "canonicalName": "Beşiktaş Jimnastik Kulübü",
+      "providerId": "tm:114"
+    },
+    "Como 1907": {
+      "path": "/assets/football/club-tm-1047.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1047",
+      "canonicalName": "Como 1907",
+      "providerId": "tm:1047"
+    },
+    "Sevilla FC": {
+      "path": "/assets/football/club-tm-368.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 368",
+      "canonicalName": "Sevilla FC",
+      "providerId": "tm:368"
+    },
+    "Málaga CF": {
+      "path": "/assets/football/club-tm-1084.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1084",
+      "canonicalName": "Málaga CF",
+      "providerId": "tm:1084"
+    },
+    "Lech Poznan": {
+      "path": "/assets/football/club-tm-238.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 238",
+      "canonicalName": "Lech Poznan",
+      "providerId": "tm:238"
+    },
+    "RCD Mallorca": {
+      "path": "/assets/football/club-tm-237.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 237",
+      "canonicalName": "RCD Mallorca",
+      "providerId": "tm:237"
+    },
+    "Udinese Calcio": {
+      "path": "/assets/football/club-tm-410.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 410",
+      "canonicalName": "Udinese Calcio",
+      "providerId": "tm:410"
+    },
+    "Los Angeles Football Club": {
+      "path": "/assets/football/club-tm-51828.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 51828",
+      "canonicalName": "Los Angeles Football Club",
+      "providerId": "tm:51828"
+    },
+    "Sport Club Internacional": {
+      "path": "/assets/football/club-tm-6600.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6600",
+      "canonicalName": "Sport Club Internacional",
+      "providerId": "tm:6600"
+    },
+    "FK Vojvodina Novi Sad": {
+      "path": "/assets/football/club-tm-448.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 448",
+      "canonicalName": "FK Vojvodina Novi Sad",
+      "providerId": "tm:448"
+    },
+    "Sporting CP": {
+      "path": "/assets/football/club-tm-336.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 336",
+      "canonicalName": "Sporting CP",
+      "providerId": "tm:336"
+    },
+    "Società Sportiva Lazio S.p.A.": {
+      "path": "/assets/football/club-tm-398.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 398",
+      "canonicalName": "Società Sportiva Lazio S.p.A.",
+      "providerId": "tm:398"
+    },
+    "Olympique Lyon": {
+      "path": "/assets/football/club-tm-1041.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1041",
+      "canonicalName": "Olympique Lyon",
+      "providerId": "tm:1041"
+    },
+    "Vitória Guimarães SC": {
+      "path": "/assets/football/club-tm-2420.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2420",
+      "canonicalName": "Vitória Guimarães SC",
+      "providerId": "tm:2420"
+    },
+    "Middlesbrough FC": {
+      "path": "/assets/football/club-tm-641.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 641",
+      "canonicalName": "Middlesbrough FC",
+      "providerId": "tm:641"
+    },
+    "CD Leganés": {
+      "path": "/assets/football/club-tm-1244.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1244",
+      "canonicalName": "CD Leganés",
+      "providerId": "tm:1244"
+    },
+    "Vejle Boldklub": {
+      "path": "/assets/football/club-tm-443.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 443",
+      "canonicalName": "Vejle Boldklub",
+      "providerId": "tm:443"
+    },
+    "Club Social y Deportivo Defensa y Justicia": {
+      "path": "/assets/football/club-tm-2402.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2402",
+      "canonicalName": "Club Social y Deportivo Defensa y Justicia",
+      "providerId": "tm:2402"
+    },
+    "São Paulo Futebol Clube": {
+      "path": "/assets/football/club-tm-585.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 585",
+      "canonicalName": "São Paulo Futebol Clube",
+      "providerId": "tm:585"
+    },
+    "Al-Ahli Saudi Football Club": {
+      "path": "/assets/football/club-tm-18487.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18487",
+      "canonicalName": "Al-Ahli Saudi Football Club",
+      "providerId": "tm:18487"
+    },
+    "Olympiakos Syndesmos Filathlon Peiraios": {
+      "path": "/assets/football/club-tm-683.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 683",
+      "canonicalName": "Olympiakos Syndesmos Filathlon Peiraios",
+      "providerId": "tm:683"
+    },
+    "San Jose Earthquakes": {
+      "path": "/assets/football/club-tm-218.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 218",
+      "canonicalName": "San Jose Earthquakes",
+      "providerId": "tm:218"
+    },
+    "Club Atlético Banfield": {
+      "path": "/assets/football/club-tm-830.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 830",
+      "canonicalName": "Club Atlético Banfield",
+      "providerId": "tm:830"
+    },
+    "Junior FC": {
+      "path": "/assets/football/club-tm-11854.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 11854",
+      "canonicalName": "Junior FC",
+      "providerId": "tm:11854"
+    },
+    "Club León FC": {
+      "path": "/assets/football/club-tm-4941.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 4941",
+      "canonicalName": "Club León FC",
+      "providerId": "tm:4941"
+    },
+    "Clube Atlético Paranaense": {
+      "path": "/assets/football/club-tm-679.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 679",
+      "canonicalName": "Clube Atlético Paranaense",
+      "providerId": "tm:679"
+    },
+    "Minnesota United FC": {
+      "path": "/assets/football/club-tm-56089.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 56089",
+      "canonicalName": "Minnesota United FC",
+      "providerId": "tm:56089"
+    },
+    "FK Partizan Belgrade": {
+      "path": "/assets/football/club-tm-669.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 669",
+      "canonicalName": "FK Partizan Belgrade",
+      "providerId": "tm:669"
+    },
+    "Cagliari Calcio": {
+      "path": "/assets/football/club-tm-1390.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1390",
+      "canonicalName": "Cagliari Calcio",
+      "providerId": "tm:1390"
+    },
+    "Dundee United FC": {
+      "path": "/assets/football/club-tm-1519.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1519",
+      "canonicalName": "Dundee United FC",
+      "providerId": "tm:1519"
+    },
+    "Brescia Calcio": {
+      "path": "/assets/football/club-tm-19.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 19",
+      "canonicalName": "Brescia Calcio",
+      "providerId": "tm:19"
+    },
+    "Deportivo Alavés": {
+      "path": "/assets/football/club-tm-1108.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1108",
+      "canonicalName": "Deportivo Alavés",
+      "providerId": "tm:1108"
+    },
+    "Atalanta BC": {
+      "path": "/assets/football/club-tm-800.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 800",
+      "canonicalName": "Atalanta BC",
+      "providerId": "tm:800"
+    },
+    "Parma Calcio 1913": {
+      "path": "/assets/football/club-tm-130.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 130",
+      "canonicalName": "Parma Calcio 1913",
+      "providerId": "tm:130"
+    },
+    "Vancouver Whitecaps FC": {
+      "path": "/assets/football/club-tm-6321.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6321",
+      "canonicalName": "Vancouver Whitecaps FC",
+      "providerId": "tm:6321"
+    },
+    "Sociedade Esportiva Palmeiras": {
+      "path": "/assets/football/club-tm-1023.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1023",
+      "canonicalName": "Sociedade Esportiva Palmeiras",
+      "providerId": "tm:1023"
+    },
+    "ESTAC Troyes": {
+      "path": "/assets/football/club-tm-1095.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1095",
+      "canonicalName": "ESTAC Troyes",
+      "providerId": "tm:1095"
+    },
+    "Fluminense Football Club": {
+      "path": "/assets/football/club-tm-2462.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2462",
+      "canonicalName": "Fluminense Football Club",
+      "providerId": "tm:2462"
+    },
+    "Dijon FCO": {
+      "path": "/assets/football/club-tm-2969.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2969",
+      "canonicalName": "Dijon FCO",
+      "providerId": "tm:2969"
+    },
+    "Sunderland AFC": {
+      "path": "/assets/football/club-tm-289.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 289",
+      "canonicalName": "Sunderland AFC",
+      "providerId": "tm:289"
+    },
+    "Watford FC": {
+      "path": "/assets/football/club-tm-1010.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1010",
+      "canonicalName": "Watford FC",
+      "providerId": "tm:1010"
+    },
+    "Royal Antwerp FC": {
+      "path": "/assets/football/club-tm-1096.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1096",
+      "canonicalName": "Royal Antwerp FC",
+      "providerId": "tm:1096"
+    },
+    "Al-Qadsiah Saudi Football Club": {
+      "path": "/assets/football/club-tm-26069.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 26069",
+      "canonicalName": "Al-Qadsiah Saudi Football Club",
+      "providerId": "tm:26069"
+    },
+    "Idrottsföreningen  Brommapojkarna": {
+      "path": "/assets/football/club-tm-1092.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1092",
+      "canonicalName": "Idrottsföreningen  Brommapojkarna",
+      "providerId": "tm:1092"
+    },
+    "FC St. Pauli": {
+      "path": "/assets/football/club-tm-35.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 35",
+      "canonicalName": "FC St. Pauli",
+      "providerId": "tm:35"
+    },
+    "Trabzonspor": {
+      "path": "/assets/football/club-tm-449.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 449",
+      "canonicalName": "Trabzonspor",
+      "providerId": "tm:449"
+    },
+    "EA Guingamp": {
+      "path": "/assets/football/club-tm-855.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 855",
+      "canonicalName": "EA Guingamp",
+      "providerId": "tm:855"
+    },
+    "Sport Club Corinthians Paulista": {
+      "path": "/assets/football/club-tm-199.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 199",
+      "canonicalName": "Sport Club Corinthians Paulista",
+      "providerId": "tm:199"
+    },
+    "FC Sochaux-Montbéliard": {
+      "path": "/assets/football/club-tm-750.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 750",
+      "canonicalName": "FC Sochaux-Montbéliard",
+      "providerId": "tm:750"
+    },
+    "FC Sion": {
+      "path": "/assets/football/club-tm-321.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 321",
+      "canonicalName": "FC Sion",
+      "providerId": "tm:321"
+    },
+    "Valencia CF": {
+      "path": "/assets/football/club-tm-1049.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1049",
+      "canonicalName": "Valencia CF",
+      "providerId": "tm:1049"
+    },
+    "Nottingham Forest": {
+      "path": "/assets/football/club-tm-703.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 703",
+      "canonicalName": "Nottingham Forest",
+      "providerId": "tm:703"
+    },
+    "VfL Bochum": {
+      "path": "/assets/football/club-tm-80.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 80",
+      "canonicalName": "VfL Bochum",
+      "providerId": "tm:80"
+    },
+    "Aberdeen FC": {
+      "path": "/assets/football/club-tm-370.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 370",
+      "canonicalName": "Aberdeen FC",
+      "providerId": "tm:370"
+    },
+    "Neom Sports Club": {
+      "path": "/assets/football/club-tm-34911.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 34911",
+      "canonicalName": "Neom Sports Club",
+      "providerId": "tm:34911"
+    },
+    "RKC Waalwijk": {
+      "path": "/assets/football/club-tm-235.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 235",
+      "canonicalName": "RKC Waalwijk",
+      "providerId": "tm:235"
+    },
+    "PEC Zwolle": {
+      "path": "/assets/football/club-tm-1269.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1269",
+      "canonicalName": "PEC Zwolle",
+      "providerId": "tm:1269"
+    },
+    "PFK CSKA Moskva": {
+      "path": "/assets/football/club-tm-2410.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2410",
+      "canonicalName": "PFK CSKA Moskva",
+      "providerId": "tm:2410"
+    },
+    "Athlitiki Enosi Konstantinoupoleos": {
+      "path": "/assets/football/club-tm-2441.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2441",
+      "canonicalName": "Athlitiki Enosi Konstantinoupoleos",
+      "providerId": "tm:2441"
+    },
+    "US Lecce": {
+      "path": "/assets/football/club-tm-1005.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1005",
+      "canonicalName": "US Lecce",
+      "providerId": "tm:1005"
+    },
+    "UD Almería": {
+      "path": "/assets/football/club-tm-3302.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 3302",
+      "canonicalName": "UD Almería",
+      "providerId": "tm:3302"
+    },
+    "Al-Shabab Club": {
+      "path": "/assets/football/club-tm-9840.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 9840",
+      "canonicalName": "Al-Shabab Club",
+      "providerId": "tm:9840"
+    },
+    "Club Atlético Rosario Central": {
+      "path": "/assets/football/club-tm-1418.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1418",
+      "canonicalName": "Club Atlético Rosario Central",
+      "providerId": "tm:1418"
+    },
+    "CF Monterrey": {
+      "path": "/assets/football/club-tm-2407.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2407",
+      "canonicalName": "CF Monterrey",
+      "providerId": "tm:2407"
+    },
+    "Newell's JV": {
+      "path": "/assets/football/club-tm-92364.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 92364",
+      "canonicalName": "Newell's JV",
+      "providerId": "tm:92364"
+    },
+    "Miami": {
+      "path": "/assets/football/club-tm-69261.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 69261",
+      "canonicalName": "Miami",
+      "providerId": "tm:69261"
+    },
+    "Sporting": {
+      "path": "/assets/football/club-tm-336.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 336",
+      "canonicalName": "Sporting",
+      "providerId": "tm:336"
+    },
+    "Man Utd": {
+      "path": "/assets/football/club-tm-985.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 985",
+      "canonicalName": "Man Utd",
+      "providerId": "tm:985"
+    },
+    "Al-Nassr": {
+      "path": "/assets/football/club-tm-18544.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18544",
+      "canonicalName": "Al-Nassr",
+      "providerId": "tm:18544"
+    },
+    "Tottenham": {
+      "path": "/assets/football/club-tm-148.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 148",
+      "canonicalName": "Tottenham",
+      "providerId": "tm:148"
+    },
+    "Basel": {
+      "path": "/assets/football/club-tm-26.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 26",
+      "canonicalName": "Basel",
+      "providerId": "tm:26"
+    },
+    "Roma": {
+      "path": "/assets/football/club-tm-12.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12",
+      "canonicalName": "Roma",
+      "providerId": "tm:12"
+    },
+    "Flamengo": {
+      "path": "/assets/football/club-tm-614.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 614",
+      "canonicalName": "Flamengo",
+      "providerId": "tm:614"
+    },
+    "Bryne": {
+      "path": "/assets/football/club-tm-1057.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1057",
+      "canonicalName": "Bryne",
+      "providerId": "tm:1057"
+    },
+    "Monaco": {
+      "path": "/assets/football/club-tm-162.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 162",
+      "canonicalName": "Monaco",
+      "providerId": "tm:162"
+    },
+    "El Mokawloon": {
+      "path": "/assets/football/club-tm-3369.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 3369",
+      "canonicalName": "El Mokawloon",
+      "providerId": "tm:3369"
+    },
+    "Molde FK": {
+      "path": "/assets/football/club-tm-687.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 687",
+      "canonicalName": "Molde FK",
+      "providerId": "tm:687"
+    },
+    "Dortmund": {
+      "path": "/assets/football/club-tm-16.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 16",
+      "canonicalName": "Dortmund",
+      "providerId": "tm:16"
+    },
+    "Man City": {
+      "path": "/assets/football/club-tm-281.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 281",
+      "canonicalName": "Man City",
+      "providerId": "tm:281"
+    },
+    "Santos": {
+      "path": "/assets/football/club-tm-221.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 221",
+      "canonicalName": "Santos",
+      "providerId": "tm:221"
+    },
+    "Al-Hilal": {
+      "path": "/assets/football/club-tm-1114.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1114",
+      "canonicalName": "Al-Hilal",
+      "providerId": "tm:1114"
+    },
+    "Feyenoord": {
+      "path": "/assets/football/club-tm-234.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 234",
+      "canonicalName": "Feyenoord",
+      "providerId": "tm:234"
+    },
+    "Genk": {
+      "path": "/assets/football/club-tm-1184.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1184",
+      "canonicalName": "Genk",
+      "providerId": "tm:1184"
+    },
+    "Birmingham": {
+      "path": "/assets/football/club-tm-337.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 337",
+      "canonicalName": "Birmingham",
+      "providerId": "tm:337"
+    },
+    "Wolfsburg": {
+      "path": "/assets/football/club-tm-82.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 82",
+      "canonicalName": "Wolfsburg",
+      "providerId": "tm:82"
+    },
+    "Atlético": {
+      "path": "/assets/football/club-tm-13.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 13",
+      "canonicalName": "Atlético",
+      "providerId": "tm:13"
+    },
+    "Norwich": {
+      "path": "/assets/football/club-tm-1123.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1123",
+      "canonicalName": "Norwich",
+      "providerId": "tm:1123"
+    },
+    "Leicester": {
+      "path": "/assets/football/club-tm-1003.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1003",
+      "canonicalName": "Leicester",
+      "providerId": "tm:1003"
+    },
+    "Orlando": {
+      "path": "/assets/football/club-tm-45604.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 45604",
+      "canonicalName": "Orlando",
+      "providerId": "tm:45604"
+    },
+    "Real Sociedad Y": {
+      "path": "/assets/football/club-tm-14967.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 14967",
+      "canonicalName": "Real Sociedad Y",
+      "providerId": "tm:14967"
+    },
+    "Inter": {
+      "path": "/assets/football/club-tm-46.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 46",
+      "canonicalName": "Inter",
+      "providerId": "tm:46"
+    },
+    "Vasco da Gama": {
+      "path": "/assets/football/club-tm-978.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 978",
+      "canonicalName": "Vasco da Gama",
+      "providerId": "tm:978"
+    },
+    "AIK": {
+      "path": "/assets/football/club-tm-272.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 272",
+      "canonicalName": "AIK",
+      "providerId": "tm:272"
+    },
+    "Willem II": {
+      "path": "/assets/football/club-tm-403.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 403",
+      "canonicalName": "Willem II",
+      "providerId": "tm:403"
+    },
+    "Newcastle": {
+      "path": "/assets/football/club-tm-762.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 762",
+      "canonicalName": "Newcastle",
+      "providerId": "tm:762"
+    },
+    "Al-Duhail SC": {
+      "path": "/assets/football/club-tm-26091.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 26091",
+      "canonicalName": "Al-Duhail SC",
+      "providerId": "tm:26091"
+    },
+    "Génération Foot": {
+      "path": "/assets/football/club-tm-30031.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 30031",
+      "canonicalName": "Génération Foot",
+      "providerId": "tm:30031"
+    },
+    "Porto": {
+      "path": "/assets/football/club-tm-720.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 720",
+      "canonicalName": "Porto",
+      "providerId": "tm:720"
+    },
+    "Wolves": {
+      "path": "/assets/football/club-tm-543.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 543",
+      "canonicalName": "Wolves",
+      "providerId": "tm:543"
+    },
+    "Loko Moscow": {
+      "path": "/assets/football/club-tm-932.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 932",
+      "canonicalName": "Loko Moscow",
+      "providerId": "tm:932"
+    },
+    "Rubin Kazan": {
+      "path": "/assets/football/club-tm-2698.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2698",
+      "canonicalName": "Rubin Kazan",
+      "providerId": "tm:2698"
+    },
+    "Leverkusen": {
+      "path": "/assets/football/club-tm-15.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 15",
+      "canonicalName": "Leverkusen",
+      "providerId": "tm:15"
+    },
+    "Dinamo Tbilisi": {
+      "path": "/assets/football/club-tm-663.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 663",
+      "canonicalName": "Dinamo Tbilisi",
+      "providerId": "tm:663"
+    },
+    "Southampton Aca": {
+      "path": "/assets/football/club-tm-50780.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 50780",
+      "canonicalName": "Southampton Aca",
+      "providerId": "tm:50780"
+    },
+    "Rustavi": {
+      "path": "/assets/football/club-tm-1799.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1799",
+      "canonicalName": "Rustavi",
+      "providerId": "tm:1799"
+    },
+    "Dinamo Batumi": {
+      "path": "/assets/football/club-tm-11344.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 11344",
+      "canonicalName": "Dinamo Batumi",
+      "providerId": "tm:11344"
+    },
+    "Dep. La Coruña": {
+      "path": "/assets/football/club-tm-897.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 897",
+      "canonicalName": "Dep. La Coruña",
+      "providerId": "tm:897"
+    },
+    "Stade Rennais": {
+      "path": "/assets/football/club-tm-273.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 273",
+      "canonicalName": "Stade Rennais",
+      "providerId": "tm:273"
+    },
+    "West Ham": {
+      "path": "/assets/football/club-tm-379.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 379",
+      "canonicalName": "West Ham",
+      "providerId": "tm:379"
+    },
+    "R Charleroi SC": {
+      "path": "/assets/football/club-tm-172.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 172",
+      "canonicalName": "R Charleroi SC",
+      "providerId": "tm:172"
+    },
+    "Lille": {
+      "path": "/assets/football/club-tm-1082.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1082",
+      "canonicalName": "Lille",
+      "providerId": "tm:1082"
+    },
+    "US Palermo": {
+      "path": "/assets/football/club-tm-458.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 458",
+      "canonicalName": "US Palermo",
+      "providerId": "tm:458"
+    },
+    "Instituto ACC": {
+      "path": "/assets/football/club-tm-1829.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1829",
+      "canonicalName": "Instituto ACC",
+      "providerId": "tm:1829"
+    },
+    "Peñarol": {
+      "path": "/assets/football/club-tm-861.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 861",
+      "canonicalName": "Peñarol",
+      "providerId": "tm:861"
+    },
+    "Ult. Strikers": {
+      "path": "/assets/football/club-tm-51301.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 51301",
+      "canonicalName": "Ult. Strikers",
+      "providerId": "tm:51301"
+    },
+    "Strømsgodset": {
+      "path": "/assets/football/club-tm-2817.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2817",
+      "canonicalName": "Strømsgodset",
+      "providerId": "tm:2817"
+    },
+    "Heerenveen": {
+      "path": "/assets/football/club-tm-306.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 306",
+      "canonicalName": "Heerenveen",
+      "providerId": "tm:306"
+    },
+    "Racing Club": {
+      "path": "/assets/football/club-tm-1444.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1444",
+      "canonicalName": "Racing Club",
+      "providerId": "tm:1444"
+    },
+    "Vitesse": {
+      "path": "/assets/football/club-tm-499.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 499",
+      "canonicalName": "Vitesse",
+      "providerId": "tm:499"
+    },
+    "Brighton": {
+      "path": "/assets/football/club-tm-1237.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1237",
+      "canonicalName": "Brighton",
+      "providerId": "tm:1237"
+    },
+    "Ajax": {
+      "path": "/assets/football/club-tm-610.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 610",
+      "canonicalName": "Ajax",
+      "providerId": "tm:610"
+    },
+    "Independiente": {
+      "path": "/assets/football/club-tm-19309.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 19309",
+      "canonicalName": "Independiente",
+      "providerId": "tm:19309"
+    },
+    "Vecindario You.": {
+      "path": "/assets/football/club-tm-20946.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 20946",
+      "canonicalName": "Vecindario You.",
+      "providerId": "tm:20946"
+    },
+    "West Brom": {
+      "path": "/assets/football/club-tm-984.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 984",
+      "canonicalName": "West Brom",
+      "providerId": "tm:984"
+    },
+    "Olhanense": {
+      "path": "/assets/football/club-tm-4750.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 4750",
+      "canonicalName": "Olhanense",
+      "providerId": "tm:4750"
+    },
+    "Beira-Mar": {
+      "path": "/assets/football/club-tm-1436.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1436",
+      "canonicalName": "Beira-Mar",
+      "providerId": "tm:1436"
+    },
+    "NK Olimpija": {
+      "path": "/assets/football/club-tm-4772.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 4772",
+      "canonicalName": "NK Olimpija",
+      "providerId": "tm:4772"
+    },
+    "Suresnes": {
+      "path": "/assets/football/club-tm-79569.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 79569",
+      "canonicalName": "Suresnes",
+      "providerId": "tm:79569"
+    },
+    "Leiria": {
+      "path": "/assets/football/club-tm-2639.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2639",
+      "canonicalName": "Leiria",
+      "providerId": "tm:2639"
+    },
+    "Fenerbahçe": {
+      "path": "/assets/football/club-tm-36.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 36",
+      "canonicalName": "Fenerbahçe",
+      "providerId": "tm:36"
+    },
+    "Al-Ittihad": {
+      "path": "/assets/football/club-tm-8023.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 8023",
+      "canonicalName": "Al-Ittihad",
+      "providerId": "tm:8023"
+    },
+    "G. Bordeaux": {
+      "path": "/assets/football/club-tm-40.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 40",
+      "canonicalName": "G. Bordeaux",
+      "providerId": "tm:40"
+    },
+    "Leipzig": {
+      "path": "/assets/football/club-tm-23826.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 23826",
+      "canonicalName": "Leipzig",
+      "providerId": "tm:23826"
+    },
+    "Saint-Étienne": {
+      "path": "/assets/football/club-tm-618.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 618",
+      "canonicalName": "Saint-Étienne",
+      "providerId": "tm:618"
+    },
+    "Nice": {
+      "path": "/assets/football/club-tm-417.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 417",
+      "canonicalName": "Nice",
+      "providerId": "tm:417"
+    },
+    "FC Liefering": {
+      "path": "/assets/football/club-tm-37024.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 37024",
+      "canonicalName": "FC Liefering",
+      "providerId": "tm:37024"
+    },
+    "US Boulogne": {
+      "path": "/assets/football/club-tm-7042.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 7042",
+      "canonicalName": "US Boulogne",
+      "providerId": "tm:7042"
+    },
+    "Dragon Force F.": {
+      "path": "/assets/football/club-tm-120877.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 120877",
+      "canonicalName": "Dragon Force F.",
+      "providerId": "tm:120877"
+    },
+    "Marseille": {
+      "path": "/assets/football/club-tm-244.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 244",
+      "canonicalName": "Marseille",
+      "providerId": "tm:244"
+    },
+    "Argentinos Jrs.": {
+      "path": "/assets/football/club-tm-1030.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1030",
+      "canonicalName": "Argentinos Jrs.",
+      "providerId": "tm:1030"
+    },
+    "Boca Juniors": {
+      "path": "/assets/football/club-tm-189.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 189",
+      "canonicalName": "Boca Juniors",
+      "providerId": "tm:189"
+    },
+    "River Plate": {
+      "path": "/assets/football/club-tm-209.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 209",
+      "canonicalName": "River Plate",
+      "providerId": "tm:209"
+    },
+    "MK Dons": {
+      "path": "/assets/football/club-tm-991.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 991",
+      "canonicalName": "MK Dons",
+      "providerId": "tm:991"
+    },
+    "Linares": {
+      "path": "/assets/football/club-tm-12351.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12351",
+      "canonicalName": "Linares",
+      "providerId": "tm:12351"
+    },
+    "Delta Warszawa": {
+      "path": "/assets/football/club-tm-30379.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 30379",
+      "canonicalName": "Delta Warszawa",
+      "providerId": "tm:30379"
+    },
+    "CA Atalaya": {
+      "path": "/assets/football/club-tm-29751.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 29751",
+      "canonicalName": "CA Atalaya",
+      "providerId": "tm:29751"
+    },
+    "Grêmio": {
+      "path": "/assets/football/club-tm-210.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 210",
+      "canonicalName": "Grêmio",
+      "providerId": "tm:210"
+    },
+    "Mönchengladbach": {
+      "path": "/assets/football/club-tm-18.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18",
+      "canonicalName": "Mönchengladbach",
+      "providerId": "tm:18"
+    },
+    "Girona": {
+      "path": "/assets/football/club-tm-12321.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12321",
+      "canonicalName": "Girona",
+      "providerId": "tm:12321"
+    },
+    "Hupyeong MS": {
+      "path": "/assets/football/club-tm-99520.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 99520",
+      "canonicalName": "Hupyeong MS",
+      "providerId": "tm:99520"
+    },
+    "C. Buan ES": {
+      "path": "/assets/football/club-tm-117458.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 117458",
+      "canonicalName": "C. Buan ES",
+      "providerId": "tm:117458"
+    },
+    "Znicz Pruszkow": {
+      "path": "/assets/football/club-tm-9109.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 9109",
+      "canonicalName": "Znicz Pruszkow",
+      "providerId": "tm:9109"
+    },
+    "Nacional": {
+      "path": "/assets/football/club-tm-866.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 866",
+      "canonicalName": "Nacional",
+      "providerId": "tm:866"
+    },
+    "Dongbuk MS": {
+      "path": "/assets/football/club-tm-86952.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 86952",
+      "canonicalName": "Dongbuk MS",
+      "providerId": "tm:86952"
+    },
+    "Yukminkwan MS": {
+      "path": "/assets/football/club-tm-91889.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 91889",
+      "canonicalName": "Yukminkwan MS",
+      "providerId": "tm:91889"
+    },
+    "Hamburg": {
+      "path": "/assets/football/club-tm-41.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 41",
+      "canonicalName": "Hamburg",
+      "providerId": "tm:41"
+    },
+    "LAFC": {
+      "path": "/assets/football/club-tm-51828.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 51828",
+      "canonicalName": "LAFC",
+      "providerId": "tm:51828"
+    },
+    "Internacional": {
+      "path": "/assets/football/club-tm-6600.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6600",
+      "canonicalName": "Internacional",
+      "providerId": "tm:6600"
+    },
+    "Hoffenheim": {
+      "path": "/assets/football/club-tm-533.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 533",
+      "canonicalName": "Hoffenheim",
+      "providerId": "tm:533"
+    },
+    "Stuttgart": {
+      "path": "/assets/football/club-tm-79.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 79",
+      "canonicalName": "Stuttgart",
+      "providerId": "tm:79"
+    },
+    "Feuerbach Jug.": {
+      "path": "/assets/football/club-tm-34201.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 34201",
+      "canonicalName": "Feuerbach Jug.",
+      "providerId": "tm:34201"
+    },
+    "Novara": {
+      "path": "/assets/football/club-tm-6692.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6692",
+      "canonicalName": "Novara",
+      "providerId": "tm:6692"
+    },
+    "Boavista Y19": {
+      "path": "/assets/football/club-tm-12963.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12963",
+      "canonicalName": "Boavista Y19",
+      "providerId": "tm:12963"
+    },
+    "Boavista CJ": {
+      "path": "/assets/football/club-tm-54532.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 54532",
+      "canonicalName": "Boavista CJ",
+      "providerId": "tm:54532"
+    },
+    "Vojvodina": {
+      "path": "/assets/football/club-tm-448.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 448",
+      "canonicalName": "Vojvodina",
+      "providerId": "tm:448"
+    },
+    "Lazio": {
+      "path": "/assets/football/club-tm-398.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 398",
+      "canonicalName": "Lazio",
+      "providerId": "tm:398"
+    },
+    "Vit. Guimarães": {
+      "path": "/assets/football/club-tm-2420.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2420",
+      "canonicalName": "Vit. Guimarães",
+      "providerId": "tm:2420"
+    },
+    "Leeds": {
+      "path": "/assets/football/club-tm-399.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 399",
+      "canonicalName": "Leeds",
+      "providerId": "tm:399"
+    },
+    "Bournemouth": {
+      "path": "/assets/football/club-tm-989.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 989",
+      "canonicalName": "Bournemouth",
+      "providerId": "tm:989"
+    },
+    "Lyon": {
+      "path": "/assets/football/club-tm-1041.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1041",
+      "canonicalName": "Lyon",
+      "providerId": "tm:1041"
+    },
+    "Lincoln City": {
+      "path": "/assets/football/club-tm-1198.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1198",
+      "canonicalName": "Lincoln City",
+      "providerId": "tm:1198"
+    },
+    "RCD Mallorca Yo": {
+      "path": "/assets/football/club-tm-25625.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 25625",
+      "canonicalName": "RCD Mallorca Yo",
+      "providerId": "tm:25625"
+    },
+    "Defensa": {
+      "path": "/assets/football/club-tm-2402.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2402",
+      "canonicalName": "Defensa",
+      "providerId": "tm:2402"
+    },
+    "Vejle BK": {
+      "path": "/assets/football/club-tm-443.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 443",
+      "canonicalName": "Vejle BK",
+      "providerId": "tm:443"
+    },
+    "Frankfurt": {
+      "path": "/assets/football/club-tm-24.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 24",
+      "canonicalName": "Frankfurt",
+      "providerId": "tm:24"
+    },
+    "Partizan": {
+      "path": "/assets/football/club-tm-669.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 669",
+      "canonicalName": "Partizan",
+      "providerId": "tm:669"
+    },
+    "Atlético-PR": {
+      "path": "/assets/football/club-tm-679.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 679",
+      "canonicalName": "Atlético-PR",
+      "providerId": "tm:679"
+    },
+    "Athletico-PR": {
+      "path": "/assets/football/club-tm-679.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 679",
+      "canonicalName": "Athletico-PR",
+      "providerId": "tm:679"
+    },
+    "Ituano": {
+      "path": "/assets/football/club-tm-4773.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 4773",
+      "canonicalName": "Ituano",
+      "providerId": "tm:4773"
+    },
+    "Yulee Hornets": {
+      "path": "/assets/football/club-tm-132716.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 132716",
+      "canonicalName": "Yulee Hornets",
+      "providerId": "tm:132716"
+    },
+    "Barranquilla FC": {
+      "path": "/assets/football/club-tm-18127.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18127",
+      "canonicalName": "Barranquilla FC",
+      "providerId": "tm:18127"
+    },
+    "GO Audax": {
+      "path": "/assets/football/club-tm-16083.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 16083",
+      "canonicalName": "GO Audax",
+      "providerId": "tm:16083"
+    },
+    "Banfield": {
+      "path": "/assets/football/club-tm-830.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 830",
+      "canonicalName": "Banfield",
+      "providerId": "tm:830"
+    },
+    "São Paulo": {
+      "path": "/assets/football/club-tm-585.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 585",
+      "canonicalName": "São Paulo",
+      "providerId": "tm:585"
+    },
+    "León": {
+      "path": "/assets/football/club-tm-4941.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 4941",
+      "canonicalName": "León",
+      "providerId": "tm:4941"
+    },
+    "Olympiacos": {
+      "path": "/assets/football/club-tm-683.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 683",
+      "canonicalName": "Olympiacos",
+      "providerId": "tm:683"
+    },
+    "Minnesota": {
+      "path": "/assets/football/club-tm-56089.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 56089",
+      "canonicalName": "Minnesota",
+      "providerId": "tm:56089"
+    },
+    "SJ Earthquakes": {
+      "path": "/assets/football/club-tm-218.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 218",
+      "canonicalName": "SJ Earthquakes",
+      "providerId": "tm:218"
+    },
+    "Dundee United": {
+      "path": "/assets/football/club-tm-1519.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1519",
+      "canonicalName": "Dundee United",
+      "providerId": "tm:1519"
+    },
+    "Al-Rayyan": {
+      "path": "/assets/football/club-tm-3229.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 3229",
+      "canonicalName": "Al-Rayyan",
+      "providerId": "tm:3229"
+    },
+    "Queen's Park": {
+      "path": "/assets/football/club-tm-3031.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 3031",
+      "canonicalName": "Queen's Park",
+      "providerId": "tm:3031"
+    },
+    "Envigado": {
+      "path": "/assets/football/club-tm-7136.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 7136",
+      "canonicalName": "Envigado",
+      "providerId": "tm:7136"
+    },
+    "Alavés": {
+      "path": "/assets/football/club-tm-1108.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1108",
+      "canonicalName": "Alavés",
+      "providerId": "tm:1108"
+    },
+    "Palmeiras": {
+      "path": "/assets/football/club-tm-1023.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1023",
+      "canonicalName": "Palmeiras",
+      "providerId": "tm:1023"
+    },
+    "Troyes": {
+      "path": "/assets/football/club-tm-1095.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1095",
+      "canonicalName": "Troyes",
+      "providerId": "tm:1095"
+    },
+    "Estrela A. F": {
+      "path": "/assets/football/club-tm-92856.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 92856",
+      "canonicalName": "Estrela A. F",
+      "providerId": "tm:92856"
+    },
+    "Whitecaps FC 2": {
+      "path": "/assets/football/club-tm-46721.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 46721",
+      "canonicalName": "Whitecaps FC 2",
+      "providerId": "tm:46721"
+    },
+    "Lombardia uno": {
+      "path": "/assets/football/club-tm-79276.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 79276",
+      "canonicalName": "Lombardia uno",
+      "providerId": "tm:79276"
+    },
+    "Vancouver": {
+      "path": "/assets/football/club-tm-6321.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6321",
+      "canonicalName": "Vancouver",
+      "providerId": "tm:6321"
+    },
+    "PSV": {
+      "path": "/assets/football/club-tm-383.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 383",
+      "canonicalName": "PSV",
+      "providerId": "tm:383"
+    },
+    "Fluminense": {
+      "path": "/assets/football/club-tm-2462.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2462",
+      "canonicalName": "Fluminense",
+      "providerId": "tm:2462"
+    },
+    "NK Tresnjevka": {
+      "path": "/assets/football/club-tm-25246.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 25246",
+      "canonicalName": "NK Tresnjevka",
+      "providerId": "tm:25246"
+    },
+    "Bath City": {
+      "path": "/assets/football/club-tm-1099.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1099",
+      "canonicalName": "Bath City",
+      "providerId": "tm:1099"
+    },
+    "O Despertar Fo.": {
+      "path": "/assets/football/club-tm-101725.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 101725",
+      "canonicalName": "O Despertar Fo.",
+      "providerId": "tm:101725"
+    },
+    "Royal Antwerp": {
+      "path": "/assets/football/club-tm-1096.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1096",
+      "canonicalName": "Royal Antwerp",
+      "providerId": "tm:1096"
+    },
+    "Lens": {
+      "path": "/assets/football/club-tm-826.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 826",
+      "canonicalName": "Lens",
+      "providerId": "tm:826"
+    },
+    "B. Leverkusen": {
+      "path": "/assets/football/club-tm-15.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 15",
+      "canonicalName": "B. Leverkusen",
+      "providerId": "tm:15"
+    },
+    "Al-Qadsiah": {
+      "path": "/assets/football/club-tm-26069.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 26069",
+      "canonicalName": "Al-Qadsiah",
+      "providerId": "tm:26069"
+    },
+    "Dijon": {
+      "path": "/assets/football/club-tm-2969.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2969",
+      "canonicalName": "Dijon",
+      "providerId": "tm:2969"
+    },
+    "Athletic Club": {
+      "path": "/assets/football/club-tm-621.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 621",
+      "canonicalName": "Athletic Club",
+      "providerId": "tm:621"
+    },
+    "Corinthians": {
+      "path": "/assets/football/club-tm-199.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 199",
+      "canonicalName": "Corinthians",
+      "providerId": "tm:199"
+    },
+    "CD Basconia": {
+      "path": "/assets/football/club-tm-6665.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6665",
+      "canonicalName": "CD Basconia",
+      "providerId": "tm:6665"
+    },
+    "CD Tenerife You": {
+      "path": "/assets/football/club-tm-28862.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 28862",
+      "canonicalName": "CD Tenerife You",
+      "providerId": "tm:28862"
+    },
+    "SR Saint-Dié": {
+      "path": "/assets/football/club-tm-25638.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 25638",
+      "canonicalName": "SR Saint-Dié",
+      "providerId": "tm:25638"
+    },
+    "FC Sochaux": {
+      "path": "/assets/football/club-tm-750.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 750",
+      "canonicalName": "FC Sochaux",
+      "providerId": "tm:750"
+    },
+    "Guingamp": {
+      "path": "/assets/football/club-tm-855.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 855",
+      "canonicalName": "Guingamp",
+      "providerId": "tm:855"
+    },
+    "Swansea": {
+      "path": "/assets/football/club-tm-2288.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2288",
+      "canonicalName": "Swansea",
+      "providerId": "tm:2288"
+    },
+    "Brommapojkarna": {
+      "path": "/assets/football/club-tm-1092.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1092",
+      "canonicalName": "Brommapojkarna",
+      "providerId": "tm:1092"
+    },
+    "St. Pauli": {
+      "path": "/assets/football/club-tm-35.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 35",
+      "canonicalName": "St. Pauli",
+      "providerId": "tm:35"
+    },
+    "Avaí FC": {
+      "path": "/assets/football/club-tm-2035.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2035",
+      "canonicalName": "Avaí FC",
+      "providerId": "tm:2035"
+    },
+    "US Orléans": {
+      "path": "/assets/football/club-tm-10868.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 10868",
+      "canonicalName": "US Orléans",
+      "providerId": "tm:10868"
+    },
+    "Stade Poitevin": {
+      "path": "/assets/football/club-tm-30293.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 30293",
+      "canonicalName": "Stade Poitevin",
+      "providerId": "tm:30293"
+    },
+    "Coventry": {
+      "path": "/assets/football/club-tm-990.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 990",
+      "canonicalName": "Coventry",
+      "providerId": "tm:990"
+    },
+    "Derby": {
+      "path": "/assets/football/club-tm-22.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 22",
+      "canonicalName": "Derby",
+      "providerId": "tm:22"
+    },
+    "Nott'm Forest": {
+      "path": "/assets/football/club-tm-703.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 703",
+      "canonicalName": "Nott'm Forest",
+      "providerId": "tm:703"
+    },
+    "NEOM SC": {
+      "path": "/assets/football/club-tm-34911.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 34911",
+      "canonicalName": "NEOM SC",
+      "providerId": "tm:34911"
+    },
+    "Wigan": {
+      "path": "/assets/football/club-tm-1071.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1071",
+      "canonicalName": "Wigan",
+      "providerId": "tm:1071"
+    },
+    "Sheff Utd": {
+      "path": "/assets/football/club-tm-350.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 350",
+      "canonicalName": "Sheff Utd",
+      "providerId": "tm:350"
+    },
+    "Barreirense J": {
+      "path": "/assets/football/club-tm-99103.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 99103",
+      "canonicalName": "Barreirense J",
+      "providerId": "tm:99103"
+    },
+    "Wadi Degla ": {
+      "path": "/assets/football/club-tm-18234.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18234",
+      "canonicalName": "Wadi Degla ",
+      "providerId": "tm:18234"
+    },
+    "Bristol Rovers": {
+      "path": "/assets/football/club-tm-2455.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2455",
+      "canonicalName": "Bristol Rovers",
+      "providerId": "tm:2455"
+    },
+    "Colo-Colo": {
+      "path": "/assets/football/club-tm-2433.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2433",
+      "canonicalName": "Colo-Colo",
+      "providerId": "tm:2433"
+    },
+    "Cobreloa": {
+      "path": "/assets/football/club-tm-9103.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 9103",
+      "canonicalName": "Cobreloa",
+      "providerId": "tm:9103"
+    },
+    "SV Elversberg": {
+      "path": "/assets/football/club-tm-64.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 64",
+      "canonicalName": "SV Elversberg",
+      "providerId": "tm:64"
+    },
+    "Danubio FC": {
+      "path": "/assets/football/club-tm-1306.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1306",
+      "canonicalName": "Danubio FC",
+      "providerId": "tm:1306"
+    },
+    "GD Ribeirão": {
+      "path": "/assets/football/club-tm-6144.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 6144",
+      "canonicalName": "GD Ribeirão",
+      "providerId": "tm:6144"
+    },
+    "Solidarité ": {
+      "path": "/assets/football/club-tm-23296.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 23296",
+      "canonicalName": "Solidarité ",
+      "providerId": "tm:23296"
+    },
+    "Paulínia-SP": {
+      "path": "/assets/football/club-tm-29283.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 29283",
+      "canonicalName": "Paulínia-SP",
+      "providerId": "tm:29283"
+    },
+    "CSV '28": {
+      "path": "/assets/football/club-tm-20351.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 20351",
+      "canonicalName": "CSV '28",
+      "providerId": "tm:20351"
+    },
+    "Rentistas": {
+      "path": "/assets/football/club-tm-10632.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 10632",
+      "canonicalName": "Rentistas",
+      "providerId": "tm:10632"
+    },
+    "Blackburn": {
+      "path": "/assets/football/club-tm-164.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 164",
+      "canonicalName": "Blackburn",
+      "providerId": "tm:164"
+    },
+    "Boston River": {
+      "path": "/assets/football/club-tm-18074.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 18074",
+      "canonicalName": "Boston River",
+      "providerId": "tm:18074"
+    },
+    "Al-Shabab": {
+      "path": "/assets/football/club-tm-9840.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 9840",
+      "canonicalName": "Al-Shabab",
+      "providerId": "tm:9840"
+    },
+    "CSKA Moscow": {
+      "path": "/assets/football/club-tm-2410.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2410",
+      "canonicalName": "CSKA Moscow",
+      "providerId": "tm:2410"
+    },
+    "Rosario Central": {
+      "path": "/assets/football/club-tm-1418.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 1418",
+      "canonicalName": "Rosario Central",
+      "providerId": "tm:1418"
+    },
+    "Hajduk Split": {
+      "path": "/assets/football/club-tm-447.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 447",
+      "canonicalName": "Hajduk Split",
+      "providerId": "tm:447"
+    },
+    "AS Saint-Priest": {
+      "path": "/assets/football/club-tm-17130.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 17130",
+      "canonicalName": "AS Saint-Priest",
+      "providerId": "tm:17130"
+    },
+    "Sharjah FC": {
+      "path": "/assets/football/club-tm-13613.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 13613",
+      "canonicalName": "Sharjah FC",
+      "providerId": "tm:13613"
+    },
+    "Villeurbanne EL": {
+      "path": "/assets/football/club-tm-79424.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 79424",
+      "canonicalName": "Villeurbanne EL",
+      "providerId": "tm:79424"
+    },
+    "Caluire": {
+      "path": "/assets/football/club-tm-79559.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 79559",
+      "canonicalName": "Caluire",
+      "providerId": "tm:79559"
+    },
+    "FC Vaulx-en-Vel": {
+      "path": "/assets/football/club-tm-30207.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 30207",
+      "canonicalName": "FC Vaulx-en-Vel",
+      "providerId": "tm:30207"
+    },
+    "Monterrey": {
+      "path": "/assets/football/club-tm-2407.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2407",
+      "canonicalName": "Monterrey",
+      "providerId": "tm:2407"
+    },
+    "AEK Athens": {
+      "path": "/assets/football/club-tm-2441.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 2441",
+      "canonicalName": "AEK Athens",
+      "providerId": "tm:2441"
+    },
+    "Castellammare": {
+      "path": "/assets/football/club-tm-59178.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 59178",
+      "canonicalName": "Castellammare",
+      "providerId": "tm:59178"
+    },
+    "FC ViOn": {
+      "path": "/assets/football/club-tm-12005.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 12005",
+      "canonicalName": "FC ViOn",
+      "providerId": "tm:12005"
+    },
+    "Sambonifacese": {
+      "path": "/assets/football/club-tm-22277.png",
+      "kind": "crest",
+      "source": "Transfermarkt club 22277",
+      "canonicalName": "Sambonifacese",
+      "providerId": "tm:22277"
     }
   }
 }

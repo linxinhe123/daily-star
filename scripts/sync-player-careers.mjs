@@ -27,6 +27,8 @@ await readCsvGzip(transfersFile, (row) => {
   if (!player || !row.transfer_date) return
   transfersBySlug.get(player.slug).push({
     date: row.transfer_date,
+    fromId: Number(row.from_club_id) || undefined,
+    toId: Number(row.to_club_id) || undefined,
     from: row.from_club_name || '',
     to: row.to_club_name || '',
   })
@@ -56,16 +58,18 @@ database.exec(`
     end_date TEXT,
     source TEXT NOT NULL,
     updated_at TEXT NOT NULL,
+    club_id INTEGER,
     PRIMARY KEY (player_slug, sequence)
   );
 `)
+try { database.exec('ALTER TABLE player_career_spells ADD COLUMN club_id INTEGER') } catch {}
 const clear = database.prepare('DELETE FROM player_career_spells WHERE player_slug = ?')
-const insert = database.prepare('INSERT INTO player_career_spells VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+const insert = database.prepare('INSERT INTO player_career_spells (player_slug, transfermarkt_id, sequence, club_name, start_date, end_date, source, updated_at, club_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)')
 database.exec('BEGIN')
 try {
   for (const [slug, player] of Object.entries(players)) {
     clear.run(slug)
-    player.spells.forEach((spell, index) => insert.run(slug, player.transfermarktId, index, spell.club, spell.start || null, spell.end || null, spell.source, generatedAt))
+    player.spells.forEach((spell, index) => insert.run(slug, player.transfermarktId, index, spell.club, spell.start || null, spell.end || null, spell.source, generatedAt, spell.clubId ?? null))
   }
   database.exec('COMMIT')
 } catch (error) {
@@ -86,22 +90,26 @@ function buildSpells(transfers, description, active) {
   const senior = transfers.filter((row) => isSeniorClub(row.from) || isSeniorClub(row.to))
   if (!senior.length) return []
   const spells = []
-  let currentClub = isSeniorClub(senior[0].from) ? senior[0].from : senior[0].to
-  let currentStart = inferCareerStart(description, senior[0].date)
+  const startsAtSeniorClub = isSeniorClub(senior[0].from)
+  let currentClub = startsAtSeniorClub ? senior[0].from : senior[0].to
+  let currentClubId = startsAtSeniorClub ? senior[0].fromId : senior[0].toId
+  let currentStart = startsAtSeniorClub ? inferCareerStart(description, senior[0].date) : senior[0].date
 
   for (const transfer of senior) {
     if (!isSeniorClub(transfer.to)) continue
     if (currentClub === transfer.to) continue
     if (isSeniorClub(transfer.from) && currentClub !== transfer.from) {
-      if (currentClub) spells.push({ club: currentClub, start: currentStart, end: transfer.date, source: 'transfermarkt-transfers' })
+      if (currentClub) spells.push({ club: currentClub, clubId: currentClubId, start: validStart(currentStart, transfer.date), end: transfer.date, source: 'transfermarkt-transfers' })
       currentClub = transfer.from
+      currentClubId = transfer.fromId
       currentStart = ''
     }
-    if (currentClub && currentClub !== transfer.to) spells.push({ club: currentClub, start: currentStart, end: transfer.date, source: 'transfermarkt-transfers' })
+    if (currentClub && currentClub !== transfer.to) spells.push({ club: currentClub, clubId: currentClubId, start: validStart(currentStart, transfer.date), end: transfer.date, source: 'transfermarkt-transfers' })
     currentClub = transfer.to
+    currentClubId = transfer.toId
     currentStart = transfer.date
   }
-  if (currentClub) spells.push({ club: currentClub, start: currentStart, end: active ? '' : inferCareerEnd(description), source: 'transfermarkt-transfers' })
+  if (currentClub) spells.push({ club: currentClub, clubId: currentClubId, start: currentStart, end: active ? '' : inferCareerEnd(description), source: 'transfermarkt-transfers' })
   return spells.filter((spell) => isSeniorClub(spell.club) && spell.club !== 'Without Club')
 }
 
@@ -118,6 +126,10 @@ function inferCareerStart(description, fallbackDate) {
   return `${fallbackDate.slice(0, 4)}-01-01`
 }
 
+function validStart(start, end) {
+  return start && end && start > end ? `${end.slice(0, 4)}-01-01` : start
+}
+
 function inferCareerEnd(description) {
   const match = description.match(/retir(?:ed|ement)[^.]*?\b(19\d{2}|20\d{2})\b/i)
   return match ? `${match[1]}-12-31` : ''
@@ -125,7 +137,7 @@ function inferCareerEnd(description) {
 
 function isSeniorClub(name) {
   if (name === 'Willem II') return true
-  return Boolean(name) && !/(?:\bU\d{2}\b|\bY(?:ou)?th\b|\bYouth\b|\bJugend\b|\bAcademy\b|\bAcad\.?(?:$|\s)|\bReserve(?:s)?\b|\bRes\.?(?:$|\s)|\bII\b|\bB\s*$|\bC\s*$|\bSub-?\d+\b|\bJgd\b|\bYout\b|\bJeugd\b|\bFor\.?(?:$|\s)|\bNext Gen\b|\bWithout Club\b|\bRetired\b)/i.test(name)
+  return Boolean(name) && !/(?:\bU\d{2}\b|\bY(?:ou)?th\b|\bYouth\b|\bJugend\b|\bAcademy\b|\bAcad\.?(?:$|\s)|\bReserve(?:s)?\b|\bRes\.?(?:$|\s)|\bII\b|\bB\s*$|\bC\s*$|\bSub-?\d+\b|\bJgd\b|\bYout\b|\bJeugd\b|\bFor\.?(?:$|\s)|\bForm\.?(?:$|\s)|\bNext Gen\b|\bWithout Club\b|\bRetired\b|Madrileño|Castilla|Barça Atlètic|Bilbao Athletic)/i.test(name)
 }
 
 async function download(url, destination) {

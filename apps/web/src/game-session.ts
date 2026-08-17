@@ -47,7 +47,9 @@ export function loadGameSession(players: Player[]): GameSession {
   try {
     const parsed = JSON.parse(localStorage.getItem(sessionKey) || '') as GameSession
     const player = players.find((item) => item.slug === parsed.playerSlug)
-    if (player && parsed.clues?.length === 5 && ['playing', 'won', 'revealed'].includes(parsed.status)) return parsed
+    const currentClues = player ? new Set(buildCluePool(player)) : new Set<string>()
+    const cluesAreCurrent = parsed.clues?.length === 5 && parsed.clues.every((clue) => currentClues.has(clue))
+    if (player && cluesAreCurrent && ['playing', 'won', 'revealed'].includes(parsed.status)) return parsed
   } catch {}
   return createRandomGame(players)
 }
@@ -67,4 +69,3 @@ export function loadGameStats(): GameStats {
 export function saveGameStats(stats: GameStats) {
   localStorage.setItem(statsKey, JSON.stringify(stats))
 }
-
